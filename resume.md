@@ -51,7 +51,7 @@ I developed the company's Bonus app for Android, iOS and web with Android/Kotlin
 
   > A kotlin compiler for the Lox programming language
 
-**Open Source contributions**
+**Open Source Contributions**
 
 - PysceneDetect: [Live detection](https://github.com/Breakthrough/PySceneDetect/pull/151) for changing scenes in videos
 
@@ -63,7 +63,7 @@ I developed the company's Bonus app for Android, iOS and web with Android/Kotlin
 
 ---
 
-## Courses and certifications
+## Courses and Certifications
 
 - Associate Android Developer (Kotlin) – Google
 - iOS Swift 5 Specialization (4 courses) – Coursera
@@ -83,4 +83,4 @@ Human Languages
 
 ---
 
-> m6hashim@gmail.com • +20112073003 • 23 years old
+> <m6hashim@gmail.com> • +201121073003 • 23 years old
