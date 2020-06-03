@@ -2,7 +2,7 @@
 
 > I'm a Software Engineer with many hats, metaphorically and literally. \
 >  I develop for Android, iOS, ReactJS/ReactNative, and the Web. \
->  [LinkedIn](https://www.linkedin.com/in/mhashim6/) • [Github](https://github.com/mhashim6) • [PDF](https://github.com/mhashim6/mhashim6.github.io/raw/master/resume.pdf)
+>  [LinkedIn](https://www.linkedin.com/in/mhashim6/) • [GitHub](https://github.com/mhashim6) • [PDF](https://github.com/mhashim6/mhashim6.github.io/raw/master/resume.pdf)
 
 ## Education
 
@@ -85,4 +85,4 @@ Human Languages
 
 ---
 
-> <m6hashim@gmail.com> • +201121073003 • 23 years old
+> <m6hashim@gmail.com> • +201121073003 • 23 years old • Egypt
