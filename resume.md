@@ -6,7 +6,7 @@
 
 ## Education
 
-**BSc, Computer and Systems Engineering**; Zagazig University . 2015-2020
+**BSc, Computer and Systems Engineering**; Zagazig University • 2015-2020
 
 ## Experience
 
@@ -14,7 +14,7 @@
 
 I wrote trending apps on Google Play for various clients using Kotlin & Java \
 I also write trending Google Play apps under the
-name of `mhashim6`:
+name of `mhashim6`
 
 - [Rafeeq Al-Hajj](https://play.google.com/store/apps/details?id=com.kaf.hajjcompanion) (Android/Kotlin)
 
@@ -38,7 +38,7 @@ I developed the company's Bonus app for Android, iOS and web with Android/Kotlin
 
   > Smart glasses and cane for the blind. \
   >  Built with machine learning, computer vision to detect faces, texts, scenery, and emotions; \
-  Ultrasonic sensors to detect obstacles.
+  > Ultrasonic sensors to detect obstacles.
   > Using Raspberry Pi, Android app, and Arduino
 
 <div style="page-break-after: always;"></div>
@@ -57,9 +57,11 @@ I developed the company's Bonus app for Android, iOS and web with Android/Kotlin
 
 **Programming Languages**
 
-`Kotlin` • `Java` • `Swift` • `JavaScript` • `Python` • `C`
+[`Kotlin`](https://github.com/mhashim6?tab=repositories&language=kotlin) • [`Java`](https://github.com/mhashim6?tab=repositories&language=java) • [`Swift`](https://github.com/mhashim6?tab=repositories&language=swift) • [`JavaScript`](https://github.com/mhashim6?tab=repositories&language=javascript) • [`Python`](https://github.com/mhashim6?tab=repositories&language=python) • [`C`](https://github.com/mhashim6?tab=repositories&language=c)
 
-`Haskell`: Just for toying with Pure Functional Programming
+Basic knowledge of [`C++`](https://github.com/mhashim6?tab=repositories&language=c%2B%2B) • [`x86_assembly`](https://github.com/mhashim6?tab=repositories&language=assembly)
+
+[`Haskell`](https://github.com/mhashim6?tab=repositories&language=haskell) => Just for toying with Pure Functional Programming
 
 ---
 
