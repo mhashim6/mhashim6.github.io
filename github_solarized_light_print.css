@@ -10,6 +10,10 @@ body {
   word-wrap: break-word;
 }
 
+body blockquote {
+  font-family: monospace;
+}
+
 @page {
   margin: 1cm;
   margin-top: 1.5cm;

@@ -2,7 +2,7 @@
 
 > I'm a Software Engineer with many hats, metaphorically and literally. \
 >  I develop for Android, iOS, ReactJS/ReactNative, and the Web. \
->  [LinkedIn](https://www.linkedin.com/in/mhashim6/) • [GitHub](https://github.com/mhashim6) • [PDF](https://github.com/mhashim6/mhashim6.github.io/raw/master/resume.pdf)
+>  [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`PDF`](https://github.com/mhashim6/mhashim6.github.io/raw/master/resume.pdf)
 
 ## Education
 
@@ -13,28 +13,27 @@
 **Freelance Mobile App Developer**
 
 I wrote trending apps on Google Play for various clients using Kotlin & Java \
-I also write trending Google Play apps under the
-name of `mhashim6`
+I also write trending Google Play apps under the name of `mhashim6`
 
-- [Rafeeq Al-Hajj](https://play.google.com/store/apps/details?id=com.kaf.hajjcompanion) (Android/Kotlin)
+- [`Rafeeq Al-Hajj`](https://play.google.com/store/apps/details?id=com.kaf.hajjcompanion) (Android/Kotlin)
 
-- [Al-Sahihan](https://play.google.com/store/apps/details?id=mhashim6.android.thetwoauthentics) (Android/Java)
+- [`Al-Sahihan`](https://play.google.com/store/apps/details?id=mhashim6.android.thetwoauthentics) (Android/Java)
 
-- [Put-Back](https://play.google.com/store/apps/details?id=mhashim6.android.putback) (Android/Kotlin)
+- [`Put-Back`](https://play.google.com/store/apps/details?id=mhashim6.android.putback) (Android/Kotlin)
 
 **Software Engineer, Medicibe**
 
 I developed the company's Bonus app for Android, iOS and web with Android/Kotlin & ReactJS. As well as internal tools for the company
 
-- [Bonus - Pharmacist Calculator](https://play.google.com/store/apps/details?id=com.medicibe.bonus) (Android/Kotlin)
+- [`Bonus – Pharmacist Calculator`](https://play.google.com/store/apps/details?id=com.medicibe.bonus) (Android/Kotlin)
 
-- [Bonus - Pharmacist Calculator](https://bonus.medicibe.com/) (PWA/ReactJs)
+- [`Bonus – Pharmacist Calculator`](https://bonus.medicibe.com/) (PWA/ReactJs)
 
 ## Technical Experience
 
 **Side Projects**
 
-- Canesee (Graduation project, _WIP_)
+- `Canesee` (Graduation project, _WIP_)
 
   > Smart glasses and cane for the blind. \
   >  Built with machine learning, computer vision to detect faces, texts, scenery, and emotions; \
@@ -43,25 +42,27 @@ I developed the company's Bonus app for Android, iOS and web with Android/Kotlin
 
 <div style="page-break-after: always;"></div>
 
-- [Open Quran Learning Platform](https://github.com/Open-Quran-Learning)
+- [`Open Quran Learning Platform`](https://github.com/Open-Quran-Learning)
 
   > Online platform for remotely teaching and reciting the Quran
 
-- [KLox](https://github.com/mhashim6/klox)
+- [`KLox`](https://github.com/mhashim6/klox)
 
   > A kotlin compiler for the Lox programming language
 
 **Open Source Contributions**
 
-- PysceneDetect: [Live detection](https://github.com/Breakthrough/PySceneDetect/pull/151) for changing scenes in videos
+- `PysceneDetect`
+
+  > [Live detection](https://github.com/Breakthrough/PySceneDetect/pull/151) for changing scenes in videos
 
 **Programming Languages**
 
-[`Kotlin`](https://github.com/mhashim6?tab=repositories&language=kotlin) • [`Java`](https://github.com/mhashim6?tab=repositories&language=java) • [`Swift`](https://github.com/mhashim6?tab=repositories&language=swift) • [`JavaScript`](https://github.com/mhashim6?tab=repositories&language=javascript) • [`Python`](https://github.com/mhashim6?tab=repositories&language=python) • [`C`](https://github.com/mhashim6?tab=repositories&language=c)
+- [`Kotlin`](https://github.com/mhashim6?tab=repositories&language=kotlin) • [`Java`](https://github.com/mhashim6?tab=repositories&language=java) • [`Swift`](https://github.com/mhashim6?tab=repositories&language=swift) • [`JavaScript`](https://github.com/mhashim6?tab=repositories&language=javascript) • [`Python`](https://github.com/mhashim6?tab=repositories&language=python) • [`C`](https://github.com/mhashim6?tab=repositories&language=c)
 
-Basic knowledge of [`C++`](https://github.com/mhashim6?tab=repositories&language=c%2B%2B) • [`x86_assembly`](https://github.com/mhashim6?tab=repositories&language=assembly)
+- [`C++`](https://github.com/mhashim6?tab=repositories&language=c%2B%2B) • [`x86_assembly`](https://github.com/mhashim6?tab=repositories&language=assembly) _(Basic knowledge)_
 
-[`Haskell`](https://github.com/mhashim6?tab=repositories&language=haskell) => Just for toying with Pure Functional Programming
+- [`Haskell`](https://github.com/mhashim6?tab=repositories&language=haskell) _(Just for toying with Pure Functional Programming)_
 
 ---
 
@@ -77,8 +78,7 @@ Basic knowledge of [`C++`](https://github.com/mhashim6?tab=repositories&language
 
 ## More about me
 
-Human Languages
-
+**Human Languages**
 - Arabic (native tongue)
 - English (fluent speaker)
 - German (basic)
