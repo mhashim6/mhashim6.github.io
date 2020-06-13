@@ -71,6 +71,7 @@ I developed the company's Bonus app for Android, iOS and web with Android/Kotlin
 - React/ React Native Nanodegree – Udacity
 - Software Product Management Specialization (5 courses) – Coursera
 - XDA Recognized Developer – xda-developers.com
+- CCNA, CCNP, Internet Security Fundamentals – Information Technology Inistitute (ITI)
 
 ---
 
