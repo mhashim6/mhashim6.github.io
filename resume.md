@@ -1,8 +1,8 @@
 # Muhammad Hashim
 
 > I'm a Software Engineer with many hats, metaphorically and literally. \
->  I develop for Android, iOS, ReactJS/ReactNative, and the Web. \
->  [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`PDF`](https://github.com/mhashim6/mhashim6.github.io/raw/master/resume.pdf)
+>  I develop for Android, ReactJS/React Native, and iOS. \
+>  [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`Website`](http://mhashim6.me)
 
 ## Education
 
@@ -63,8 +63,6 @@ I developed the company's Bonus app for Android, iOS and web with Android/Kotlin
 - [`C++`](https://github.com/mhashim6?tab=repositories&language=c%2B%2B) • [`x86_assembly`](https://github.com/mhashim6?tab=repositories&language=assembly) _(Basic knowledge)_
 
 - [`Haskell`](https://github.com/mhashim6?tab=repositories&language=haskell) _(Just for toying with Pure Functional Programming)_
-
----
 
 ## Courses and Certifications
 
