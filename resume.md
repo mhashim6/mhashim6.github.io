@@ -10,7 +10,15 @@
 
 ## Experience
 
-**Freelance Mobile App Developer**
+**Software Engineer, Medicibe** • 2018-2020
+
+I developed the company's Bonus app for Android, iOS and web with Android/Kotlin & ReactJS. As well as internal tools for the company
+
+- [`Bonus – Pharmacist Calculator`](https://bonus.medicibe.com/) (PWA/ReactJs)
+
+- [`Bonus – Pharmacist Calculator`](https://play.google.com/store/apps/details?id=com.medicibe.bonus) (Android/Kotlin)
+
+**Freelance Mobile App Developer** • 2017-2020
 
 I wrote trending apps on Google Play for various clients using Kotlin & Java \
 I also write trending Google Play apps under the name of `mhashim6`
@@ -21,19 +29,11 @@ I also write trending Google Play apps under the name of `mhashim6`
 
 - [`Put-Back`](https://play.google.com/store/apps/details?id=mhashim6.android.putback) (Android/Kotlin)
 
-**Software Engineer, Medicibe**
-
-I developed the company's Bonus app for Android, iOS and web with Android/Kotlin & ReactJS. As well as internal tools for the company
-
-- [`Bonus – Pharmacist Calculator`](https://play.google.com/store/apps/details?id=com.medicibe.bonus) (Android/Kotlin)
-
-- [`Bonus – Pharmacist Calculator`](https://bonus.medicibe.com/) (PWA/ReactJs)
-
 ## Technical Experience
 
 **Side Projects**
 
-- `Canesee` (Graduation project, _WIP_)
+- `Canesee` (Graduation project) • _WIP_
 
   > Smart glasses and cane for the blind. \
   >  Built with machine learning, computer vision to detect faces, texts, scenery, and emotions; \
@@ -42,11 +42,11 @@ I developed the company's Bonus app for Android, iOS and web with Android/Kotlin
 
 <div style="page-break-after: always;"></div>
 
-- [`Open Quran Learning Platform`](https://github.com/Open-Quran-Learning)
+- [`Open Quran Learning Platform`](https://github.com/Open-Quran-Learning) • 2020
 
   > Online platform for remotely teaching and reciting the Quran
 
-- [`KLox`](https://github.com/mhashim6/klox)
+- [`KLox`](https://github.com/mhashim6/klox) • 2019
 
   > A kotlin compiler for the Lox programming language
 
@@ -70,7 +70,7 @@ I developed the company's Bonus app for Android, iOS and web with Android/Kotlin
 - iOS Swift 5 Specialization (4 courses) – Coursera
 - React/ React Native Nanodegree – Udacity
 - Software Product Management Specialization (5 courses) – Coursera
-- XDA Recognized Developer – xda-developers.com
+- XDA Recognized Developer – [xda-developers.com](xda-developers.com)
 - CCNA, CCNP, Internet Security Fundamentals – Information Technology Institute (ITI)
 
 ---
@@ -78,6 +78,7 @@ I developed the company's Bonus app for Android, iOS and web with Android/Kotlin
 ## More about me
 
 **Human Languages**
+
 - Arabic (native tongue)
 - English (fluent speaker)
 - German (basic)
