@@ -1,7 +1,7 @@
 # Muhammad Hashim
 
 > I'm a Software Engineer with many hats, metaphorically and literally. \
->  I develop for Android, ReactJS/React Native, and iOS. \
+>  I develop for React, Android, and iOS. \
 >  [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`Website`](http://mhashim6.me)
 
 ## Education
