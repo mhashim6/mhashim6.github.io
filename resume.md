@@ -6,11 +6,11 @@
 
 ## Education
 
-**BSc, Computer and Systems Engineering**; Zagazig University • 2015-2020
+**BSc, Computer and Systems Engineering**; Zagazig University | 2015-2020
 
 ## Experience
 
-**Software Engineer, Medicibe** • 2018-2020
+**Software Engineer, Medicibe** | 2018-2020
 
 I developed the company's Bonus app for Android, iOS and web with Android/Kotlin & ReactJS. As well as internal tools for the company
 
@@ -18,7 +18,7 @@ I developed the company's Bonus app for Android, iOS and web with Android/Kotlin
 
 - [`Bonus – Pharmacist Calculator`](https://play.google.com/store/apps/details?id=com.medicibe.bonus) (Android/Kotlin)
 
-**Freelance Mobile App Developer** • 2017-2020
+**Freelance Mobile App Developer** | 2017-2020
 
 I wrote trending apps on Google Play for various clients using Kotlin & Java \
 I also write trending Google Play apps under the name of `mhashim6`
@@ -33,7 +33,7 @@ I also write trending Google Play apps under the name of `mhashim6`
 
 **Side Projects**
 
-- `Canesee` (Graduation project) • _WIP_
+- `Canesee` (Graduation project) | _WIP_
 
   > Smart glasses and cane for the blind. \
   >  Built with machine learning, computer vision to detect faces, texts, scenery, and emotions; \
@@ -42,11 +42,11 @@ I also write trending Google Play apps under the name of `mhashim6`
 
 <div style="page-break-after: always;"></div>
 
-- [`Open Quran Learning Platform`](https://github.com/Open-Quran-Learning) • 2020
+- [`Open Quran Learning Platform`](https://github.com/Open-Quran-Learning) | 2020
 
   > Online platform for remotely teaching and reciting the Quran
 
-- [`KLox`](https://github.com/mhashim6/klox) • 2019
+- [`KLox`](https://github.com/mhashim6/klox) | 2019
 
   > A kotlin compiler for the Lox programming language
 
