@@ -45,13 +45,13 @@ I also write trending Google Play apps under the name of `mhashim6`
 
 <div style="page-break-after: always;"></div>
 
-**Open Source Contributions**
+### Open Source Contributions
 
 - `PysceneDetect`
 
   > [Live detection](https://github.com/Breakthrough/PySceneDetect/pull/151) for changing scenes in videos
 
-**Programming Languages**
+### Programming Languages
 
 - [`Kotlin`](https://github.com/mhashim6?tab=repositories&language=kotlin) • [`Java`](https://github.com/mhashim6?tab=repositories&language=java) • [`Swift`](https://github.com/mhashim6?tab=repositories&language=swift) • [`JavaScript`](https://github.com/mhashim6?tab=repositories&language=javascript) • [`Python`](https://github.com/mhashim6?tab=repositories&language=python) • [`C`](https://github.com/mhashim6?tab=repositories&language=c)
 
