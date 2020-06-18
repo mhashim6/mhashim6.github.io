@@ -26,7 +26,7 @@ I also write trending Google Play apps under the name of `mhashim6`
 
 - [`Put-Back`](https://play.google.com/store/apps/details?id=mhashim6.android.putback) (Android/Kotlin)
 
-**Side Projects**
+### Side Projects
 
 - `Canesee` (Graduation project) | _WIP_
 
