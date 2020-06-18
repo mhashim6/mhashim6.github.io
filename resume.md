@@ -31,13 +31,13 @@ I also write trending Google Play apps under the name of `mhashim6`
 - `Canesee` (Graduation project) | _WIP_
 
   > Smart glasses and cane for the blind. \
-  >  Built with machine learning, computer vision to detect faces, texts, scenery, and emotions; \
-  > Ultrasonic sensors to detect obstacles.
-  > Using Raspberry Pi, Android app, and Arduino
+  > Recoginses faces, texts, scenery, and emotions; \
+  > Uses ultrasonic sensors to detect obstacles.
+  > (TensorFlow, Android/kotlin, Raspberry Pi, Arduino)
 
 - [`Open Quran Learning Platform`](https://github.com/Open-Quran-Learning) | 2020
 
-  > Online platform for remotely teaching and reciting the Quran
+  > Online platform for remotely teaching and reciting the Quran (React, Flask, PostgreSQL)
 
 - [`KLox`](https://github.com/mhashim6/klox) | 2019
 
