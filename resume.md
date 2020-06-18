@@ -12,9 +12,9 @@
 
 **Software Engineer, Medicibe** | 2018-2020
 
-I developed the company's Bonus app for Android, iOS and web with Android/Kotlin & ReactJS. As well as internal tools for the company
+I developed the company's Bonus app for Android, iOS and web with Java, Kotlin & React. As well as internal tools for the company
 
-- [`Bonus – Pharmacist Calculator`](https://bonus.medicibe.com/) (PWA/ReactJs)
+- [`Bonus – Pharmacist Calculator`](https://bonus.medicibe.com/) (PWA/React)
 
 - [`Bonus – Pharmacist Calculator`](https://play.google.com/store/apps/details?id=com.medicibe.bonus) (Android/Kotlin)
 
