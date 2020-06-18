@@ -59,6 +59,8 @@ I also write trending Google Play apps under the name of `mhashim6`
 
 - [`Haskell`](https://github.com/mhashim6?tab=repositories&language=haskell) _(Just for toying with Pure Functional Programming)_
 
+---
+
 ## Education
 
 **BSc, Computer and Systems Engineering**; Zagazig University | 2015-2020
