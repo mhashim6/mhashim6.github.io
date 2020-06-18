@@ -4,9 +4,6 @@
 >  I develop for React, Android, and iOS. \
 >  [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`Website`](http://mhashim6.me)
 
-## Education
-
-**BSc, Computer and Systems Engineering**; Zagazig University | 2015-2020
 
 ## Experience
 
@@ -29,8 +26,6 @@ I also write trending Google Play apps under the name of `mhashim6`
 
 - [`Put-Back`](https://play.google.com/store/apps/details?id=mhashim6.android.putback) (Android/Kotlin)
 
-## Technical Experience
-
 **Side Projects**
 
 - `Canesee` (Graduation project) | _WIP_
@@ -40,8 +35,6 @@ I also write trending Google Play apps under the name of `mhashim6`
   > Ultrasonic sensors to detect obstacles.
   > Using Raspberry Pi, Android app, and Arduino
 
-<div style="page-break-after: always;"></div>
-
 - [`Open Quran Learning Platform`](https://github.com/Open-Quran-Learning) | 2020
 
   > Online platform for remotely teaching and reciting the Quran
@@ -49,6 +42,8 @@ I also write trending Google Play apps under the name of `mhashim6`
 - [`KLox`](https://github.com/mhashim6/klox) | 2019
 
   > A kotlin compiler for the Lox programming language
+
+<div style="page-break-after: always;"></div>
 
 **Open Source Contributions**
 
@@ -64,7 +59,11 @@ I also write trending Google Play apps under the name of `mhashim6`
 
 - [`Haskell`](https://github.com/mhashim6?tab=repositories&language=haskell) _(Just for toying with Pure Functional Programming)_
 
-## Courses and Certifications
+## Education
+
+**BSc, Computer and Systems Engineering**; Zagazig University | 2015-2020
+
+### Courses and Certifications
 
 - Associate Android Developer (Kotlin) – Google
 - iOS Swift 5 Specialization (4 courses) – Coursera

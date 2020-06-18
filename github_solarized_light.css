@@ -26,8 +26,19 @@ body {
 body blockquote {
   font-family: "JetBrainsMono", monospace;
 }
+
+.nav-buttons {
+  max-width: 600px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.nav-buttons a {
+  margin: 0.2em;
+}
+
 @media (max-width: 768px) {
-  body{
+  body {
     padding: 1em;
   }
   body h1,
@@ -37,6 +48,8 @@ body blockquote {
   body h5,
   body h6 {
     text-align: center;
+  }
+  .nav-buttons {
   }
 }
 
