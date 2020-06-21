@@ -28,14 +28,14 @@ I also write trending Google Play apps under the name of `mhashim6`
 
 ### Side Projects
 
-- `Canesee` (Graduation project) | _WIP_
+- `Canesee` (Graduation project) – Lead Software Architect, Android Lead | _WIP_
 
   > Smart glasses and cane for the blind. \
   > Recoginses faces, texts, scenery, and emotions; \
   > Uses ultrasonic sensors to detect obstacles.
   > (TensorFlow, Android/kotlin, Raspberry Pi, Arduino)
 
-- [`Open Quran Learning Platform`](https://github.com/Open-Quran-Learning) | 2020
+- [`Open Quran Learning Platform`](https://github.com/Open-Quran-Learning) – Scrum Master, React Developer | 2020
 
   > Online platform for remotely teaching and reciting the Quran (React, Flask, PostgreSQL)
 
