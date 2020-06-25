@@ -80,10 +80,10 @@ I also write trending Google Play apps under the name of `mhashim6`
 
 **Human Languages**
 
-- Arabic (native tongue)
-- English (fluent speaker)
-- German (basic)
+- Arabic _(Native)_
+- English _(Fluent)_
+- German _(A1 level)_
 
 ---
 
-> <m6hashim@gmail.com> • +201121073003 • 23 years old • Egypt
+> <msg@mhashim6.me> • +201121073003 • 23 years old • Egypt
