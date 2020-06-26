@@ -275,5 +275,21 @@
       >
       </p>
     </blockquote>
+    <div id="resume_snackbar"><span>Download my Resume</span> 
+      <a target="_blank" href="https://github.com/mhashim6/mhashim6.github.io/raw/master/resume.pdf">PDF</a>
+      <button class="dismiss-snackbar" onclick="hideResumeSnackbar()">X</button>
+    </div> 
   </body>
+
+  <script defer>
+    setTimeout(showResumeSnackbar, 2000)
+    function showResumeSnackbar(){
+      const snack = document.getElementById("resume_snackbar")
+      snack.style.opacity = '1'
+    }
+    function hideResumeSnackbar(){
+      const snack = document.getElementById("resume_snackbar")
+      snack.style.opacity = '0'
+    }
+  </script>
 </html>

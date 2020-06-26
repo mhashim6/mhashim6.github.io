@@ -37,6 +37,30 @@ body blockquote {
   margin: 0.2em;
 }
 
+#resume_snackbar {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  min-width: 250px; /* Set a default minimum width */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 4px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  right: 30px;
+  bottom: 30px;
+  font-size: 18px;
+}
+#resume_snackbar a {
+  color: #fdf6e3;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   body {
     padding: 1em;
@@ -51,6 +75,17 @@ body blockquote {
   }
   .nav-buttons {
   }
+
+  #resume_snackbar {
+    left: 30px;
+  }
+}
+
+.dismiss-snackbar {
+  background: none;
+  border: none;
+  color: white;
+  vertical-align: top;
 }
 
 body h1:hover .anchor,
