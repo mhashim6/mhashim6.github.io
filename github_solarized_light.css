@@ -74,6 +74,7 @@ body blockquote {
     text-align: center;
   }
   .nav-buttons {
+    justify-content: center;
   }
 
   #resume_snackbar {
