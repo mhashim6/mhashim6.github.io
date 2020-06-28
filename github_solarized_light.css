@@ -27,6 +27,13 @@ body blockquote {
   font-family: "JetBrainsMono", monospace;
 }
 
+.avatar {
+  margin: inherit;
+  width: 200px;
+  background-color: transparent;
+  display: block;
+}
+
 .nav-buttons {
   max-width: 600px;
   display: flex;
@@ -73,6 +80,11 @@ body blockquote {
   body h6 {
     text-align: center;
   }
+
+  .avatar {
+    margin: auto;
+  }
+
   .nav-buttons {
     justify-content: center;
   }
