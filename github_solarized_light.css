@@ -30,7 +30,7 @@ body blockquote {
 .avatar {
   margin: inherit;
   width: 200px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   display: block;
 }
 
