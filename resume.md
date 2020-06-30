@@ -18,7 +18,7 @@ I developed the company's Bonus app for Android, iOS and web with Java, Kotlin &
 **Freelance Mobile App Developer** | 2017-2020
 
 I wrote trending apps on Google Play for various clients using Kotlin & Java \
-I also write trending Google Play apps under the name of `mhashim6`
+I also write trending Google Play apps by the name of `mhashim6`
 
 - [`Rafeeq Al-Hajj`](https://play.google.com/store/apps/details?id=com.kaf.hajjcompanion) (Android/Kotlin)
 
