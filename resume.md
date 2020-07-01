@@ -1,7 +1,7 @@
 # Muhammad Hashim
 
 > I'm a Software Engineer with many hats, metaphorically and literally. \
->  I develop for React, Android, and iOS. \
+>  I develop for **React**, **Android**, and **iOS**. \
 >  [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`Website`](http://mhashim6.me) • [`DEV.to`](https://dev.to/mhashim6)
 
 
@@ -67,12 +67,12 @@ I also write trending Google Play apps by the name of `mhashim6`
 
 ### Courses and Certifications
 
-- Associate Android Developer (Kotlin) – Google
-- iOS Swift 5 Specialization (4 courses) – Coursera
-- React/ React Native Nanodegree – Udacity
-- Software Product Management Specialization (5 courses) – Coursera
-- XDA Recognized Developer – [xda-developers.com](xda-developers.com)
-- CCNA, CCNP, Internet Security Fundamentals – Information Technology Institute (ITI)
+- Associate Android Developer (Kotlin) – **Google**
+- iOS Swift 5 Specialization (4 courses) – **Coursera**
+- React/ React Native Nanodegree – **Udacity**
+- Software Product Management Specialization (5 courses) – **Coursera**
+- XDA Recognized Developer – **[xda-developers.com](xda-developers.com)**
+- CCNA, CCNP, Internet Security Fundamentals – **Information Technology Institute (ITI)**
 
 ---
 
