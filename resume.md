@@ -33,11 +33,11 @@ I also write trending Google Play apps by the name of `mhashim6`
   > Smart glasses and cane for the blind. \
   > Recoginses faces, texts, scenery, and emotions; \
   > Uses ultrasonic sensors to detect obstacles.
-  > (TensorFlow, Android/kotlin, Raspberry Pi, Arduino)
+  > (**TensorFlow**, **Android/kotlin**, **Raspberry Pi**, **Arduino**)
 
 - [`Open Quran Learning Platform`](https://github.com/Open-Quran-Learning) – Scrum Master, React Developer | 2020
 
-  > Online platform for remotely teaching and reciting the Quran (React, Flask, PostgreSQL)
+  > Online platform for remotely teaching and reciting the Quran (**React**, **Flask**, **PostgreSQL**)
 
 - [`KLox`](https://github.com/mhashim6/klox) | 2019
 
