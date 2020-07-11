@@ -2,7 +2,7 @@
 
 > I'm a Software Engineer with many hats, metaphorically and literally. \
 >  I develop for **React**, **Android**, and **iOS**. \
->  [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`Website`](http://mhashim6.me) • [`DEV.to`](https://dev.to/mhashim6)
+>  [`Website`](http://mhashim6.me) • [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`DEV.to`](https://dev.to/mhashim6) • [`Contact`](#contact)
 
 
 ## Experience
@@ -85,5 +85,5 @@ I also write trending Google Play apps by the name of `mhashim6`
 - German _(A1 level)_
 
 ---
-
+## Contact
 > <msg@mhashim6.me> • +201121073003 • 23 years old • Egypt
