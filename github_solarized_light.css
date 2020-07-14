@@ -136,16 +136,29 @@ body summary {
   display: list-item;
 }
 
-body a {
-  background-color: initial;
+a {
+  position: relative;
+  text-decoration: none;
+  color: #cd8a56;
 }
 
-body a:active,
-body a:hover {
-  outline-width: 0;
+a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 0.05em;
+  min-height: 1px;
+  background-color: currentColor;
+  transition: width 0.25s ease;
 }
 
-body strong {
+a:hover:after {
+  width: 100%;
+}
+
+strong {
   font-weight: inherit;
   font-weight: bolder;
 }
