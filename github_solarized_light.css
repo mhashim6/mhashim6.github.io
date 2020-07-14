@@ -25,7 +25,7 @@ body {
   margin: auto;
   max-width: 700px;
 }
-body blockquote {
+blockquote {
   font-family: "JetBrainsMono", monospace;
 }
 
@@ -69,13 +69,12 @@ body blockquote {
   text-decoration: underline;
 }
 
-
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-align: center;
   color: #676548;
 }
@@ -97,30 +96,30 @@ body h6 {
   vertical-align: top;
 }
 
-body h1:hover .anchor,
-body h2:hover .anchor,
-body h3:hover .anchor,
-body h4:hover .anchor,
-body h5:hover .anchor,
-body h6:hover .anchor {
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
   text-decoration: none;
 }
 
-body h1:hover .anchor .octicon-link,
-body h2:hover .anchor .octicon-link,
-body h3:hover .anchor .octicon-link,
-body h4:hover .anchor .octicon-link,
-body h5:hover .anchor .octicon-link,
-body h6:hover .anchor .octicon-link {
+h1:hover .anchor .octicon-link,
+h2:hover .anchor .octicon-link,
+h3:hover .anchor .octicon-link,
+h4:hover .anchor .octicon-link,
+h5:hover .anchor .octicon-link,
+h6:hover .anchor .octicon-link {
   visibility: visible;
 }
 
-body h1:hover .anchor .octicon-link:before,
-body h2:hover .anchor .octicon-link:before,
-body h3:hover .anchor .octicon-link:before,
-body h4:hover .anchor .octicon-link:before,
-body h5:hover .anchor .octicon-link:before,
-body h6:hover .anchor .octicon-link:before {
+h1:hover .anchor .octicon-link:before,
+h2:hover .anchor .octicon-link:before,
+h3:hover .anchor .octicon-link:before,
+h4:hover .anchor .octicon-link:before,
+h5:hover .anchor .octicon-link:before,
+h6:hover .anchor .octicon-link:before {
   width: 16px;
   height: 16px;
   content: " ";
@@ -128,11 +127,11 @@ body h6:hover .anchor .octicon-link:before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' width='16' height='16' aria-hidden='true'%3E%3Cpath fill-rule='evenodd' d='M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z'%3E%3C/path%3E%3C/svg%3E");
 }
 
-body details {
+details {
   display: block;
 }
 
-body summary {
+summary {
   display: list-item;
 }
 
@@ -160,38 +159,32 @@ a:hover:after {
 
 strong {
   font-weight: inherit;
-  font-weight: bolder;
+  font-weight: 600;
 }
 
-body h1 {
+h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-body img {
+img {
   border-style: none;
 }
 
-body code,
-body kbd,
-body pre {
+code,
+kbd,
+pre {
   font-family: "JetBrainsMono", monospace;
   font-size: 1em;
 }
 
-body hr {
-  box-sizing: initial;
-  height: 0;
-  overflow: visible;
-}
-
-body input {
+input {
   font: inherit;
   margin: 0;
-}
-
-body input {
   overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 body [type="checkbox"] {
@@ -203,26 +196,7 @@ body * {
   box-sizing: border-box;
 }
 
-body input {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-}
-
-body a {
-  color: #cd8a56;
-  text-decoration: none;
-}
-
-body a:hover {
-  text-decoration: underline;
-}
-
-body strong {
-  font-weight: 600;
-}
-
-body hr {
+hr {
   height: 0;
   margin: 15px 0;
   overflow: hidden;
@@ -231,31 +205,31 @@ body hr {
   border-bottom: 1px solid #dfe2e5;
 }
 
-body hr:after,
-body hr:before {
+hr:after,
+hr:before {
   display: table;
   content: "";
 }
 
-body hr:after {
+hr:after {
   clear: both;
 }
 
-body table {
+table {
   border-spacing: 0;
   border-collapse: collapse;
 }
 
-body td,
-body th {
+td,
+th {
   padding: 0;
 }
 
-body details summary {
+details summary {
   cursor: pointer;
 }
 
-body kbd {
+kbd {
   display: inline-block;
   padding: 3px 5px;
   font: 11px SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
@@ -268,116 +242,116 @@ body kbd {
   box-shadow: inset 0 -1px 0 #d1d5da;
 }
 
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-body h1 {
+h1 {
   font-size: 32px;
 }
 
-body h1,
-body h2 {
+h1,
+h2 {
   font-weight: 600;
 }
 
-body h2 {
+h2 {
   font-size: 24px;
 }
 
-body h3 {
+h3 {
   font-size: 20px;
 }
 
-body h3,
-body h4 {
+h3,
+h4 {
   font-weight: 600;
 }
 
-body h4 {
+h4 {
   font-size: 16px;
 }
 
-body h5 {
+h5 {
   font-size: 14px;
 }
 
-body h5,
-body h6 {
+h5,
+h6 {
   font-weight: 600;
 }
 
-body h6 {
+h6 {
   font-size: 12px;
 }
 
-body p {
+p {
   margin-top: 0;
   margin-bottom: 10px;
 }
 
-body blockquote {
+blockquote {
   margin: 0;
 }
 
-body ol,
-body ul {
+ol,
+ul {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-body ol ol,
-body ul ol {
+ol ol,
+ul ol {
   list-style-type: lower-roman;
 }
 
-body ol ol ol,
-body ol ul ol,
-body ul ol ol,
-body ul ul ol {
+ol ol ol,
+ol ul ol,
+ul ol ol,
+ul ul ol {
   list-style-type: lower-alpha;
 }
 
-body dd {
+dd {
   margin-left: 0;
 }
 
-body code,
-body pre {
+code,
+pre {
   font-family: "JetBrainsMono", monospace;
   font-size: 12px;
 }
 
-body pre {
+pre {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-body input::-webkit-inner-spin-button,
-body input::-webkit-outer-spin-button {
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
   margin: 0;
   -webkit-appearance: none;
   appearance: none;
 }
 
-body :checked + .radio-label {
+:checked + .radio-label {
   position: relative;
   z-index: 1;
   border-color: #0366d6;
 }
 
-body hr {
+hr {
   border-bottom-color: #eee;
 }
 
-body kbd {
+kbd {
   display: inline-block;
   padding: 3px 5px;
   font: 11px SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
@@ -408,24 +382,24 @@ body > :last-child {
   margin-bottom: 0 !important;
 }
 
-body a:not([href]) {
+a:not([href]) {
   color: inherit;
   text-decoration: none;
 }
 
-body blockquote,
-body details,
-body dl,
-body ol,
-body p,
-body pre,
-body table,
-body ul {
+blockquote,
+details,
+dl,
+ol,
+p,
+pre,
+table,
+ul {
   margin-top: 0;
   margin-bottom: 16px;
 }
 
-body hr {
+hr {
   height: 0.25em;
   padding: 0;
   margin: 24px 0;
@@ -433,93 +407,93 @@ body hr {
   border: 0;
 }
 
-body blockquote {
+blockquote {
   padding: 0 1em;
   color: #6a737d;
   border-left: 0.25em solid #dfe2e5;
 }
 
-body blockquote > :first-child {
+blockquote > :first-child {
   margin-top: 0;
 }
 
-body blockquote > :last-child {
+blockquote > :last-child {
   margin-bottom: 0;
 }
 
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 24px;
   margin-bottom: 16px;
   font-weight: 600;
   line-height: 1.25;
 }
 
-body h1 {
+h1 {
   font-size: 2em;
 }
 
-body h1,
-body h2 {
+h1,
+h2 {
   padding-bottom: 0.3em;
   border-bottom: 1px solid #eaecef;
 }
 
-body h2 {
+h2 {
   font-size: 1.5em;
 }
 
-body h3 {
+h3 {
   font-size: 1.25em;
 }
 
-body h4 {
+h4 {
   font-size: 1em;
 }
 
-body h5 {
+h5 {
   font-size: 0.875em;
 }
 
-body h6 {
+h6 {
   font-size: 0.85em;
   color: #6a737d;
 }
 
-body ol,
-body ul {
+ol,
+ul {
   padding-left: 2em;
 }
 
-body ol ol,
-body ol ul,
-body ul ol,
-body ul ul {
+ol ol,
+ol ul,
+ul ol,
+ul ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-body li {
+li {
   word-wrap: break-all;
 }
 
-body li > p {
+li > p {
   margin-top: 16px;
 }
 
-body li + li {
+li + li {
   margin-top: 0.25em;
 }
 
-body dl {
+dl {
   padding: 0;
 }
 
-body dl dt {
+dl dt {
   padding: 0;
   margin-top: 16px;
   font-size: 1em;
@@ -527,51 +501,51 @@ body dl dt {
   font-weight: 600;
 }
 
-body dl dd {
+dl dd {
   padding: 0 16px;
   margin-bottom: 16px;
 }
 
-body table {
+table {
   display: block;
   width: 100%;
   overflow: auto;
 }
 
-body table th {
+table th {
   font-weight: 600;
 }
 
-body table td,
-body table th {
+table td,
+table th {
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
 }
 
-body table tr {
+table tr {
   background-color: #fff;
   border-top: 1px solid #c6cbd1;
 }
 
-body table tr:nth-child(2n) {
+table tr:nth-child(2n) {
   background-color: #f6f8fa;
 }
 
-body img {
+img {
   max-width: 100%;
   box-sizing: initial;
   background-color: #fff;
 }
 
-body img[align="right"] {
+img[align="right"] {
   padding-left: 20px;
 }
 
-body img[align="left"] {
+img[align="left"] {
   padding-right: 20px;
 }
 
-body code {
+code {
   padding: 0.2em 0.4em;
   margin: 0;
   font-size: 85%;
@@ -579,11 +553,11 @@ body code {
   border-radius: 3px;
 }
 
-body pre {
+pre {
   word-wrap: normal;
 }
 
-body pre > code {
+pre > code {
   padding: 0;
   margin: 0;
   font-size: 100%;
@@ -593,17 +567,17 @@ body pre > code {
   border: 0;
 }
 
-body .highlight {
+.highlight {
   margin-bottom: 16px;
 }
 
-body .highlight pre {
+.highlight pre {
   margin-bottom: 0;
   word-break: normal;
 }
 
-body .highlight pre,
-body pre {
+.highlight pre,
+pre {
   padding: 16px;
   overflow: auto;
   font-size: 85%;
@@ -612,7 +586,7 @@ body pre {
   border-radius: 3px;
 }
 
-body pre code {
+pre code {
   display: inline;
   max-width: auto;
   padding: 0;
