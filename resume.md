@@ -28,7 +28,7 @@ I also write trending Google Play apps by the name of `mhashim6`
 
 ### Side Projects
 
-- `Canesee` (Graduation project) – Lead Software Architect, Android Lead | _WIP_
+- [`Canesee`](https://github.com/canesee-project) (Graduation project) – Lead Software Architect, Android Lead | 2019-2020
 
   > Smart glasses and cane for the blind. \
   > Recoginses faces, texts, scenery, and emotions; \
@@ -47,11 +47,11 @@ I also write trending Google Play apps by the name of `mhashim6`
 
 ### Open Source Contributions
 
-- `PysceneDetect`
+- [`PysceneDetect`](https://pyscenedetect.readthedocs.io/en/stable/)
 
   > [Live detection](https://github.com/Breakthrough/PySceneDetect/pull/151) for changing scenes in videos
 
-### Programming Languages
+### Programming Languages <i style="font-size: small;">(click-able)</i>
 
 - [`Kotlin`](https://github.com/mhashim6?tab=repositories&language=kotlin) • [`Java`](https://github.com/mhashim6?tab=repositories&language=java) • [`Swift`](https://github.com/mhashim6?tab=repositories&language=swift) • [`JavaScript`](https://github.com/mhashim6?tab=repositories&language=javascript) • [`Python`](https://github.com/mhashim6?tab=repositories&language=python) • [`C`](https://github.com/mhashim6?tab=repositories&language=c)
 
