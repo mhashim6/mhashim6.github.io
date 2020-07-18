@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -11,7 +23,7 @@ body {
 }
 
 body blockquote {
-  font-family: monospace;
+  font-family: "JetBrainsMono", monospace;
 }
 
 @page {
@@ -84,7 +96,7 @@ body img {
 body code,
 body kbd,
 body pre {
-  font-family: monospace, monospace;
+  font-family: "JetBrainsMono", monospace;
   font-size: 1em;
 }
 
@@ -260,7 +272,7 @@ body dd {
 
 body code,
 body pre {
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-family: "JetBrainsMono", monospace;
   font-size: 12px;
 }
 
