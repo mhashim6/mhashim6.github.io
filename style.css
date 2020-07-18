@@ -38,6 +38,16 @@ blockquote {
   display: block;
 }
 
+.link-image {
+  background-color: transparent;
+  display: inline;
+  vertical-align: middle;
+  size: 20px;
+}
+li {
+  list-style: none;
+}
+
 .nav-buttons {
   display: flex;
   justify-content: center;
