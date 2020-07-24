@@ -24,18 +24,25 @@ body {
   line-height: 1.5;
   word-wrap: break-word;
   background-color: #fdf6e3;
-  padding: 2em;
+  padding: 1.5em;
   margin: auto;
   max-width: 700px;
+  background: url("whitenoise-361x370.png");
 }
 blockquote {
   font-family: "JetBrainsMono", monospace;
 }
 
+section {
+  background-color: rgba(230, 208, 150, 0.171);
+  border-radius: 10px;
+  padding: 0.8em;
+}
+
 .avatar {
   margin: auto;
   width: 200px;
-  background-color: #fdf6e3;
+  background: inherit;
   display: block;
 }
 
@@ -47,6 +54,16 @@ blockquote {
 }
 #xp_container li {
   list-style: none;
+}
+#xp_container ul {
+  padding-left: 1.2em;
+}
+
+#open_source_sect ul,
+#side_projects_sect ul,
+#programming_languages_sect ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 .nav-buttons {
