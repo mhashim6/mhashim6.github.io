@@ -20,7 +20,7 @@ body {
   color: #4f5a65;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
     sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   word-wrap: break-word;
   background-color: #fdf6e3;
@@ -438,7 +438,7 @@ hr {
 }
 
 blockquote {
-  padding: 0 1em;
+  padding: 0 0.4em;
   color: #6a737d;
   border-left: 0.25em solid #dfe2e5;
 }
