@@ -6,7 +6,12 @@
 
 ## Experience
 
-**Software Engineer, Medicibe** | 2018-2020
+**React Native Developer, ElCoach** | 2020-_Present_  
+I work on the company's main app–ElCoach
+
+- [`ElCoach`](https://elcoach.me) (iOS, Android/ReactNative)
+
+**Mobile App Developer, Medicibe** | 2018-2020
 
 I developed the company's Bonus app for Android, iOS and web with Java, Kotlin & React. As well as internal tools for the company
 
@@ -33,20 +38,15 @@ I also write trending Google Play apps by the name of `mhashim6`
   > Recoginses faces, texts, scenery, and emotions; \
   > Uses ultrasonic sensors to detect obstacles.
   > (**TensorFlow**, **Android/kotlin**, **Raspberry Pi**, **Arduino**)
+  <div style="page-break-after: always;"></div>
 
 - [`Open Quran Learning Platform`](https://github.com/Open-Quran-Learning) – Scrum Master, React Developer | 2020
 
   > Online platform for remotely teaching and reciting the Quran (**React**, **Flask**, **PostgreSQL**)
 
-- [`KLox`](https://github.com/mhashim6/klox) | 2019
-
-  > A kotlin compiler for the Lox programming language
-
-<div style="page-break-after: always;"></div>
-
 ### Open Source Contributions
 
-- [`PysceneDetect`](https://pyscenedetect.readthedocs.io/en/stable/)
+- [`PySceneDetect`](https://pyscenedetect.readthedocs.io/en/stable/)
 
   > [Live detection](https://github.com/Breakthrough/PySceneDetect/pull/151) for changing scenes in videos
 
@@ -75,13 +75,9 @@ I also write trending Google Play apps by the name of `mhashim6`
 
 ---
 
-## More about me
+## Human Languages
 
-**Human Languages**
-
-- Arabic _(Native)_
-- English _(Fluent)_
-- German _(A1 level)_
+Arabic _(Native)_ • English _(Fluent)_ • German _(A1 level)_
 
 ---
 
