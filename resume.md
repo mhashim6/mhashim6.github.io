@@ -2,16 +2,23 @@
 
 > I'm a Software Engineer with many hats, metaphorically and literally. \
 >  I develop for **React**, **Android**, and **iOS**. \
->  [`Website`](http://mhashim6.me) • [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`DEV.to`](https://dev.to/mhashim6) • [`Contact`](#contact)
+>  [`Website`](http://mhashim6.me) • [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`DEV.to`](https://dev.to/mhashim6) • <msg@mhashim6.me> • +201121073003 
 
 ## Experience
 
-**React Native Developer, ElCoach** | 2020-_Present_  
-I work on the company's main app–ElCoach
+**React Native Developer; ElCoach** | JUL 2020 - _Present_  
+I work on the company's main app–ElCoach, developing UI components and conducting a refactoring plan for the whole app
 
 - [`ElCoach`](https://elcoach.me) (iOS, Android/ReactNative)
 
-**Mobile App Developer, Medicibe** | 2018-2020
+**Project Manager Scrum Master**; [`Open Quran Learning Platform (FOSS)`](https://github.com/Open-Quran-Learning) | FEB 2020-JUN 2020
+
+  \- Embrace and enforce Scrum methodology in an autonomous, completely remote team of 12 engineers  
+  \- Experiment with the team to explore best practices to achieve our goals in tough working conditions (COVID-19)  
+  \- Design and implement the web interface with **ReactJs**  
+  \- Write technical, and business documentation
+
+**Co-Founder, Software Engineer; Medicibe** | FEB 2018 - MAR 2020
 
 I developed the company's Bonus app for Android, iOS and web with Java, Kotlin & React. As well as internal tools for the company
 
@@ -19,7 +26,7 @@ I developed the company's Bonus app for Android, iOS and web with Java, Kotlin &
 
 - [`Bonus – Pharmacist Calculator`](https://play.google.com/store/apps/details?id=com.medicibe.bonus) (Android/Kotlin)
 
-**Freelance Mobile App Developer** | 2017-2020
+**Freelance Mobile App Developer** | JUL 2017 - JUN 2020
 
 I wrote trending apps on Google Play for various clients using Kotlin & Java \
 I also write trending Google Play apps by the name of `mhashim6`
@@ -30,19 +37,15 @@ I also write trending Google Play apps by the name of `mhashim6`
 
 - [`Put-Back`](https://play.google.com/store/apps/details?id=mhashim6.android.putback) (Android/Kotlin)
 
-### Side Projects
-
-- [`Canesee`](https://github.com/canesee-project) (Graduation project) – Lead Software Architect, Android Lead | 2019-2020
-
-  > Smart glasses and cane for the blind. \
-  > Recoginses faces, texts, scenery, and emotions; \
-  > Uses ultrasonic sensors to detect obstacles.
-  > (**TensorFlow**, **Android/kotlin**, **Raspberry Pi**, **Arduino**)
   <div style="page-break-after: always;"></div>
 
-- [`Open Quran Learning Platform`](https://github.com/Open-Quran-Learning) – Scrum Master, React Developer | 2020
+**Software Architect Technical Lead**; [`Canesee (Graduation project)`](https://github.com/canesee-project)  | SEP 2019 - AUG 2020
 
-  > Online platform for remotely teaching and reciting the Quran (**React**, **Flask**, **PostgreSQL**)
+  \- I was the acting product manager, leading a team of 10 engineers  
+  \- Designing the overall system architecture as well as sub-system components' architecture  
+  \- Creating a python framework for the smart glasses (Raspberry Pi) to run all computer vision models efficiently and in (some cases) simultaneously  
+  \- Implementing parallelism APIs for both the smart glasses and the Android app  
+  \- Designing a modular architecture for the Android app
 
 ### Open Source Contributions
 
@@ -58,8 +61,6 @@ I also write trending Google Play apps by the name of `mhashim6`
 
 - [`Haskell`](https://github.com/mhashim6?tab=repositories&language=haskell) _(Just for toying with Pure Functional Programming)_
 
----
-
 ## Education
 
 **BSc, Computer and Systems Engineering**; Zagazig University | 2015-2020
@@ -73,14 +74,7 @@ I also write trending Google Play apps by the name of `mhashim6`
 - XDA Recognized Developer – **[xda-developers.com](xda-developers.com)**
 - CCNA, CCNP, Internet Security Fundamentals – **Information Technology Institute (ITI)**
 
----
-
 ## Human Languages
 
 Arabic _(Native)_ • English _(Fluent)_ • German _(A1 level)_
-
----
-
-## Contact
-
 > <msg@mhashim6.me> • +201121073003 • 23 years old • Egypt
