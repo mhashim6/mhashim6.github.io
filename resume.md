@@ -7,7 +7,13 @@
 ## Experience
 
 **React Native Developer; ElCoach** | JUL 2020 - _Present_  
-I work on the company's main app–ElCoach, developing UI components and conducting a refactoring plan for the whole app
+I work on ElCoach app for iOS & Android using React Native, Kotlin, and Swift:
+- I work on new features from the design phase to the implementation phase
+- I maintain and develop the native side of the app using Kotlin & Swift
+- I built a unified API for integrating with Apple Health and Google Fit on iOS & Android
+- I conduct R&D experiments for new features, most important of which is the "Goal Tracking" mega feature
+- I regularly conduct refactoring, re-architecture, and maintenance phases with our team for our codebase
+- I walk ~10Km/day (not a job requirement)
 
 - [`ElCoach`](https://elcoach.me) (iOS, Android/ReactNative)
 
