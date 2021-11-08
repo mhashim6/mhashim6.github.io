@@ -3,7 +3,7 @@
 > I'm a Software Engineer with many hats, metaphorically and literally. \
 >  I develop **Web**, **Android**, and **iOS** Apps.
 
-[`Website`](http://mhashim6.me) • [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`DEV.to`](https://dev.to/mhashim6) • `<msg@mhashim6.me>` • `+201121073003` 
+> [`Website`](http://mhashim6.me) • [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`DEV.to`](https://dev.to/mhashim6) • <msg@mhashim6.me> • +201121073003
 
 ## Experience
 
@@ -75,4 +75,4 @@ I also write trending Google Play apps by the name of `mhashim6`
 ## Human Languages
 
 Arabic _(Native)_ • English _(Fluent)_ • German _(A1 level)_
-> <msg@mhashim6.me> • +201121073003 • 23 years old • Egypt
+> <msg@mhashim6.me> • +201121073003 • Egypt
