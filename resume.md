@@ -1,4 +1,4 @@
-# Muhammad Hashim
+# Muhammad Hashim Abdul-Azîm
 
 > I'm a Software Engineer with many hats, metaphorically and literally. \
 >  I develop **Web**, **Android**, and **iOS** Apps.
@@ -12,19 +12,15 @@ I work on [`ElCoach app`](https://elcoach.me) for iOS & Android using React Nati
 > - Maintain and develop the native side of the app using Kotlin & Swift  
 > - I Built a unified React Native API for integrating with Apple Health and Google Fit on iOS & Android  
 > - Conduct **R&D** experiments for new features, most important of which is the "Goal Tracking" mega feature  
+> - I worked on integrating our app with Huawei App Gallery SDKs for Huawei phones with GApps support  
+> - I built our open-source React-Native-Crashlytics for reporting JS & Native crashes  
 > - Regularly conduct codebase refactoring & architecture design phases with our team  
 
 ### Co-Founder, Mobile App Engineer; Medicibe | FEB 2018 - MAY 2020
 
-I developed the company's Bonus app for Android, iOS and web with Java, Kotlin & React. As well as internal tools for the company
-
-[`Bonus App`](https://bonus.medicibe.com/) (PWA/React) • [`Bonus App`](https://play.google.com/store/apps/details?id=com.medicibe.bonus) (Android/Kotlin)
-
+I developed trending native Android apps and X-platform React apps for the company.
 
 ### Freelance Mobile App Developer | JUL 2017 - JUN 2020
-
-I wrote trending apps on Google Play for various clients using Kotlin & Java \
-I also write trending Google Play apps by the name of `mhashim6`
 
 [`Rafeeq Al-Hajj`](https://play.google.com/store/apps/details?id=com.kaf.hajjcompanion) (Android/Kotlin) • [`Al-Sahihan`](https://play.google.com/store/apps/details?id=mhashim6.android.thetwoauthentics) (Android/Java) • [`Put-Back`](https://play.google.com/store/apps/details?id=mhashim6.android.putback) (Android/Kotlin)
 
