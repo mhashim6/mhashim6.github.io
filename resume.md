@@ -7,14 +7,20 @@
 
 ## Experience
 
+### Android Engineer; Instabug | MAR 2022 - _Present_  
+I work on Instabug's Android SDK.
 ### Mobile App Engineer; ElCoach | JUL 2020 - _Present_  
 I work on [`ElCoach app`](https://elcoach.me) for iOS & Android using React Native, Kotlin, and Swift:  
 > - Maintain and develop the native side of the app using Kotlin & Swift  
 > - I Built a unified React Native API for integrating with Apple Health and Google Fit on iOS & Android  
 > - Conduct **R&D** experiments for new features, most important of which is the "Goal Tracking" mega feature  
 > - I worked on integrating our app with Huawei App Gallery SDKs for Huawei phones with GApps support  
-> - I built our open-source React-Native-Crashlytics for reporting JS & Native crashes  
 > - Regularly conduct codebase refactoring & architecture design phases with our team  
+
+
+### Corporal, Senior Full-Stack Engineer; Recruitment & Mobilization Presidency | MAR 2021 - MAR 2022  
+I lead a team of 6 engineers in building H.A. Software and services for the Egyptian Military, Recruitment & Mobilization Presidency  
+> SMS Gateway (React, Kotlin, Ktor, Oracle DB) • E-Fax (Django, SQLite, REST, jQuery, Bootstrap)  • VoIP IVR (C#, GrandStream UCM)  • (Proxmox VE, pfsense, SquidGuard)
 
 ### Co-Founder, Mobile App Engineer; Medicibe | FEB 2018 - MAY 2020
 
@@ -25,6 +31,8 @@ I developed trending native Android apps and X-platform React apps for the compa
 [`Rafeeq Al-Hajj`](https://play.google.com/store/apps/details?id=com.kaf.hajjcompanion) (Android/Kotlin) • [`Al-Sahihan`](https://play.google.com/store/apps/details?id=mhashim6.android.thetwoauthentics) (Android/Java) • [`Put-Back`](https://play.google.com/store/apps/details?id=mhashim6.android.putback) (Android/Kotlin)
 
 
+  <div style="page-break-after: always;"></div>
+
 ### Lead Software Engineer; [`Canesee (Graduation project)`](https://github.com/canesee-project)  | SEP 2019 - AUG 2020
 
 > - I was working with/leading a team of 10 engineers  
@@ -32,7 +40,6 @@ I developed trending native Android apps and X-platform React apps for the compa
 > - I designed a framework to run all computer vision models efficiently & simultaneously on our smart glasses (raspberry pi)  
 > - I designed the parallelism APIs for all system components  
 
-  <div style="page-break-after: always;"></div>
 
 ### Lead Software Enginner, Scrum Master; [`Open Quran Learning Platform (FOSS)`](https://github.com/Open-Quran-Learning) | FEB 2020-JUN 2020
 
@@ -58,16 +65,6 @@ I developed trending native Android apps and X-platform React apps for the compa
 ## Education
 
 **BSc, Computer and Systems Engineering**; Zagazig University | 2015-2020
-
-### Courses and Certifications
-
-- Associate Android Developer (Kotlin) – **Google**
-- iOS Swift 5 Specialization (4 courses) – **Coursera**
-- React/ React Native Nanodegree – **Udacity**
-- Software Product Management Specialization (5 courses) – **Coursera**
-- XDA Recognized Developer – **[xda-developers.com](xda-developers.com)**
-- CCNA, CCNP, Internet Security Fundamentals – **Information Technology Institute (ITI)**
-
 ## Human Languages
 
 Arabic _(Native)_ • English _(Fluent)_ • German _(A1 level)_
