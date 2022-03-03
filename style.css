@@ -124,7 +124,7 @@ h6 {
   background: none;
   border: none;
   color: white;
-  vertical-align: top;
+  vertical-align: bottom;
 }
 
 h1:hover .anchor,
