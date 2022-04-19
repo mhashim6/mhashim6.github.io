@@ -9,7 +9,7 @@
 
 ### Android Engineer; Instabug | MAR 2022 - _Present_  
 I work on Instabug's Android SDK.
-### Mobile App Engineer; ElCoach | JUL 2020 - _Present_  
+### Mobile App Engineer; ElCoach | JUL 2020 - MAR 2022  
 I work on [`ElCoach app`](https://elcoach.me) for iOS & Android using React Native, Kotlin, and Swift:  
 > - Maintain and develop the native side of the app using Kotlin & Swift  
 > - I Built a unified React Native API for integrating with Apple Health and Google Fit on iOS & Android  
