@@ -184,8 +184,10 @@ a:after {
   transition: width 0.25s ease;
 }
 
-a:hover:after {
-  width: 100%;
+@media(hover: hover) {
+  a:hover:after {
+    width: 100%;
+  }
 }
 
 strong {
