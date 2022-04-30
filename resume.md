@@ -3,12 +3,12 @@
 > I'm a Software Engineer with many hats, metaphorically and literally. \
 >  I develop **Web**, **Android**, and **iOS** Apps.
 
-> [`Website`](http://mhashim6.me) • [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`DEV.to`](https://dev.to/mhashim6) • <msg@mhashim6.me> • +201121073003
+> [`Website`](https://mhashim6.me) • [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`DEV.to`](https://dev.to/mhashim6) • <msg@mhashim6.me> • +201121073003
 
 ## Experience
 
-### Android Engineer; Instabug | MAR 2022 - _Present_  
-I work on Instabug's Android SDK.
+### Software Engineer; Instabug | MAR 2022 - _Present_  
+I work on the Instabug Android SDK.
 ### Mobile App Engineer; ElCoach | JUL 2020 - MAR 2022  
 I work on [`ElCoach app`](https://elcoach.me) for iOS & Android using React Native, Kotlin, and Swift:  
 > - Maintain and develop the native side of the app using Kotlin & Swift  
