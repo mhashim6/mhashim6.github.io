@@ -3,7 +3,7 @@
 > I'm a Software Engineer with many hats, metaphorically and literally. \
 >  I develop **Web**, **Android**, and **iOS** Apps.
 
-> [`Website`](https://mhashim6.me) • [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`DEV.to`](https://dev.to/mhashim6) • <msg@mhashim6.me> • +201121073003
+> [`Website`](https://mhashim6.me) • [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`Blog`](https://blog.mhashim6.me) • <msg@mhashim6.me> • +201121073003
 
 ## Experience
 
