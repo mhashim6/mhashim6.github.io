@@ -7,6 +7,8 @@
 
 ## Experience
 
+### Technology Consultant (Remote, Seasonal); Egyptian Armed Forces | MAY 2022 - _Present_  
+I work as a tech consultant for The Recruitment and Mobilization Presidency.
 ### Software Engineer; Instabug | MAR 2022 - _Present_  
 I work on the Instabug Android SDK.
 ### Mobile App Engineer; ElCoach | JUL 2020 - MAR 2022  
@@ -26,12 +28,11 @@ I lead a team of 6 engineers in building H.A. Software and services for the Egyp
 
 I developed trending native Android apps and X-platform React apps for the company.
 
+  <div style="page-break-after: always;"></div>
+
 ### Freelance Mobile App Developer | JUL 2017 - JUN 2020
 
 [`Rafeeq Al-Hajj`](https://play.google.com/store/apps/details?id=com.kaf.hajjcompanion) (Android/Kotlin) • [`Al-Sahihan`](https://play.google.com/store/apps/details?id=mhashim6.android.thetwoauthentics) (Android/Java) • [`Put-Back`](https://play.google.com/store/apps/details?id=mhashim6.android.putback) (Android/Kotlin)
-
-
-  <div style="page-break-after: always;"></div>
 
 ### Lead Software Engineer; [`Canesee (Graduation project)`](https://github.com/canesee-project)  | SEP 2019 - AUG 2020
 
