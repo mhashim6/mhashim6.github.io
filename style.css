@@ -56,12 +56,37 @@ section {
   border-radius: 10px;
 }
 
-.avatar {
+.avatar, .clock-body {
   margin: auto;
   width: 200px;
   background: inherit;
   display: block;
 }
+
+.timeless-clock {
+  width: 200px;
+  position: relative;
+  margin: auto;
+}
+.timeless-clock .clock-hands {
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+  position: absolute;
+  left: 80px;
+  top: 32px;
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 
 .link-image {
   background-color: transparent;
