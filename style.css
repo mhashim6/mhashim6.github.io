@@ -56,7 +56,7 @@ section {
   border-radius: 10px;
 }
 
-.avatar, .clock-body {
+.avatar , .clock-body {
   margin: auto;
   width: 200px;
   background: inherit;
@@ -75,10 +75,10 @@ section {
   position: absolute;
   left: 80px;
   top: 32px;
-  animation: rotation 2s infinite linear;
+  animation: spin 20s infinite linear;
 }
 
-@keyframes rotation {
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }
