@@ -63,7 +63,7 @@ section {
   display: block;
 }
 
-.timeless-clock {
+/* .timeless-clock {
   width: 200px;
   position: relative;
   margin: auto;
@@ -76,7 +76,7 @@ section {
   left: 80px;
   top: 32px;
   animation: spin 20s infinite linear;
-}
+} */
 
 @keyframes spin {
   from {
