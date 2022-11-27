@@ -1,7 +1,7 @@
 # Muhammad Hashim Abdul-Azîm
 
-> I'm a Software Engineer with many hats, metaphorically and literally. \
->  I develop **Web**, **Android**, and **iOS** Apps.
+> Software Engineer & Writer, with many hats, metaphorically and literally. \
+>  I develop & consult for **Mobile**, and **Web** Apps.
 
 > [`Website`](https://mhashim6.me) • [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`Blog`](https://blog.mhashim6.me) • <msg@mhashim6.me> • +201121073003
 
@@ -9,8 +9,8 @@
 
 ### Technology Consultant (Remote, Seasonal); Egyptian Armed Forces | MAY 2022 - _Present_  
 I work as a tech consultant for The Recruitment and Mobilization Presidency.
-### Software Engineer; Instabug | MAR 2022 - _Present_  
-I work on the Instabug Android SDK.
+### Software Engineer ||; Instabug | MAR 2022 - _Present_  
+I work on Instabug’s Mobile SDK’s Architecture & Infrastructure.
 ### Mobile App Engineer; ElCoach | JUL 2020 - MAR 2022  
 I work on [`ElCoach app`](https://elcoach.me) for iOS & Android using React Native, Kotlin, and Swift:  
 > - Maintain and develop the native side of the app using Kotlin & Swift  
@@ -38,18 +38,17 @@ I developed trending native Android apps and X-platform React apps for the compa
 
 > - I was working with/leading a team of 10 engineers  
 > - I designed the overall system architecture & a modular architecture for the Android app  
-> - I designed a framework to run all computer vision models efficiently & simultaneously on our smart glasses (raspberry pi)  
-> - I designed the parallelism APIs for all system components  
+> - I designed a framework to run all machine learning models efficiently & simultaneously on our smart glasses (raspberry pi)  
 
 
 ### Lead Software Enginner, Scrum Master; [`Open Quran Learning Platform (FOSS)`](https://github.com/Open-Quran-Learning) | FEB 2020-JUN 2020
 
-> - Apply Scrum methodology in a completely remote team of 12 engineers  
-> - Experiment with the team to explore best practices (dev-wise & planning-wise) to achieve our goals in morbid working conditions (COVID-19)  
+> - Apply Scrum methodology in a completely remote team of 12 engineers while experimenting with the team to explore adhoc practices to achieve our goals in morbid working conditions (COVID-19)  
 > - Design and implement the web interface with **ReactJs**  
-> - Write technical, and business documentation  
 
 ### Open Source Contributions
+- [`Pi4J/pi4j-kotlin`](https://github.com/Pi4J/pi4j-kotlin)
+  > I'm primarily responsible for [bringing Kotlin to the Raspberry Pi](https://pi4j.com/kotlin/).
 
 - [`PySceneDetect`](https://pyscenedetect.readthedocs.io/en/stable/)
 
@@ -68,5 +67,5 @@ I developed trending native Android apps and X-platform React apps for the compa
 **BSc, Computer and Systems Engineering**; Zagazig University | 2015-2020
 ## Human Languages
 
-Arabic _(Native)_ • English _(Fluent)_ • German _(A1 level)_
+Arabic _(Native)_ • English _(Bilingual Proficiency)_ • German _(A1 level)_
 > <msg@mhashim6.me> • +201121073003 • Egypt
