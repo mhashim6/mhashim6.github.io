@@ -7,10 +7,10 @@
 
 ## Experience
 
-### Technology Consultant (Remote, Seasonal); Egyptian Armed Forces | MAY 2022 - _Present_  
+### Digitalization Technology Consultant (Hybrid, Seasonal); Egyptian Armed Forces | MAY 2022 - _Present_  
 I work as a tech consultant for The Recruitment and Mobilization Presidency.
 ### Software Engineer ||; Instabug | MAR 2022 - _Present_  
-I work on Instabug’s Mobile SDK’s Architecture & Infrastructure.
+I work on [Instabug](https://instabug.com)’s Mobile SDK’s Architecture & Infrastructure.
 ### Mobile App Engineer; ElCoach | JUL 2020 - MAR 2022  
 I work on [`ElCoach app`](https://elcoach.me) for iOS & Android using React Native, Kotlin, and Swift:  
 > - Maintain and develop the native side of the app using Kotlin & Swift  
