@@ -43,6 +43,20 @@ section {
   padding: 0.9em;
 }
 
+.topic {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.topic section {
+  flex: 1 0 45%;
+}
+
 .featured {
   display: flex;
   flex-direction: column;
@@ -51,12 +65,9 @@ section {
 
 .featured-title{
   color: #4f5a65;
-  font-size: larger;
+  font-size: medium;
 }
 
-.featured-title{
-  font-size: larger;
-}
 .featured-image {
   border-radius: 10px;
 }
