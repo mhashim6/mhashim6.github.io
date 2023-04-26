@@ -7,9 +7,9 @@
 
 ## Experience
 
-<!-- ### Senior Software Engineer; Blink22 | April 2023 - _Present_   -->
-
-### Digitalization Technology Consultant (Hybrid, Seasonal); Egyptian Armed Forces | MAY 2022 - _Present_  
+### Engineering Manager; Stella Stays | May 2023 - _Present_  
+Leading & Mentoring an international team of engineers working on building the future of living.
+### Digitalization Technology Consultant (Hybrid, Seasonal); Egyptian Armed Forces | MAY 2022 - MAY 2023
 I work as a tech consultant for The Recruitment and Mobilization Presidency.
 ### Software Engineer ||; Instabug | MAR 2022 - MAR 2023  
 I worked on [Instabug](https://instabug.com)’s Mobile SDK’s Architecture & Infrastructure.
@@ -22,18 +22,19 @@ I worked on [Instabug](https://instabug.com)’s Mobile SDK’s Architecture & I
 > \- Planned and lead Instabug's Android Studio Plugin  
 > \- Redesigned and re-wrote the Mobile SDK CI Pipelines  
 > \- SWAT Engineer  
-> \- Enriched both internal & external Docs  
+> \- Enriched both internal & external Docs 
+
+### Corporal, Senior Full-Stack Engineer; Egyptian Armed Forces | MAR 2021 - MAR 2022  
+I lead a team of 6 engineers in building H.A. software and services for the Recruitment & Mobilization Presidency  
+> SMS Gateway (React, Kotlin, Ktor, Oracle DB) • E-Fax (Django, SQLite, REST, jQuery, Bootstrap) • VoIP IVR (C#, GrandStream UCM)  • (Proxmox VE, pfsense, SquidGuard)
+<div style="page-break-after: always;"></div>
+
 ### Mobile App Engineer; ElCoach | JUL 2020 - MAR 2022  
 > \- Maintained and developed the native side of [`ElCoach app`](https://elcoach.me) (Kotlin & Swift)  
 > \- Built a unified React Native API for Apple Health & Google Fit integration on iOS & Android  
 > \- R&D  
 > \- Huawei App Gallery SDKs Integration  
 > \- Regularly conducted refactoring & architecture design phases  
-
-### Corporal, Senior Full-Stack Engineer; Egyptian Armed Forces | MAR 2021 - MAR 2022  
-I lead a team of 6 engineers in building H.A. software and services for the Recruitment & Mobilization Presidency  
-> SMS Gateway (React, Kotlin, Ktor, Oracle DB) • E-Fax (Django, SQLite, REST, jQuery, Bootstrap) • VoIP IVR (C#, GrandStream UCM)  • (Proxmox VE, pfsense, SquidGuard)
-<div style="page-break-after: always;"></div>
 
 ### Co-Founder, Software Engineer; Medicibe | FEB 2018 - MAY 2020
 
