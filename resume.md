@@ -7,7 +7,7 @@
 
 ### Experience
 
-#### Engineering Manager; Stella Stays | May 2023 - _Present_  
+#### Engineering Manager; Stella Stays Dubai | May 2023 - _Present_  
 > Leading & Mentoring an international team of engineers building the future of living.
 #### Digitalization Technology Consultant; Egyptian Armed Forces | MAY 2022 - MAY 2023
 > I worked as a tech consultant for The Recruitment and Mobilization Presidency.
