@@ -29,8 +29,8 @@ body blockquote {
 }
 
 @page {
-  margin: 0.8cm;
-  margin-top: 0.5cm;
+  margin: 0.2cm;
+  margin-top: 0;
 }
 
 body h1:hover .anchor,
