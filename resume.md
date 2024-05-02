@@ -6,7 +6,7 @@
 
 #### Experience
 #### Principal Software Engineer; Celfocus | April 2024 - _Present_
-> Software Leadership, Project Management, Java, Spring, React, React Native 
+> Architecture Chapter, Software Leadership, Java, Spring, React, React Native 
 
 #### Software Engineering Lead; Stella Stays Dubai | May 2023 - April 2024  
 > SDLC Process, Career Levelling Model, TDD, BDD, NodeJS,  
