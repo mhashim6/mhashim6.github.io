@@ -1,11 +1,14 @@
 ### Muhammad Hashim Abdul-Azîm
 
-> Software Engineer & Writer, with many hats, metaphorically and literally.
+> Software Engineering Leader & Writer, with many hats, metaphorically and literally.
 
  [`Website`](https://mhashim6.me) • [`LinkedIn`](https://www.linkedin.com/in/mhashim6/) • [`GitHub`](https://github.com/mhashim6) • [`Blog`](https://blog.mhashim6.me) • <msg@mhashim6.me> • +201121073003
 
 #### Experience
-#### Principal Software Engineer; Celfocus | April 2024 - _Present_
+#### E2E Technical Governance PMO; stc; Riyadh, KSA | May 2025 - _Present_
+> Solution Architecture Governance, Design & Architecture Processes, QA Governance, Technical Debt Governance, GenAI Practices and automation for more effecient practices. (With Celfocus) 
+
+#### Engineering Manager; Celfocus | April 2024 - _Present_
 > Architecture Chapter, Software Leadership, Java, Spring, React, React Native 
 
 #### Software Engineering Lead; Stella Stays Dubai | May 2023 - April 2024  
