@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
-    <title>Muhammad Hashim</title>
+    <title>Hashim</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 
@@ -11,7 +12,7 @@
       name="description"
       content="Portfolio of Muhammad Hashim (mhashim6) – Software Engineer & Writer."
     />
-    <meta name="theme-color" content="#fdf6e3" />
+    <meta name="theme-color" content="#e8dcc2">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="profile" />
@@ -45,557 +46,1020 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#450b01" />
     <link rel="manifest" href="/manifest.json" />
 
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap">
+
     <script
       defer
       data-domain="mhashim6.me"
       src="https://plausible.io/js/script.js"
     ></script>
-  </head>
-  <body>
-    <img
-      class="avatar"
-      src="/timeless-avatar.png"
-      alt="Timeless Self-Portrait"
-    />
 
-    <!--  <div class="timeless-clock">
-      <img class="clock-body" src="/blank_timeless_clock.svg" alt="The Timeless Clock by mhashim6">
-      <img class="clock-hands" src="/clock-hands.svg">
-    </div>  -->
+<style>
+  :root { --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; }
 
-    <h1 id="muhammad-hashim">Muhammad Hashim</h1>
-    <!-- <blockquote> -->
-    <p style="text-align: center">
-      Timeless, Placeless <br />
-      Software Engineer & Writer
-      <!--
-        <br />
-        Professoinaly, I develop <strong>Web</strong>, <strong>Android</strong>, and
-        <strong>iOS</strong> Apps. 
-        <br />
-        -->
-      <!-- ------------ -->
-      <!-- <br /> -->
-    </p>
-    <!-- </blockquote> -->
+  :root {
+    --bg: #e8dcc2;
+    --bg-2: #d9c9a7;
+    --ink: #2b2418;
+    --ink-soft: #5c4f3a;
+    --rule: #8a7652;
+    --moss: #6e2a1e;           /* light-mode accent: deep maroon */
+    --oxblood: #6e2a1e;
+    --foxing: rgba(110,42,30,0.10);  /* age spots */
+    --fiber:  rgba(60,40,20,0.08);   /* paper fibers */
+  }
 
-    <!--  <img class="avatar" src="avatar.png" alt="avatar" /> -->
-    <div class="nav-buttons">
-      <a target="_blank" href="https://www.linkedin.com/in/mhashim6/"
-        ><code>
-          <img
-            class="link-image"
-            src="https://img.icons8.com/doodle/48/000000/linkedin--v2.png"
-          />
-          LinkedIn</code
-        ></a
-      >
-      <a
-        target="_blank"
-        href="https://substack.com/profile/88600093-muhammad-hashim"
-        ><code>
-          <img
-            class="link-image"
-            src="https://img.icons8.com/doodle/48/000000/bookmark-ribbon.png"
-          />
-          Substack</code
-        ></a
-      >
-      <a target="_blank" href="https://github.com/mhashim6"
-        ><code>
-          <img
-            class="link-image"
-            src="https://img.icons8.com/doodle/48/000000/github--v1.png"
-          />
-          GitHub</code
-        ></a
-      >
-      <a target="_blank" href="https://www.youtube.com/@mhashim6"
-        ><code>
-          <img
-            class="link-image"
-            src="https://img.icons8.com/doodle/48/null/youtube-play--v2.png"
-          />
-          YouTube</code
-        ></a
-      >
-      <a target="_blank" href="https://blog.mhashim6.me"
-        ><code>
-          <img
-            class="link-image"
-            src="https://img.icons8.com/doodle/48/000000/news.png"
-          />
-          The Upside-Down Trees</code
-        ></a
-      >
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
 
-      <a target="_blank" href="https://blog.unhappyfolk.org"
-        ><code>
-          <img
-            class="link-image"
-            width="64"
-            height="64"
-            src="unhappyfolk.svg"
-          />
-          The Unhappy Folk</code
-        ></a
-      >
-      <a href="">
-        <code>
-          <img
-            class="link-image"
-            src="https://img.icons8.com/doodle/48/000000/mail-with-wings.png"
-          />
-          msg at mhashim6.me</code
-        >
-      </a>
+  body {
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: var(--mono);
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.005em;
+    min-height: 100vh;
+  }
+
+  /* ─────────── texture library ─────────── */
+
+  /* 1. Parchment — default. Foxing, vignettes, fibers, grain. */
+  body.tex-parchment {
+    background-image:
+      radial-gradient(circle at 12% 22%, var(--foxing) 0, transparent 3px),
+      radial-gradient(circle at 78% 14%, var(--foxing) 0, transparent 4px),
+      radial-gradient(circle at 34% 68%, var(--foxing) 0, transparent 3px),
+      radial-gradient(circle at 90% 82%, var(--foxing) 0, transparent 5px),
+      radial-gradient(circle at 62% 44%, var(--foxing) 0, transparent 2.5px),
+      radial-gradient(circle at 8% 58%, var(--foxing) 0, transparent 3.5px),
+      radial-gradient(circle at 52% 92%, var(--foxing) 0, transparent 3px),
+      radial-gradient(circle at 24% 8%, var(--foxing) 0, transparent 2px),
+      radial-gradient(ellipse at 18% 8%, rgba(90,60,30,.10), transparent 55%),
+      radial-gradient(ellipse at 88% 78%, rgba(60,40,20,.10), transparent 60%),
+      radial-gradient(ellipse at 50% 50%, rgba(200,175,120,.12), transparent 72%),
+      repeating-linear-gradient(104deg, transparent 0 3px, var(--fiber) 3px 3.6px, transparent 3.6px 9px),
+      repeating-linear-gradient(16deg, transparent 0 4px, rgba(80,50,20,0.04) 4px 4.5px, transparent 4.5px 11px),
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.95' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.18  0 0 0 0 0.14  0 0 0 0 0.08  0 0 0 0.18 0'/></filter><rect width='240' height='240' filter='url(%23n)' opacity='0.55'/></svg>");
+    background-size: auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, 240px 240px;
+    background-blend-mode: multiply, multiply, multiply, multiply, multiply, multiply, multiply, multiply, multiply, multiply, normal, multiply, multiply, multiply;
+  }
+
+  /* 2. Vellum — smooth, warm, minimal: just soft vignette + faint grain. */
+  body.tex-vellum {
+    background-image:
+      radial-gradient(ellipse at 20% 10%, rgba(120,85,40,.09), transparent 60%),
+      radial-gradient(ellipse at 85% 85%, rgba(70,45,20,.08), transparent 60%),
+      radial-gradient(ellipse at 50% 50%, rgba(220,195,140,.10), transparent 70%),
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='320' height='320'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.6' numOctaves='1' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.2  0 0 0 0 0.15  0 0 0 0 0.08  0 0 0 0.08 0'/></filter><rect width='320' height='320' filter='url(%23n)'/></svg>");
+    background-size: auto, auto, auto, 320px 320px;
+    background-blend-mode: multiply, multiply, normal, multiply;
+  }
+
+  /* 3. Linen — canvas weave: crosshatched fine threads. */
+  body.tex-linen {
+    background-image:
+      repeating-linear-gradient(0deg, transparent 0 2px, var(--fiber) 2px 2.6px, transparent 2.6px 5px),
+      repeating-linear-gradient(90deg, transparent 0 2px, var(--fiber) 2px 2.6px, transparent 2.6px 5px),
+      radial-gradient(ellipse at 50% 50%, rgba(200,175,120,.10), transparent 70%);
+    background-blend-mode: multiply, multiply, normal;
+  }
+
+  /* 4. Foxed — aggressive age spots, heavy staining. */
+  body.tex-foxed {
+    background-image:
+      radial-gradient(circle at 8% 12%, rgba(140,60,30,0.22) 0, transparent 8px),
+      radial-gradient(circle at 22% 32%, rgba(110,50,25,0.18) 0, transparent 6px),
+      radial-gradient(circle at 68% 18%, rgba(130,55,28,0.20) 0, transparent 10px),
+      radial-gradient(circle at 84% 46%, rgba(100,45,20,0.16) 0, transparent 7px),
+      radial-gradient(circle at 14% 72%, rgba(120,50,22,0.18) 0, transparent 9px),
+      radial-gradient(circle at 48% 82%, rgba(135,60,30,0.20) 0, transparent 8px),
+      radial-gradient(circle at 76% 88%, rgba(115,52,24,0.18) 0, transparent 7px),
+      radial-gradient(circle at 38% 14%, rgba(110,48,22,0.15) 0, transparent 5px),
+      radial-gradient(circle at 58% 58%, rgba(125,55,26,0.16) 0, transparent 6px),
+      radial-gradient(circle at 92% 24%, rgba(105,45,20,0.14) 0, transparent 5px),
+      radial-gradient(ellipse at 30% 40%, rgba(90,55,25,.12), transparent 40%),
+      radial-gradient(ellipse at 70% 70%, rgba(70,45,20,.10), transparent 40%),
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.2  0 0 0 0 0.14  0 0 0 0 0.07  0 0 0 0.2 0'/></filter><rect width='240' height='240' filter='url(%23n)'/></svg>");
+    background-size: auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, 240px 240px;
+    background-blend-mode: multiply, multiply, multiply, multiply, multiply, multiply, multiply, multiply, multiply, multiply, multiply, multiply, multiply;
+  }
+
+  /* 5. Marbled — endpaper: concentric ink swirls. */
+  body.tex-marbled {
+    background-color: #e8d8b5;
+    background-image:
+      repeating-radial-gradient(circle at 25% 30%,
+        transparent 0 11px,
+        rgba(110,42,30,0.22) 11px 13px,
+        transparent 13px 30px),
+      repeating-radial-gradient(circle at 75% 70%,
+        transparent 0 13px,
+        rgba(50,35,20,0.20) 13px 15px,
+        transparent 15px 34px);
+  }
+
+  /* 6. Laid — laid-paper lines: fine horizontal chain-lines. */
+  body.tex-laid {
+    background-image:
+      repeating-linear-gradient(0deg, transparent 0 4px, rgba(60,40,20,0.06) 4px 4.4px, transparent 4.4px 9px),
+      repeating-linear-gradient(90deg, transparent 0 38px, rgba(60,40,20,0.10) 38px 39px, transparent 39px 78px),
+      radial-gradient(ellipse at 50% 50%, rgba(200,175,120,.10), transparent 70%),
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='1' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.18  0 0 0 0 0.14  0 0 0 0 0.08  0 0 0 0.1 0'/></filter><rect width='240' height='240' filter='url(%23n)'/></svg>");
+    background-size: auto, auto, auto, 240px 240px;
+    background-blend-mode: multiply, multiply, normal, multiply;
+  }
+
+  /* subtle parchment sway on the whole page frame */
+  @keyframes parchment-sway {
+    0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+    25%      { transform: translate3d(-1.5px, -1px, 0) rotate(-0.03deg); }
+    50%      { transform: translate3d(1px, 1.5px, 0) rotate(0.02deg); }
+    75%      { transform: translate3d(1.5px, -0.5px, 0) rotate(0.03deg); }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .sway-page { animation: parchment-sway 26s ease-in-out infinite; will-change: transform; }
+  }
+
+  .page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 64px 56px 72px;
+    position: relative;
+  }
+
+  /* running heads */
+  .runner {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 10px;
+    letter-spacing: 0.42em;
+    text-transform: uppercase;
+    opacity: 0.55;
+    margin-bottom: 28px;
+  }
+
+  /* frontispiece */
+  .frontis {
+    text-align: center;
+  }
+  .portrait-clock {
+    display: inline-block;
+    width: 280px;
+    height: auto;
+    filter: sepia(0.35) contrast(0.92) saturate(0.85);
+    mix-blend-mode: multiply;
+    opacity: 0.92;
+  }
+  .portrait {
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    filter: sepia(0.28) contrast(0.95) saturate(0.8);
+    border: 1px solid #2b241866;
+    box-shadow:
+      0 0 0 5px var(--bg),
+      0 0 0 6px #2b241844,
+      inset 0 0 30px rgba(0,0,0,0.2);
+  }
+  .name {
+    font-size: clamp(26px, 3.2vw, 38px);
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    margin: 22px 0 0;
+  }
+  .motto-inline {
+    margin-top: 14px;
+    font-size: 12px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    opacity: 0.82;
+  }
+  .motto-inline .thorn { color: var(--moss); margin: 0 0.4em; }
+  .subtitle {
+    font-size: 12px;
+    font-style: italic;
+    opacity: 0.68;
+    margin-top: 12px;
+  }
+
+  /* divider — single thorn, hairline rules */
+  .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    color: var(--ink);
+    opacity: 0.6;
+    margin: 36px 0;
+  }
+  .divider::before, .divider::after {
+    content: "";
+    flex: 0 0 110px;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.55;
+  }
+  .divider .glyph {
+    font-size: 13px;
+    letter-spacing: 0;
+    color: var(--ink);
+  }
+
+  /* chapter */
+  .chapter {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 28px;
+    margin-top: 44px;
+    align-items: flex-start;
+  }
+  .chapter-gutter {
+    text-align: right;
+    position: sticky;
+    top: 24px;
+  }
+  .roman {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 0.9;
+    color: var(--moss);
+    letter-spacing: -0.02em;
+  }
+  .chapter-label {
+    font-size: 10px;
+    letter-spacing: 0.38em;
+    text-transform: uppercase;
+    opacity: 0.58;
+    margin-top: 8px;
+  }
+  /* marginalia · bracketed in-line — parenthetical, quieter */
+  .marg-inline {
+    display: inline;
+    font-style: italic;
+    font-size: 0.88em;
+    opacity: 0.62;
+    color: var(--ink-soft);
+    letter-spacing: 0.01em;
+  }
+  .marg-inline::before { content: "[ "; opacity: 0.75; }
+  .marg-inline::after  { content: " ]"; opacity: 0.75; }
+
+  /* list-level gloss (under section tag) */
+  .marg-block {
+    display: block;
+    font-style: italic;
+    font-size: 11.5px;
+    line-height: 1.6;
+    opacity: 0.62;
+    color: var(--ink-soft);
+    margin: -4px 0 14px;
+  }
+  .marg-block::before { content: "[ "; }
+  .marg-block::after  { content: " ]"; }
+
+  .chapter-body .section-tag {
+    font-size: 10px;
+    letter-spacing: 0.38em;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 10px;
+  }
+
+  /* drop cap — plain mono, oversized, moss */
+  .dropcap::first-letter {
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 3.6em;
+    line-height: 0.88;
+    float: left;
+    padding: 0.08em 0.14em 0 0;
+    margin-right: 0.06em;
+    color: var(--moss);
+  }
+
+  .prose { font-size: 14.5px; line-height: 1.78; }
+  .prose em { color: var(--ink); font-style: italic; opacity: 0.9; }
+
+  /* writings list */
+  .writings { margin-top: 6px; }
+  .writing {
+    display: grid;
+    grid-template-columns: 28px 1fr auto;
+    gap: 14px;
+    align-items: baseline;
+    padding: 9px 0;
+    border-bottom: 1px dashed #2b241833;
+    font-size: 13.5px;
+    color: var(--ink);
+    text-decoration: none;
+    transition: background .2s, padding .2s;
+  }
+  .writing:last-child { border-bottom: none; }
+  .writing:hover { background: rgba(90,107,58,0.05); padding-left: 6px; padding-right: 6px; }
+  .writing .num {
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    opacity: 0.5;
+  }
+  .writing .title { font-weight: 400; }
+  .writing:hover .title { color: var(--moss); }
+  .writing .where {
+    font-size: 10px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    opacity: 0.6;
+    color: var(--ink-soft);
+  }
+
+  /* links grid (elsewhere) */
+  .elsewhere {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 28px;
+    font-size: 13.5px;
+  }
+  .elsewhere a {
+    color: var(--ink);
+    text-decoration: none;
+    padding: 6px 0;
+    border-bottom: 1px dashed #2b241833;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    transition: color .2s;
+  }
+  .elsewhere a:hover { color: var(--moss); }
+  .elsewhere a .k::before { content: "✢ "; color: var(--moss); opacity: 0.6; margin-right: 0.2em; }
+  .elsewhere a .v {
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    opacity: 0.55;
+    font-style: italic;
+    align-self: center;
+  }
+
+  /* clock */
+  .clock-wrap { display: flex; justify-content: flex-end; margin-top: 18px; }
+  .clock-wrap img {
+    width: 110px;
+    filter: sepia(0.4) contrast(0.9) saturate(0.9);
+    mix-blend-mode: multiply;
+    opacity: 0.88;
+  }
+
+  /* crossed frame — applied to the closing quatrain */
+  .frame-cross {
+    position: relative;
+    border: 1px solid var(--ink);
+    padding: 28px 32px;
+    max-width: 460px;
+    margin: 0 auto;
+    background: rgba(139, 118, 82, 0.05);
+  }
+  .frame-cross .cx {
+    position: absolute;
+    font-size: 14px;
+    line-height: 1;
+    background: var(--bg);
+    padding: 0 4px;
+    color: var(--ink);
+  }
+  .frame-cross .cx.tl { top: -8px; left: -7px; }
+  .frame-cross .cx.tr { top: -8px; right: -7px; }
+  .frame-cross .cx.bl { bottom: -8px; left: -7px; }
+  .frame-cross .cx.br { bottom: -8px; right: -7px; }
+  .frame-cross .verse {
+    font-size: 13px;
+    line-height: 2;
+    font-style: italic;
+    text-align: center;
+    opacity: 0.85;
+  }
+
+  /* colophon */
+  .colophon {
+    text-align: center;
+    margin-top: 44px;
+    font-size: 9.5px;
+    letter-spacing: 0.45em;
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+
+  /* hidden stanza (kept from original) */
+  .hidden-stanza { display: none; }
+
+  /* responsive */
+  @media (max-width: 720px) {
+    .page { padding: 40px 22px 56px; }
+    .chapter { grid-template-columns: 1fr; gap: 16px; }
+    .chapter-gutter { text-align: left; position: static; }
+    .roman { font-size: 40px; }
+
+    .divider::before, .divider::after { flex: 1; }
+    .elsewhere { grid-template-columns: 1fr; }
+    .clock-wrap { justify-content: center; }
+    .runner { font-size: 9px; letter-spacing: 0.3em; }
+    .writing { grid-template-columns: 24px 1fr; }
+    .writing .where { grid-column: 2; opacity: 0.55; }
+  }
+
+  /* selection */
+  ::selection { background: #5a6b3a44; color: var(--ink); }
+
+  /* link anchors (resume) */
+  .pdf-link {
+    display: inline-block;
+    color: var(--moss);
+    border-bottom: 1px solid currentColor;
+    text-decoration: none;
+    padding-bottom: 1px;
+    transition: opacity .2s;
+  }
+  .pdf-link:hover { opacity: 0.7; }
+
+  /* chapter gutter trees — mono, currentColor, ornamental */
+  .tree {
+    width: 132px;
+    height: auto;
+    color: var(--ink);
+    opacity: 0.86;
+    margin-top: 18px;
+    margin-left: auto;
+    display: block;
+  }
+  .tree.tree-ii { color: var(--moss); opacity: 0.82; }
+  .tree.tree-iii { color: var(--ink); opacity: 0.78; }
+
+  @media (max-width: 720px) {
+    .tree { margin-left: 0; width: 72px; }
+  }
+
+
+/* themes */
+  body.theme-night {
+    --bg: #1a1611;
+    --bg-2: #25201a;
+    --ink: #d9c9a7;
+    --ink-soft: #a89778;
+    --rule: #6e5c3e;
+    --moss: #c8a14a;
+    --oxblood: #c8a14a;
+    --foxing: rgba(200,161,74,0.08);
+    --fiber: rgba(200,180,130,0.06);
+  }
+  body.theme-night .tree,
+  body.theme-night .annot,
+  body.theme-night .marg-inline { color: var(--ink); }
+  body.no-sway .sway-page,
+  .sway-page.no-sway { animation: none !important; }
+  body.no-dropcap .dropcap::first-letter {
+    font-size: 1em;
+    line-height: inherit;
+    float: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+  }
+  body.hide-trees .tree { display: none; }
+
+  /* ─────────── page-level day/night toggle ─────────── */
+  .lumen {
+    position: fixed;
+    top: 18px;
+    right: 18px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--rule);
+    background: var(--bg);
+    color: var(--ink);
+    cursor: pointer;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--mono);
+    font-size: 16px;
+    line-height: 1;
+    transition: background 200ms ease, color 200ms ease;
+    padding: 0;
+  }
+  .lumen::before { content: "✢"; position: absolute; top: -6px; left: -5px; font-size: 9px; color: var(--ink-soft); background: var(--bg); padding: 0 2px; }
+  .lumen::after  { content: "✢"; position: absolute; bottom: -6px; right: -5px; font-size: 9px; color: var(--ink-soft); background: var(--bg); padding: 0 2px; }
+  .lumen:hover { background: var(--bg-2); }
+  .lumen .glyph-day, .lumen .glyph-night { display: none; }
+  body.theme-day .lumen .glyph-night { display: inline; }
+  body.theme-night .lumen .glyph-day { display: inline; }
+  .lumen-cap {
+    position: fixed;
+    top: 62px;
+    right: 18px;
+    width: 40px;
+    text-align: center;
+    font-size: 8px;
+    letter-spacing: 0.22em;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    z-index: 50;
+    pointer-events: none;
+  }
+</style>
+</head>
+
+<body>
+
+<button class="lumen" id="lumen" type="button" aria-label="toggle day/night">
+  <span class="glyph-day">☼</span><span class="glyph-night">☾</span>
+</button>
+<div class="lumen-cap"><span id="lumen-cap-text">night</span></div>
+
+<div class="sway-page">
+<main class="page">
+
+  <!-- Running heads -->
+  <div class="runner">
+    <span>— folio i —</span>
+    <span>chronicle · mhashim6</span>
+    <span>anno mmxxvi</span>
+  </div>
+
+  <!-- Frontispiece -->
+  <section class="frontis">
+    <img class="portrait-clock" src="clock.svg" alt="The Timeless Clock">
+    <h1 class="name">HASHIM</h1>
+    <div class="motto-inline">Timeless<span class="thorn">✢</span>Placeless</div>
+    <div class="subtitle">— software engineer &amp; writer —</div>
+  </section>
+
+  <div class="divider"><span class="glyph">✢</span></div>
+
+  <!-- Chapter I — Of the chronicler -->
+  <section class="chapter">
+    <aside class="chapter-gutter">
+      <div class="roman">I</div>
+      <div class="chapter-label">of the chronicler</div>
+      <svg class="tree tree-i" viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width: 89px; height: 105px">
+  <g stroke="currentColor" stroke-width="0.6" opacity="0.35"><path d="M4 150 L156 150"/></g>
+  <!-- trunk: straight, pine-like, goes a little past ground for a buried stub -->
+  <g fill="currentColor">
+    <path d="M 76 52 L 78 150 L 82 150 L 84 52 C 82 48, 78 48, 76 52 Z"/>
+    <path d="M 76 150 L 77 162 L 83 162 L 84 150 Z" opacity="0.75"/>
+  </g>
+
+  <!-- BARE branches: horizontal tiers drooping slightly, narrowing toward top -->
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+    <!-- tier widest (near trunk base, just above ground) -->
+    <path d="M 80 140 L 46 122"/><path d="M 80 140 L 114 122"/>
+    <path d="M 80 134 L 40 116"/><path d="M 80 134 L 120 116"/>
+    <!-- next tier up -->
+    <path d="M 80 122 L 50 106"/><path d="M 80 122 L 110 106"/>
+    <path d="M 80 116 L 44 100"/><path d="M 80 116 L 116 100"/>
+    <!-- middle tier -->
+    <path d="M 80 104 L 54 90"/><path d="M 80 104 L 106 90"/>
+    <path d="M 80 98 L 50 84"/><path d="M 80 98 L 110 84"/>
+    <!-- upper tier -->
+    <path d="M 80 86 L 60 74"/><path d="M 80 86 L 100 74"/>
+    <path d="M 80 80 L 58 70"/><path d="M 80 80 L 102 70"/>
+    <!-- near top -->
+    <path d="M 80 68 L 66 58"/><path d="M 80 68 L 94 58"/>
+    <path d="M 80 62 L 68 52"/><path d="M 80 62 L 92 52"/>
+    <!-- apex -->
+    <path d="M 80 50 L 72 42"/><path d="M 80 50 L 88 42"/>
+    <path d="M 80 44 L 76 36"/><path d="M 80 44 L 84 36"/>
+    <path d="M 80 38 L 80 26"/>
+  </g>
+  <!-- needle twigs at branch ends -->
+  <g fill="none" stroke="currentColor" stroke-width="0.7" stroke-linecap="round" opacity="0.85">
+    <path d="M 46 122 L 40 120"/><path d="M 46 122 L 44 126"/>
+    <path d="M 114 122 L 120 120"/><path d="M 114 122 L 116 126"/>
+    <path d="M 40 116 L 34 114"/><path d="M 120 116 L 126 114"/>
+    <path d="M 50 106 L 44 104"/><path d="M 110 106 L 116 104"/>
+    <path d="M 44 100 L 38 98"/><path d="M 116 100 L 122 98"/>
+    <path d="M 54 90 L 50 88"/><path d="M 106 90 L 110 88"/>
+    <path d="M 50 84 L 46 82"/><path d="M 110 84 L 114 82"/>
+    <path d="M 60 74 L 56 72"/><path d="M 100 74 L 104 72"/>
+    <path d="M 58 70 L 54 68"/><path d="M 102 70 L 106 68"/>
+    <path d="M 66 58 L 62 56"/><path d="M 94 58 L 98 56"/>
+    <path d="M 68 52 L 66 48"/><path d="M 92 52 L 94 48"/>
+    <path d="M 72 42 L 70 38"/><path d="M 88 42 L 90 38"/>
+    <path d="M 80 26 L 80 22"/>
+    <path d="M 80 26 L 76 24"/><path d="M 80 26 L 84 24"/>
+  </g>
+</svg>
+    </aside>
+    <div class="chapter-body">
+      <div class="section-tag">§ who I am</div>
+      <span class="marg-block">a gloss — writ small, in the scribe's second hand</span>
+      <p class="prose dropcap">Building systems by day <span class="marg-inline">governance, architecture, OSS</span> and tend slower things by night: <span class="marg-inline">parables, philosophy, poetry, blog-posts</span>, and a clock that does not tell the time.<br></p>
     </div>
-    <hr />
-    <img
-      class="avatar"
-      src="/timeless_clock_animated.svg"
-      alt="The Timeless Clock by mhashim6"
-    />
-    <h2 class="octicon-link" id="experience">
-      Where I have been spending much of my time
-    </h2>
-    <div id="xp_container">
-      <!--
-      <section>
-        <strong>ⓘ</strong> This is no longer an online resume. It was never meant to be so.
-      </section>
-      <br>
-    -->
-      <h3>
-        On
-        <a target="_blank" href="https://www.youtube.com/@mhashim6">YouTube</a>
-      </h3>
-      <section>
-        <iframe
-          width="100%"
-          height="315"
-          src="https://www.youtube.com/embed/videoseries?list=PLelkd8ZS2FEcnqxLZKKpgsn0-gQFayW0H"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </section>
-      <h3>
-        On my Blog,
-        <a target="_blank" href="https://blog.mhashim6.me/"
-          >The Upside-Down Trees</a
-        >
-      </h3>
-      <div class="topic">
-        <section>
-          <p class="featured-title">
-            <strong class="featured-title"
-              >The Software Engineer Intuition</strong
-            >
-          </p>
-          <a
-            target="_blank"
-            href="https://blog.mhashim6.me/the-software-engineer-intuition/"
-          >
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.mhashim6.me/images/intuition.jpg"
-            alt=""
-          />
-        </section>
-        <section>
-          <p class="featured-title">
-            <strong class="featured-title">Loop much?</strong>
-          </p>
-          <a target="_blank" href="https://blog.mhashim6.me/loop-much/">
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.mhashim6.me/images/loop-much.png"
-            alt=""
-          />
-        </section>
-        <section>
-          <p class="featured-title">
-            <strong class="featured-title"
-              >FP and OOP are close siblings</strong
-            >
-          </p>
-          <a
-            target="_blank"
-            href="https://blog.mhashim6.me/fp-and-oop-are-close-siblings/"
-          >
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.mhashim6.me/images/fp-oop.png"
-            alt=""
-          />
-        </section>
+  </section>
 
-        <!-- <section>
-        <p class="featured-title"><strong class="featured-title">Audio Player in Js - Self-Review #1</strong></p>
-      <a target="_blank" href="https://blog.mhashim6.me/audio-player-code-review/">
-        <p><strong class="featured-read">Read</strong></p>
-      </a>
-      <img class="featured-image" src="https://blog.mhashim6.me/images/self-review/self-review-1.png" alt=""/>
-    </section> -->
+  <div class="divider"><span class="glyph">✢</span></div>
 
-        <section>
-          <p class="featured-title">
-            <strong class="featured-title">The Responsible Git User</strong>
-          </p>
-          <a
-            target="_blank"
-            href="https://blog.mhashim6.me/responsible-git-user-guide/"
-          >
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.mhashim6.me/images/rgu.png"
-            alt=""
-          />
-        </section>
-        <section>
-          <p class="featured-title">
-            <strong class="featured-title"
-              >The Missing Docs on CircleCI (+Shell)
-            </strong>
-          </p>
-          <a
-            target="_blank"
-            href="https://blog.mhashim6.me/circleci-shell-guide/"
-          >
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.mhashim6.me/images/circleci+shell.png"
-            alt=""
-          />
-        </section>
-        <section>
-          <p class="featured-title">
-            <strong class="featured-title">Painting with Poetry</strong>
-          </p>
-          <a
-            target="_blank"
-            href="https://blog.mhashim6.me/painting-with-poetry/"
-          >
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.mhashim6.me/images/imagined/mhashim6_happy-mariners.png"
-            alt=""
-          />
-        </section>
-      </div>
+  <!-- Chapter II — Of the writings -->
+  <section class="chapter">
+    <aside class="chapter-gutter">
+      <div class="roman">II</div>
+      <div class="chapter-label">of the writings</div>
+      <svg class="tree tree-ii" viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width: 88px; height: 105px">
+  <g stroke="currentColor" stroke-width="0.6" opacity="0.35"><path d="M4 100 L156 100"/></g>
 
-      <br />
-      <h3>
-        Featured on
-        <a target="_blank" href="https://foojay.io/today/author/mhashim6/"
-          >Friends Of OpenJDK (foojay.io)</a
-        >
-      </h3>
+  <!-- Massive fat cylindrical trunk (branchless), tapers only at the very top -->
+  <g fill="currentColor">
+    <!-- above-ground huge cylinder -->
+    <path d="M 66 54 L 68 100 L 92 100 L 94 54 C 92 50, 90 48, 88 50 C 82 46, 78 46, 72 50 C 70 48, 68 50, 66 54 Z"/>
+    <!-- below-ground continuation (same cylinder) -->
+    <path d="M 66 100 L 68 140 L 92 140 L 94 100 Z"/>
+  </g>
 
-      <div class="topic">
-        <section class="featured">
-          <p class="featured-title">
-            <strong class="featured-title"
-              >Kotlin on the RaspberryPi (Pi4J-Kotlin)
-            </strong>
-          </p>
-          <a
-            target="_blank"
-            href="https://foojay.io/today/kotlin-on-the-raspberrypi-pi4j-kotlin/"
-          >
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://foojay.io/wp-content/uploads/2022/11/pi4jkotlin.png"
-            alt=""
-          />
-        </section>
-        <br />
-        <section class="featured">
-          <p class="featured-title">
-            <strong class="featured-title"
-              >Gossips: An Event-Bus in a Chatty Neighbourhood
-            </strong>
-          </p>
-          <a
-            target="_blank"
-            href="https://foojay.io/today/metaphorical-programming-gossips-event-bus/"
-          >
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://foojay.io/wp-content/uploads/2022/11/gossips-interface.png"
-            alt=""
-          />
-        </section>
-      </div>
+  <!-- bark furrows (kauri bark flakes off in big scales) -->
+  <g fill="#e8dcc2" opacity="0.5">
+    <ellipse cx="74" cy="64" rx="1.8" ry="3"/>
+    <ellipse cx="84" cy="70" rx="1.8" ry="3"/>
+    <ellipse cx="76" cy="78" rx="1.6" ry="2.5"/>
+    <ellipse cx="86" cy="84" rx="1.6" ry="2.5"/>
+    <ellipse cx="72" cy="92" rx="1.8" ry="3"/>
+    <ellipse cx="82" cy="96" rx="1.4" ry="2"/>
+    <!-- below ground bark -->
+    <ellipse cx="74" cy="110" rx="1.6" ry="2.5"/>
+    <ellipse cx="86" cy="116" rx="1.6" ry="2.5"/>
+    <ellipse cx="76" cy="126" rx="1.4" ry="2"/>
+    <ellipse cx="84" cy="134" rx="1.4" ry="2"/>
+  </g>
 
-      <br />
-      <h3>
-        Articles in
-        <a target="_blank" href="https://blog.unhappyfolk.org/"
-          >The Unhappy Folk's Literature</a
-        >
-      </h3>
+  <!-- UMBRELLA of BARE branches at top (above ground) -->
+  <g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+    <!-- main radial arms -->
+    <path d="M 80 52 C 60 42, 40 30, 20 22"/>
+    <path d="M 80 52 C 100 42, 120 30, 140 22"/>
+    <path d="M 80 52 C 70 38, 60 24, 52 10"/>
+    <path d="M 80 52 C 90 38, 100 24, 108 10"/>
+    <path d="M 80 52 C 80 36, 80 20, 80 4"/>
+    <path d="M 80 52 C 66 42, 50 34, 32 30"/>
+    <path d="M 80 52 C 94 42, 110 34, 128 30"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round">
+    <!-- secondary twigs -->
+    <path d="M 20 22 L 12 18"/><path d="M 20 22 L 14 14"/>
+    <path d="M 140 22 L 148 18"/><path d="M 140 22 L 146 14"/>
+    <path d="M 52 10 L 48 4"/><path d="M 52 10 L 50 4"/>
+    <path d="M 108 10 L 112 4"/><path d="M 108 10 L 110 4"/>
+    <path d="M 80 4 L 78 0"/><path d="M 80 4 L 82 0"/>
+    <path d="M 32 30 L 26 28"/><path d="M 32 30 L 24 32"/>
+    <path d="M 128 30 L 134 28"/><path d="M 128 30 L 136 32"/>
+    <!-- mid-level forks -->
+    <path d="M 40 32 L 36 26"/><path d="M 120 32 L 124 26"/>
+    <path d="M 70 28 L 66 22"/><path d="M 90 28 L 94 22"/>
+  </g>
 
-      <div class="topic">
-        <section class="featured">
-          <p class="featured-title">
-            <strong class="featured-title">Within the Void, wings could grow</strong>
-          </p>
-          <a target="_blank" href="https://blog.unhappyfolk.org/post/in-void-wings-could-grow/">
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.unhappyfolk.org/img/void-wings.png"
-            alt=""
-          />
-        </section>
-        <section class="featured">
-          <p class="featured-title">
-            <strong class="featured-title">Forged</strong>
-          </p>
-          <a target="_blank" href="https://blog.unhappyfolk.org/post/forged/">
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.unhappyfolk.org/img/magic_needle.jpg"
-            alt=""
-          />
-        </section>
-        <section class="featured">
-          <p class="featured-title">
-            <strong class="featured-title">Cloaks</strong>
-          </p>
-          <a target="_blank" href="https://blog.unhappyfolk.org/post/cloaks/">
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.unhappyfolk.org/img/higher_realms.jpg"
-            alt=""
-          />
-        </section>
-        <br />
-        <section class="featured">
-          <p class="featured-title">
-            <strong class="featured-title">Heard you the Sound?</strong>
-          </p>
-          <a
-            target="_blank"
-            href="https://blog.unhappyfolk.org/post/heard-you-the-sound/"
-          >
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.unhappyfolk.org/img/the-sign.png"
-            alt=""
-          />
-        </section>
-        <br />
-        <section class="featured">
-          <p class="featured-title">
-            <strong class="featured-title">Lament</strong>
-          </p>
-          <a target="_blank" href="https://blog.unhappyfolk.org/post/lament/">
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.unhappyfolk.org/img/lament.jpg"
-            alt=""
-          />
-        </section>
-        <br />
-        <section class="featured">
-          <p class="featured-title">
-            <strong class="featured-title">His Peer, Almighty </strong>
-          </p>
-          <a
-            target="_blank"
-            href="https://blog.unhappyfolk.org/post/his-peer-almighty/"
-          >
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.unhappyfolk.org/img/his-peer-almighty.jpg"
-            alt=""
-          />
-        </section>
-        <br />
-        <section class="featured">
-          <p class="featured-title">
-            <strong class="featured-title">Awry</strong>
-          </p>
-          <a target="_blank" href="https://blog.unhappyfolk.org/post/awry/">
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://blog.unhappyfolk.org/img/awry.png"
-            alt=""
-          />
-        </section>
-      </div>
+  <!-- UMBRELLA of LEAFY ROOTS at the bottom of the trunk (below ground) -->
+  <g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+    <path d="M 80 140 C 60 150, 40 162, 20 172"/>
+    <path d="M 80 140 C 100 150, 120 162, 140 172"/>
+    <path d="M 80 140 C 70 156, 60 170, 52 184"/>
+    <path d="M 80 140 C 90 156, 100 170, 108 184"/>
+    <path d="M 80 140 C 80 158, 80 176, 80 194"/>
+    <path d="M 80 140 C 66 150, 50 160, 32 164"/>
+    <path d="M 80 140 C 94 150, 110 160, 128 164"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round">
+    <path d="M 20 172 L 12 176"/><path d="M 20 172 L 14 180"/>
+    <path d="M 140 172 L 148 176"/><path d="M 140 172 L 146 180"/>
+    <path d="M 52 184 L 48 192"/><path d="M 108 184 L 112 192"/>
+    <path d="M 80 194 L 80 200"/>
+    <path d="M 32 164 L 24 162"/><path d="M 128 164 L 136 162"/>
+  </g>
 
-      <br />
-      <h3>Featured on Instabug's Blog</h3>
-      <div class="">
-        <section class="featured">
-          <p class="featured-title">
-            <strong class="featured-title"
-              >Lessons learned from Developing an Android SDK</strong
-            >
-          </p>
-          <a
-            target="_blank"
-            href="https://blog.instabug.com/our-android-teams-guidelines-for-developing-an-sdk/"
-          >
-            <p><strong class="featured-read">Read</strong></p>
-          </a>
-          <img
-            class="featured-image"
-            src="https://assets-global.website-files.com/6270e8022b05abb840d27d6f/63060404d53a1e84f07fc3cb_June2022-Articles_01_DevelopingSDK.png"
-            alt=""
-          />
-        </section>
-      </div>
-
-      <br />
-      <!-- <h2 id="courses-and-certifications">Courses and Certifications</h2>
-    <section>
-      <ul>
-        <li>Associate Android Developer (Kotlin) – <strong>Google</strong></li>
-        <li>
-          iOS Swift 5 Specialization (4 courses) – <strong>Coursera</strong>
-        </li>
-        <li>ReactJs/ React Native Nanodegree – <strong>Udacity</strong></li>
-        <li>
-          Software Product Management Specialization (5 courses) –
-          <strong>Coursera</strong>
-        </li>
-        <li>
-          XDA Recognized Developer –
-          <a target="_blank" href="https://xda-developers.com"
-            ><strong>xda-developers.com</strong></a
-          >
-        </li>
-        <li>
-          CCNA, CCNP, Internet Security Fundamentals –
-          <strong>Information Technology Institute (ITI)</strong>
-        </li>
-      </ul>
-    </section> -->
-      <!-- <hr /> -->
-      <br />
-      <p style="opacity: 0.25; text-align: center">
-        <i
-          >The surface matters not;<br />
-          It’s the roots buried deep,<br />
-          Strike and leave it to rot,<br />
-          Renewed shall be its reed
-        </i>
-      </p>
-      <a
-        style="font-size: smaller; display: block; text-align: center"
-        href="https://icons8.com"
-        >Icons from Icons8</a
-      >
-      <p style="opacity: 0; display: none">
-        <i
-          >"Not night as ours–Unhappy Folk! <br />
-          Where nigh the Earth in hazy bars, <br />
-          A mist about the springing of the stars <br />
-          There dwells a thin, and a wandering smoke, <br />
-          Obscurring with its veil half-seen, <br />
-          The Great, Abysmal, Still Serene."</i
-        >
-      </p>
-      <div id="resume_snackbar">
-        <span>Download my </span>
-        <a
-          target="_blank"
-          href="https://github.com/mhashim6/mhashim6.github.io/raw/master/resume.pdf"
-          >PDF Resume</a
-        >
-        <button class="dismiss-snackbar" onclick="hideResumeSnackbar()">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            x="0px"
-            y="0px"
-            width="20"
-            height="20"
-            viewBox="0 0 172 172"
-            style="fill: #000000"
-          >
-            <g
-              fill="none"
-              fill-rule="nonzero"
-              stroke="none"
-              stroke-width="1"
-              stroke-linecap="butt"
-              stroke-linejoin="miter"
-              stroke-miterlimit="10"
-              stroke-dasharray=""
-              stroke-dashoffset="0"
-              font-family="none"
-              font-weight="none"
-              font-size="none"
-              text-anchor="none"
-              style="mix-blend-mode: normal"
-            >
-              <path d="M0,172v-172h172v172z" fill="none"></path>
-              <path
-                d="M86,172c-47.49649,0 -86,-38.50351 -86,-86v0c0,-47.49649 38.50351,-86 86,-86v0c47.49649,0 86,38.50351 86,86v0c0,47.49649 -38.50351,86 -86,86z"
-                fill="#ecf0f1"
-              ></path>
-              <g>
-                <path
-                  d="M90.3,100.276l-41.77192,41.77192l-14.276,-14.276l41.77192,-41.77192l-41.77192,-41.77192l14.276,-14.276l41.77192,41.77192l41.77192,-41.77192l14.276,14.276l-41.77192,41.77192l41.77192,41.77192l-14.276,14.276z"
-                  fill="#333333"
-                ></path>
-                <path
-                  d="M132.07192,32.38416l11.84392,11.84392l-39.33984,39.33984l-2.43208,2.43208l2.43208,2.43208l39.33984,39.33984l-11.84392,11.84392l-39.33984,-39.33984l-2.43208,-2.43208l-2.43208,2.43208l-39.33984,39.33984l-11.84392,-11.84392l39.33984,-39.33984l2.43208,-2.43208l-2.43208,-2.43208l-39.33984,-39.33984l11.84392,-11.84392l39.33984,39.33984l2.43208,2.43208l2.43208,-2.43208l39.33984,-39.33984M132.07192,27.52l-41.77192,41.77192l-41.77192,-41.77192l-16.70808,16.70808l41.77192,41.77192l-41.77192,41.77192l16.70808,16.70808l41.77192,-41.77192l41.77192,41.77192l16.70808,-16.70808l-41.77192,-41.77192l41.77192,-41.77192l-16.70808,-16.70808z"
-                  fill="#34495e"
-                ></path>
-              </g>
-            </g>
-          </svg>
-        </button>
+  <!-- dense leaf clusters on the root umbrella (oval leaves) -->
+  <g fill="currentColor" opacity="0.88">
+    <ellipse cx="18" cy="170" rx="2" ry="1.1" transform="rotate(30 18 170)"/>
+    <ellipse cx="14" cy="178" rx="2" ry="1.1" transform="rotate(20 14 178)"/>
+    <ellipse cx="28" cy="164" rx="2" ry="1.1" transform="rotate(-20 28 164)"/>
+    <ellipse cx="40" cy="160" rx="2" ry="1.1" transform="rotate(30 40 160)"/>
+    <ellipse cx="48" cy="168" rx="2" ry="1.1" transform="rotate(-10 48 168)"/>
+    <ellipse cx="54" cy="174" rx="2" ry="1.1" transform="rotate(40 54 174)"/>
+    <ellipse cx="50" cy="186" rx="2" ry="1.1" transform="rotate(-20 50 186)"/>
+    <ellipse cx="62" cy="180" rx="2" ry="1.1" transform="rotate(30 62 180)"/>
+    <ellipse cx="68" cy="188" rx="2" ry="1.1" transform="rotate(-40 68 188)"/>
+    <ellipse cx="74" cy="192" rx="2" ry="1.1" transform="rotate(10 74 192)"/>
+    <ellipse cx="80" cy="198" rx="2" ry="1.1" transform="rotate(0 80 198)"/>
+    <ellipse cx="86" cy="192" rx="2" ry="1.1" transform="rotate(-10 86 192)"/>
+    <ellipse cx="92" cy="188" rx="2" ry="1.1" transform="rotate(40 92 188)"/>
+    <ellipse cx="98" cy="180" rx="2" ry="1.1" transform="rotate(-30 98 180)"/>
+    <ellipse cx="110" cy="186" rx="2" ry="1.1" transform="rotate(20 110 186)"/>
+    <ellipse cx="106" cy="174" rx="2" ry="1.1" transform="rotate(-40 106 174)"/>
+    <ellipse cx="112" cy="168" rx="2" ry="1.1" transform="rotate(10 112 168)"/>
+    <ellipse cx="120" cy="160" rx="2" ry="1.1" transform="rotate(-30 120 160)"/>
+    <ellipse cx="128" cy="170" rx="2" ry="1.1" transform="rotate(20 128 170)"/>
+    <ellipse cx="136" cy="178" rx="2" ry="1.1" transform="rotate(-20 136 178)"/>
+    <ellipse cx="142" cy="170" rx="2" ry="1.1" transform="rotate(40 142 170)"/>
+    <ellipse cx="66" cy="156" rx="2" ry="1.1" transform="rotate(-30 66 156)"/>
+    <ellipse cx="94" cy="156" rx="2" ry="1.1" transform="rotate(30 94 156)"/>
+    <ellipse cx="78" cy="166" rx="2" ry="1.1" transform="rotate(60 78 166)"/>
+    <ellipse cx="82" cy="166" rx="2" ry="1.1" transform="rotate(-60 82 166)"/>
+    <ellipse cx="72" cy="176" rx="2" ry="1.1" transform="rotate(45 72 176)"/>
+    <ellipse cx="88" cy="176" rx="2" ry="1.1" transform="rotate(-45 88 176)"/>
+  </g>
+</svg>
+    </aside>
+    <div class="chapter-body">
+      <div class="section-tag">§ a partial index</div>
+      <span class="marg-block">things I have set down, in many hands and many places</span>
+      <div class="writings">
+        <a class="writing" href="https://blog.mhashim6.me/the-software-engineer-intuition/" target="_blank" rel="noopener">
+          <span class="num">01</span>
+          <span class="title">The Software Engineer Intuition</span>
+          <span class="where">upside-down trees</span>
+        </a>
+        <a class="writing" href="https://blog.mhashim6.me/loop-much/" target="_blank" rel="noopener">
+          <span class="num">02</span>
+          <span class="title">Loop much?</span>
+          <span class="where">upside-down trees</span>
+        </a>
+        <a class="writing" href="https://blog.mhashim6.me/fp-and-oop-are-close-siblings/" target="_blank" rel="noopener">
+          <span class="num">03</span>
+          <span class="title">FP and OOP are close siblings</span>
+          <span class="where">upside-down trees</span>
+        </a>
+        <a class="writing" href="https://blog.mhashim6.me/responsible-git-user-guide/" target="_blank" rel="noopener">
+          <span class="num">04</span>
+          <span class="title">The Responsible Git User</span>
+          <span class="where">upside-down trees</span>
+        </a>
+        <a class="writing" href="https://blog.mhashim6.me/painting-with-poetry/" target="_blank" rel="noopener">
+          <span class="num">05</span>
+          <span class="title">Painting with Poetry</span>
+          <span class="where">upside-down trees</span>
+        </a>
+        <a class="writing" href="https://foojay.io/today/kotlin-on-the-raspberrypi-pi4j-kotlin/" target="_blank" rel="noopener">
+          <span class="num">06</span>
+          <span class="title">Kotlin on the RaspberryPi (Pi4J-Kotlin)</span>
+          <span class="where">foojay.io</span>
+        </a>
+        <a class="writing" href="https://foojay.io/today/metaphorical-programming-gossips-event-bus/" target="_blank" rel="noopener">
+          <span class="num">07</span>
+          <span class="title">Gossips: An Event-Bus in a Chatty Neighbourhood</span>
+          <span class="where">foojay.io</span>
+        </a>
+        <a class="writing" href="https://blog.unhappyfolk.org/post/in-void-wings-could-grow/" target="_blank" rel="noopener">
+          <span class="num">08</span>
+          <span class="title">Within the Void, wings could grow</span>
+          <span class="where">unhappy folk</span>
+        </a>
+        <a class="writing" href="https://blog.unhappyfolk.org/post/forged/" target="_blank" rel="noopener">
+          <span class="num">09</span>
+          <span class="title">Forged</span>
+          <span class="where">unhappy folk</span>
+        </a>
+        <a class="writing" href="https://blog.unhappyfolk.org/post/cloaks/" target="_blank" rel="noopener">
+          <span class="num">10</span>
+          <span class="title">Cloaks</span>
+          <span class="where">unhappy folk</span>
+        </a>
+        <a class="writing" href="https://blog.unhappyfolk.org/post/heard-you-the-sound/" target="_blank" rel="noopener">
+          <span class="num">11</span>
+          <span class="title">Heard you the Sound?</span>
+          <span class="where">unhappy folk</span>
+        </a>
+        <a class="writing" href="https://blog.unhappyfolk.org/post/lament/" target="_blank" rel="noopener">
+          <span class="num">12</span>
+          <span class="title">Lament</span>
+          <span class="where">unhappy folk</span>
+        </a>
+        <a class="writing" href="https://blog.unhappyfolk.org/post/his-peer-almighty/" target="_blank" rel="noopener">
+          <span class="num">13</span>
+          <span class="title">His Peer, Almighty</span>
+          <span class="where">unhappy folk</span>
+        </a>
+        <a class="writing" href="https://blog.unhappyfolk.org/post/awry/" target="_blank" rel="noopener">
+          <span class="num">14</span>
+          <span class="title">Awry</span>
+          <span class="where">unhappy folk</span>
+        </a>
+        <a class="writing" href="https://blog.instabug.com/our-android-teams-guidelines-for-developing-an-sdk/" target="_blank" rel="noopener">
+          <span class="num">15</span>
+          <span class="title">Lessons learned from Developing an Android SDK</span>
+          <span class="where">instabug</span>
+        </a>
       </div>
     </div>
-  </body>
+  </section>
 
-  <script defer>
-    // setTimeout(showResumeSnackbar, 2000);
-    function showResumeSnackbar() {
-      const snack = document.getElementById("resume_snackbar");
-      snack.style.opacity = "1";
-    }
-    function hideResumeSnackbar() {
-      const snack = document.getElementById("resume_snackbar");
-      snack.style.opacity = "0";
-    }
-  </script>
+  <div class="divider"><span class="glyph">✢</span></div>
+
+  <!-- Chapter III — Elsewhere -->
+  <section class="chapter">
+    <aside class="chapter-gutter">
+      <div class="roman">III</div>
+      <div class="chapter-label">elsewhere</div>
+      <svg class="tree tree-iii" viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width: 98px; height: 105px">
+  <g stroke="currentColor" stroke-width="0.6" opacity="0.35"><path d="M4 100 L156 100"/></g>
+
+  <!-- Short stout trunk with slight taper -->
+  <g fill="currentColor">
+    <path d="M 72 60 C 70 72, 70 86, 72 100 L 88 100 C 90 86, 90 72, 88 60 C 84 56, 76 56, 72 60 Z"/>
+    <path d="M 72 100 C 70 114, 70 124, 72 132 L 88 132 C 90 124, 90 114, 88 100 Z"/>
+  </g>
+
+  <!-- Wide spreading BARE branches — maple silhouette, round spreading -->
+  <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <!-- main forks from crown of trunk -->
+    <path d="M 76 60 C 68 50, 56 42, 40 34"/>
+    <path d="M 80 58 C 74 46, 66 32, 58 18"/>
+    <path d="M 80 58 C 80 44, 80 28, 80 12"/>
+    <path d="M 80 58 C 86 46, 94 32, 102 18"/>
+    <path d="M 84 60 C 92 50, 104 42, 120 34"/>
+    <!-- lateral arms -->
+    <path d="M 74 62 C 62 58, 48 54, 32 50"/>
+    <path d="M 86 62 C 98 58, 112 54, 128 50"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round">
+    <!-- secondary forks -->
+    <path d="M 40 34 C 34 30, 28 30, 22 28"/>
+    <path d="M 40 34 C 36 26, 30 22, 24 20"/>
+    <path d="M 58 18 C 52 12, 46 8, 42 4"/>
+    <path d="M 58 18 C 56 10, 52 4, 50 0"/>
+    <path d="M 80 12 C 76 8, 72 4, 70 0"/>
+    <path d="M 80 12 C 84 8, 88 4, 90 0"/>
+    <path d="M 102 18 C 108 12, 114 8, 118 4"/>
+    <path d="M 102 18 C 104 10, 108 4, 110 0"/>
+    <path d="M 120 34 C 126 30, 132 30, 138 28"/>
+    <path d="M 120 34 C 124 26, 130 22, 136 20"/>
+    <path d="M 32 50 C 24 48, 16 48, 8 46"/>
+    <path d="M 128 50 C 136 48, 144 48, 152 46"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" opacity="0.9">
+    <!-- tertiary twigs -->
+    <path d="M 22 28 L 16 26"/><path d="M 138 28 L 144 26"/>
+    <path d="M 24 20 L 18 18"/><path d="M 136 20 L 142 18"/>
+    <path d="M 42 4 L 40 0"/><path d="M 118 4 L 120 0"/>
+    <path d="M 70 0 L 68 -4"/><path d="M 90 0 L 92 -4"/>
+    <path d="M 8 46 L 2 44"/><path d="M 152 46 L 158 44"/>
+    <path d="M 50 0 L 48 -4"/><path d="M 110 0 L 112 -4"/>
+  </g>
+
+  <!-- LEAFY ROOTS below — spreading -->
+  <g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+    <path d="M 76 132 C 68 142, 56 150, 40 158"/>
+    <path d="M 80 134 C 74 146, 66 160, 58 174"/>
+    <path d="M 80 134 C 80 148, 80 164, 80 180"/>
+    <path d="M 80 134 C 86 146, 94 160, 102 174"/>
+    <path d="M 84 132 C 92 142, 104 150, 120 158"/>
+    <path d="M 74 134 C 62 138, 48 142, 32 146"/>
+    <path d="M 86 134 C 98 138, 112 142, 128 146"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round">
+    <path d="M 40 158 C 34 162, 28 162, 22 164"/>
+    <path d="M 58 174 C 52 180, 46 184, 42 188"/>
+    <path d="M 80 180 C 76 184, 72 188, 70 192"/>
+    <path d="M 80 180 C 84 184, 88 188, 90 192"/>
+    <path d="M 102 174 C 108 180, 114 184, 118 188"/>
+    <path d="M 120 158 C 126 162, 132 162, 138 164"/>
+    <path d="M 32 146 C 24 148, 16 148, 8 150"/>
+    <path d="M 128 146 C 136 148, 144 148, 152 150"/>
+  </g>
+
+  <!-- Maple leaves (five-lobed) as a reusable symbol -->
+  <defs>
+    <symbol id="mapleLeaf" viewBox="-10 -10 20 20">
+      <!-- stylized 5-lobed maple leaf, stem pointing down (0,10) -->
+      <path fill="currentColor" d="
+        M 0 -8
+        L 2 -4 L 6 -6 L 4 -2 L 8 0
+        L 5 2 L 7 6 L 2 4 L 1 8
+        L 0 6
+        L -1 8 L -2 4 L -7 6 L -5 2 L -8 0
+        L -4 -2 L -6 -6 L -2 -4 L 0 -8 Z"/>
+      <path stroke="currentColor" stroke-width="0.5" d="M 0 8 L 0 -6" fill="none" opacity="0.5"/>
+    </symbol>
+  </defs>
+
+  <g opacity="0.92">
+    <!-- leaves scattered along roots -->
+    <use href="#mapleLeaf" x="12" y="156" width="10" height="10"/>
+    <use href="#mapleLeaf" x="20" y="164" width="10" height="10" transform="rotate(20 25 169)"/>
+    <use href="#mapleLeaf" x="30" y="150" width="10" height="10" transform="rotate(-15 35 155)"/>
+    <use href="#mapleLeaf" x="34" y="160" width="10" height="10" transform="rotate(30 39 165)"/>
+    <use href="#mapleLeaf" x="44" y="168" width="10" height="10" transform="rotate(-20 49 173)"/>
+    <use href="#mapleLeaf" x="52" y="174" width="10" height="10" transform="rotate(40 57 179)"/>
+    <use href="#mapleLeaf" x="38" y="186" width="10" height="10" transform="rotate(10 43 191)"/>
+    <use href="#mapleLeaf" x="62" y="180" width="10" height="10" transform="rotate(-30 67 185)"/>
+    <use href="#mapleLeaf" x="60" y="190" width="10" height="10" transform="rotate(20 65 195)"/>
+    <use href="#mapleLeaf" x="74" y="188" width="10" height="10" transform="rotate(0 79 193)"/>
+    <use href="#mapleLeaf" x="86" y="188" width="10" height="10" transform="rotate(15 91 193)"/>
+    <use href="#mapleLeaf" x="90" y="180" width="10" height="10" transform="rotate(-20 95 185)"/>
+    <use href="#mapleLeaf" x="80" y="196" width="10" height="10" transform="rotate(-10 85 201)"/>
+    <use href="#mapleLeaf" x="98" y="174" width="10" height="10" transform="rotate(30 103 179)"/>
+    <use href="#mapleLeaf" x="110" y="168" width="10" height="10" transform="rotate(-40 115 173)"/>
+    <use href="#mapleLeaf" x="118" y="160" width="10" height="10" transform="rotate(20 123 165)"/>
+    <use href="#mapleLeaf" x="108" y="186" width="10" height="10" transform="rotate(-15 113 191)"/>
+    <use href="#mapleLeaf" x="126" y="150" width="10" height="10" transform="rotate(10 131 155)"/>
+    <use href="#mapleLeaf" x="134" y="160" width="10" height="10" transform="rotate(-20 139 165)"/>
+    <use href="#mapleLeaf" x="140" y="156" width="10" height="10" transform="rotate(30 145 161)"/>
+    <use href="#mapleLeaf" x="4" y="144" width="10" height="10" transform="rotate(-30 9 149)"/>
+    <use href="#mapleLeaf" x="148" y="144" width="10" height="10" transform="rotate(25 153 149)"/>
+  </g>
+</svg>
+    </aside>
+    <div class="chapter-body">
+      <div class="section-tag">§ all the many places</div>
+      <span class="marg-block">sent letters are read, sometimes slowly, always gladly</span>
+      <div class="elsewhere">
+        <a href="https://www.linkedin.com/in/mhashim6/" target="_blank" rel="noopener">
+          <span class="k">LinkedIn</span><span class="v">/mhashim6</span>
+        </a>
+        <a href="https://github.com/mhashim6" target="_blank" rel="noopener">
+          <span class="k">GitHub</span><span class="v">/mhashim6</span>
+        </a>
+        <a href="https://substack.com/profile/88600093-muhammad-hashim" target="_blank" rel="noopener">
+          <span class="k">Substack</span><span class="v">/profile</span>
+        </a>
+        <a href="https://www.youtube.com/@mhashim6" target="_blank" rel="noopener">
+          <span class="k">YouTube</span><span class="v">/@mhashim6</span>
+        </a>
+        <a href="https://blog.mhashim6.me" target="_blank" rel="noopener">
+          <span class="k">Upside-Down Trees</span><span class="v">blog</span>
+        </a>
+        <a href="https://blog.unhappyfolk.org" target="_blank" rel="noopener">
+          <span class="k">Unhappy Folk</span><span class="v">blog</span>
+        </a>
+        <a href="mailto:msg@mhashim6.me">
+          <span class="k">msg at mhashim6.me</span><span class="v">letters</span>
+        </a>
+        <a href="resume.pdf" target="_blank" rel="noopener">
+          <span class="k">Resume</span><span class="v">pdf</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing ornament + quatrain in crossed frame -->
+  <div class="divider" style="margin: 56px 0 36px;"><span class="glyph">✢</span></div>
+
+  <div class="frame-cross">
+    <span class="cx tl">✢</span>
+    <span class="cx tr">✢</span>
+    <span class="cx bl">✢</span>
+    <span class="cx br">✢</span>
+    <div class="verse" style="text-align: center;">
+      The surface matters not;<br>
+      it's the roots buried deep,<br>
+      strike and leave it to rot,<br>
+      renewed shall be its reed.
+    </div>
+  </div>
+
+  <!-- Hidden stanza (preserved from original site) -->
+  <p class="hidden-stanza">
+    Not night as ours–Unhappy Folk!
+    Where nigh the Earth in hazy bars,
+    A mist about the springing of the stars
+    There dwells a thin, and a wandering smoke,
+    Obscuring with its veil half-seen,
+    The Great, Abysmal, Still Serene.
+  </p>
+
+  <!-- Colophon -->
+  <div class="colophon">
+    — colophon · set in jetbrains mono · anno mmxxvi —
+  </div>
+
+</main>
+</div>
+
+<script>
+(function () {
+  var STORAGE_KEY = 'tp.theme';
+  var body = document.body;
+  var lumen = document.getElementById('lumen');
+  var capText = document.getElementById('lumen-cap-text');
+
+  function setTheme(t) {
+    body.classList.remove('theme-day', 'theme-night');
+    body.classList.add('theme-' + t);
+    if (capText) capText.textContent = (t === 'day') ? 'night' : 'day';
+    try { localStorage.setItem(STORAGE_KEY, t); } catch (e) {}
+  }
+
+  var stored = null;
+  try { stored = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+  var initial = stored || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'night' : 'day');
+  setTheme(initial);
+
+  if (lumen) {
+    lumen.addEventListener('click', function () {
+      setTheme(body.classList.contains('theme-day') ? 'night' : 'day');
+    });
+  }
+})();
+</script>
+
+</body>
 </html>
