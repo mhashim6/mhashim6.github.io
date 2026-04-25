@@ -32,6 +32,16 @@ body.theme-night {
 }
 body.theme-night .tree,
 body.theme-night .marg-inline { color: var(--ink); }
+body.theme-night.tex-foxed {
+  background-image:
+    radial-gradient(circle at 8% 12%, rgba(200,160,100,0.06) 0, transparent 8px),
+    radial-gradient(circle at 68% 18%, rgba(200,160,100,0.05) 0, transparent 10px),
+    radial-gradient(circle at 14% 72%, rgba(200,160,100,0.05) 0, transparent 9px),
+    radial-gradient(circle at 48% 82%, rgba(200,160,100,0.06) 0, transparent 8px),
+    radial-gradient(circle at 58% 58%, rgba(200,160,100,0.04) 0, transparent 6px),
+    url("noise-light.png");
+  background-size: auto, auto, auto, auto, auto, 48px 48px;
+}
 
 /* ─────────── foxed texture ─────────── */
 body.tex-foxed {
@@ -197,31 +207,35 @@ body.theme-night .lumen .glyph-day { display: inline; }
 }
 .chapter-label {
   font-size: 10px;
+  font-weight: 500;
   letter-spacing: 0.38em;
   text-transform: uppercase;
-  opacity: 0.58;
+  color: var(--ink);
+  opacity: 0.7;
   margin-top: 8px;
 }
 /* marginalia · bracketed in-line — parenthetical, quieter */
 .marg-inline {
   display: inline;
   font-style: italic;
+  font-weight: 500;
   font-size: 0.88em;
-  opacity: 0.62;
-  color: var(--ink-soft);
+  color: var(--ink);
+  opacity: 0.6;
   letter-spacing: 0.01em;
 }
-.marg-inline::before { content: "[ "; opacity: 0.75; }
-.marg-inline::after  { content: " ]"; opacity: 0.75; }
+.marg-inline::before { content: "[ "; }
+.marg-inline::after  { content: " ]"; }
 
 /* list-level gloss (under section tag) */
 .marg-block {
   display: block;
   font-style: italic;
+  font-weight: 500;
   font-size: 11.5px;
   line-height: 1.6;
-  opacity: 0.62;
-  color: var(--ink-soft);
+  color: var(--ink);
+  opacity: 0.6;
   margin: -4px 0 14px;
 }
 .marg-block::before { content: "[ "; }
@@ -229,9 +243,11 @@ body.theme-night .lumen .glyph-day { display: inline; }
 
 .chapter-body .section-tag {
   font-size: 10px;
+  font-weight: 600;
   letter-spacing: 0.38em;
   text-transform: uppercase;
-  opacity: 0.6;
+  color: var(--ink);
+  opacity: 0.7;
   margin-bottom: 10px;
 }
 
@@ -268,19 +284,19 @@ body.theme-night .lumen .glyph-day { display: inline; }
 .writing:hover { background: rgba(90,107,58,0.05); padding-left: 6px; padding-right: 6px; }
 .writing .num {
   font-size: 10px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.25em;
-  opacity: 0.65;
+  opacity: 0.8;
 }
 .writing .title { font-weight: 500; }
 .writing:hover .title { color: var(--moss); }
 .writing .where {
   font-size: 10px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  opacity: 0.75;
-  color: var(--ink-soft);
+  color: var(--ink);
+  opacity: 0.55;
 }
 
 /* links grid (elsewhere) */
@@ -364,8 +380,8 @@ body.theme-night .lumen .glyph-day { display: inline; }
   margin-left: auto;
   display: block;
 }
-.tree.tree-ii { color: var(--moss); opacity: 0.82; width: 88px; }
-.tree.tree-iii { color: var(--ink); opacity: 0.78; width: 98px; }
+.tree.tree-ii { color: var(--moss); opacity: 0.82; }
+.tree.tree-iii { color: var(--ink); opacity: 0.78; }
 
 /* selection */
 ::selection { background: #5a6b3a44; color: var(--ink); }
