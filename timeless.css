@@ -1,0 +1,332 @@
+:root {
+  --bg: #e8dcc2;
+  --bg-2: #d9c9a7;
+  --ink: #2b2418;
+  --ink-soft: #5c4f3a;
+  --rule: #8a7652;
+  --moss: #6e2a1e;
+  --oxblood: #6e2a1e;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 15px;
+  line-height: 1.7;
+  letter-spacing: 0.005em;
+  min-height: 100vh;
+}
+
+/* ─────────── foxed texture ─────────── */
+body.tex-foxed {
+  background-image:
+    radial-gradient(circle at 8% 12%, rgba(140,60,30,0.22) 0, transparent 8px),
+    radial-gradient(circle at 68% 18%, rgba(130,55,28,0.20) 0, transparent 10px),
+    radial-gradient(circle at 14% 72%, rgba(120,50,22,0.18) 0, transparent 9px),
+    radial-gradient(circle at 48% 82%, rgba(135,60,30,0.20) 0, transparent 8px),
+    radial-gradient(circle at 58% 58%, rgba(125,55,26,0.16) 0, transparent 6px),
+    url("data:image/png;base64,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");
+  background-size: auto, auto, auto, auto, auto, 48px 48px;
+}
+
+/* subtle parchment sway on the whole page frame */
+@keyframes parchment-sway {
+  0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
+  25%      { transform: translate3d(-1.5px, -1px, 0) rotate(-0.03deg); }
+  50%      { transform: translate3d(1px, 1.5px, 0) rotate(0.02deg); }
+  75%      { transform: translate3d(1.5px, -0.5px, 0) rotate(0.03deg); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .sway-page { animation: parchment-sway 26s ease-in-out infinite; }
+}
+
+.page {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 64px 56px 72px;
+  position: relative;
+}
+
+/* running heads */
+.runner {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 10px;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  opacity: 0.55;
+  margin-bottom: 28px;
+}
+
+/* frontispiece */
+.frontis {
+  text-align: center;
+}
+.portrait-clock {
+  display: inline-block;
+  width: 280px;
+  height: auto;
+  filter: sepia(0.35) contrast(0.92) saturate(0.85);
+  mix-blend-mode: multiply;
+  opacity: 0.92;
+}
+.name {
+  font-size: clamp(26px, 3.2vw, 38px);
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  margin: 22px 0 0;
+}
+.motto-inline {
+  margin-top: 14px;
+  font-size: 12px;
+  letter-spacing: 0.48em;
+  text-transform: uppercase;
+  opacity: 0.82;
+}
+.motto-inline .thorn { color: var(--moss); margin: 0 0.4em; }
+.subtitle {
+  font-size: 12px;
+  font-style: italic;
+  opacity: 0.68;
+  margin-top: 12px;
+}
+
+/* divider — single thorn, hairline rules */
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: var(--ink);
+  opacity: 0.6;
+  margin: 36px 0;
+}
+.divider::before, .divider::after {
+  content: "";
+  flex: 0 0 110px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.55;
+}
+.divider .glyph {
+  font-size: 13px;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+
+/* chapter */
+.chapter {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 28px;
+  margin-top: 44px;
+  align-items: flex-start;
+}
+.chapter-gutter {
+  text-align: right;
+  position: sticky;
+  top: 24px;
+}
+.roman {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 0.9;
+  color: var(--moss);
+  letter-spacing: -0.02em;
+}
+.chapter-label {
+  font-size: 10px;
+  letter-spacing: 0.38em;
+  text-transform: uppercase;
+  opacity: 0.58;
+  margin-top: 8px;
+}
+/* marginalia · bracketed in-line — parenthetical, quieter */
+.marg-inline {
+  display: inline;
+  font-style: italic;
+  font-size: 0.88em;
+  opacity: 0.62;
+  color: var(--ink-soft);
+  letter-spacing: 0.01em;
+}
+.marg-inline::before { content: "[ "; opacity: 0.75; }
+.marg-inline::after  { content: " ]"; opacity: 0.75; }
+
+/* list-level gloss (under section tag) */
+.marg-block {
+  display: block;
+  font-style: italic;
+  font-size: 11.5px;
+  line-height: 1.6;
+  opacity: 0.62;
+  color: var(--ink-soft);
+  margin: -4px 0 14px;
+}
+.marg-block::before { content: "[ "; }
+.marg-block::after  { content: " ]"; }
+
+.chapter-body .section-tag {
+  font-size: 10px;
+  letter-spacing: 0.38em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+
+/* drop cap — plain mono, oversized, moss */
+.dropcap::first-letter {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 3.6em;
+  line-height: 0.88;
+  float: left;
+  padding: 0.08em 0.14em 0 0;
+  margin-right: 0.06em;
+  color: var(--moss);
+}
+
+.prose { font-size: 14.5px; line-height: 1.78; }
+.prose em { color: var(--ink); font-style: italic; opacity: 0.9; }
+
+/* writings list */
+.writings { margin-top: 6px; }
+.writing {
+  display: grid;
+  grid-template-columns: 28px 1fr auto;
+  gap: 14px;
+  align-items: baseline;
+  padding: 9px 0;
+  border-bottom: 1px dashed #2b241833;
+  font-size: 13.5px;
+  color: var(--ink);
+  text-decoration: none;
+  transition: background .2s, padding .2s;
+}
+.writing:last-child { border-bottom: none; }
+.writing:hover { background: rgba(90,107,58,0.05); padding-left: 6px; padding-right: 6px; }
+.writing .num {
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  opacity: 0.5;
+}
+.writing .title { font-weight: 400; }
+.writing:hover .title { color: var(--moss); }
+.writing .where {
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  color: var(--ink-soft);
+}
+
+/* links grid (elsewhere) */
+.elsewhere {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 28px;
+  font-size: 13.5px;
+}
+.elsewhere a {
+  color: var(--ink);
+  text-decoration: none;
+  padding: 6px 0;
+  border-bottom: 1px dashed #2b241833;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  transition: background .2s, padding .2s;
+}
+.elsewhere a:hover { background: rgba(90,107,58,0.05); padding-left: 6px; padding-right: 6px; }
+.elsewhere a:hover .k { color: var(--moss); }
+.elsewhere a .k::before { content: "✢ "; color: var(--moss); opacity: 0.6; margin-right: 0.2em; }
+.elsewhere a .v {
+  font-size: 10px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  opacity: 0.55;
+  font-style: italic;
+  align-self: center;
+}
+
+/* crossed frame — applied to the closing quatrain */
+.frame-cross {
+  position: relative;
+  border: 1px solid var(--ink);
+  padding: 28px 32px;
+  max-width: 460px;
+  margin: 0 auto;
+  background: rgba(139, 118, 82, 0.05);
+}
+.frame-cross .cx {
+  position: absolute;
+  font-size: 14px;
+  line-height: 1;
+  background: var(--bg);
+  padding: 0 4px;
+  color: var(--ink);
+}
+.frame-cross .cx.tl { top: -8px; left: -7px; }
+.frame-cross .cx.tr { top: -8px; right: -7px; }
+.frame-cross .cx.bl { bottom: -8px; left: -7px; }
+.frame-cross .cx.br { bottom: -8px; right: -7px; }
+.frame-cross .verse {
+  font-size: 15px;
+  line-height: 2;
+  font-style: italic;
+  text-align: center;
+  opacity: 0.85;
+}
+
+/* colophon */
+.colophon {
+  text-align: center;
+  margin-top: 44px;
+  font-size: 9.5px;
+  letter-spacing: 0.45em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+/* hidden stanza (kept from original) */
+.hidden-stanza { display: none; }
+
+/* responsive */
+@media (max-width: 720px) {
+  .page { padding: 40px 22px 56px; }
+  .chapter { grid-template-columns: 1fr; gap: 16px; }
+  .chapter-gutter { text-align: left; position: static; }
+  .roman { font-size: 40px; }
+
+  .divider::before, .divider::after { flex: 1; }
+  .elsewhere { grid-template-columns: 1fr; }
+  .clock-wrap { justify-content: center; }
+  .runner { font-size: 9px; letter-spacing: 0.3em; }
+  .writing { grid-template-columns: 24px 1fr; }
+  .writing .where { grid-column: 2; opacity: 0.55; }
+}
+
+/* selection */
+::selection { background: #5a6b3a44; color: var(--ink); }
+
+/* chapter gutter trees — mono, currentColor, ornamental */
+.tree {
+  width: 132px;
+  height: auto;
+  color: var(--ink);
+  opacity: 0.86;
+  margin-top: 18px;
+  margin-left: auto;
+  display: block;
+}
+.tree.tree-ii { color: var(--moss); opacity: 0.82; }
+.tree.tree-iii { color: var(--ink); opacity: 0.78; }
+
+@media (max-width: 720px) {
+  .tree { margin-left: 0; width: 72px; }
+}
