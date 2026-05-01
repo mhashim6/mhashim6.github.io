@@ -21,6 +21,22 @@ body {
   min-height: 100vh;
 }
 
+/* ─────────── foxed texture (day) ─────────── */
+body.tex-foxed {
+  background-image:
+    radial-gradient(circle at 8% 10%,  rgba(140,60,30,0.22) 0, transparent 8px),
+    radial-gradient(circle at 92% 14%, rgba(130,55,28,0.20) 0, transparent 10px),
+    radial-gradient(circle at 12% 48%, rgba(120,50,22,0.18) 0, transparent 9px),
+    radial-gradient(circle at 88% 52%, rgba(135,60,30,0.20) 0, transparent 8px),
+    radial-gradient(circle at 50% 30%, rgba(125,55,26,0.16) 0, transparent 7px),
+    radial-gradient(circle at 22% 86%, rgba(135,60,30,0.20) 0, transparent 9px),
+    radial-gradient(circle at 78% 90%, rgba(125,55,26,0.18) 0, transparent 8px),
+    radial-gradient(circle at 50% 70%, rgba(130,55,28,0.16) 0, transparent 7px),
+    url("noise.png");
+  background-size: auto, auto, auto, auto, auto, auto, auto, auto, 48px 48px;
+  background-attachment: fixed;
+}
+
 /* ─────────── night theme ─────────── */
 body.theme-night {
   --bg: #1a1611;
@@ -34,25 +50,17 @@ body.theme-night .tree,
 body.theme-night .marg-inline { color: var(--ink); }
 body.theme-night.tex-foxed {
   background-image:
-    radial-gradient(circle at 8% 12%, rgba(200,160,100,0.06) 0, transparent 8px),
-    radial-gradient(circle at 68% 18%, rgba(200,160,100,0.05) 0, transparent 10px),
-    radial-gradient(circle at 14% 72%, rgba(200,160,100,0.05) 0, transparent 9px),
-    radial-gradient(circle at 48% 82%, rgba(200,160,100,0.06) 0, transparent 8px),
-    radial-gradient(circle at 58% 58%, rgba(200,160,100,0.04) 0, transparent 6px),
+    radial-gradient(circle at 8% 10%,  rgba(200,160,100,0.06) 0, transparent 8px),
+    radial-gradient(circle at 92% 14%, rgba(200,160,100,0.05) 0, transparent 10px),
+    radial-gradient(circle at 12% 48%, rgba(200,160,100,0.05) 0, transparent 9px),
+    radial-gradient(circle at 88% 52%, rgba(200,160,100,0.06) 0, transparent 8px),
+    radial-gradient(circle at 50% 30%, rgba(200,160,100,0.04) 0, transparent 7px),
+    radial-gradient(circle at 22% 86%, rgba(200,160,100,0.06) 0, transparent 9px),
+    radial-gradient(circle at 78% 90%, rgba(200,160,100,0.05) 0, transparent 8px),
+    radial-gradient(circle at 50% 70%, rgba(200,160,100,0.04) 0, transparent 7px),
     url("noise-light.png");
-  background-size: auto, auto, auto, auto, auto, 48px 48px;
-}
-
-/* ─────────── foxed texture ─────────── */
-body.tex-foxed {
-  background-image:
-    radial-gradient(circle at 8% 12%, rgba(140,60,30,0.22) 0, transparent 8px),
-    radial-gradient(circle at 68% 18%, rgba(130,55,28,0.20) 0, transparent 10px),
-    radial-gradient(circle at 14% 72%, rgba(120,50,22,0.18) 0, transparent 9px),
-    radial-gradient(circle at 48% 82%, rgba(135,60,30,0.20) 0, transparent 8px),
-    radial-gradient(circle at 58% 58%, rgba(125,55,26,0.16) 0, transparent 6px),
-    url("noise.png");
-  background-size: auto, auto, auto, auto, auto, 48px 48px;
+  background-size: auto, auto, auto, auto, auto, auto, auto, auto, 48px 48px;
+  background-attachment: fixed;
 }
 
 /* ─────────── page-level day/night toggle ─────────── */
@@ -96,17 +104,6 @@ body.theme-night .lumen .glyph-day { display: inline; }
   pointer-events: none;
 }
 
-/* subtle parchment sway on the whole page frame */
-@keyframes parchment-sway {
-  0%, 100% { transform: translate3d(0, 0, 0) rotate(0deg); }
-  25%      { transform: translate3d(-1.5px, -1px, 0) rotate(-0.03deg); }
-  50%      { transform: translate3d(1px, 1.5px, 0) rotate(0.02deg); }
-  75%      { transform: translate3d(1.5px, -0.5px, 0) rotate(0.03deg); }
-}
-@media (prefers-reduced-motion: no-preference) {
-  .sway-page { animation: parchment-sway 26s ease-in-out infinite; }
-}
-
 .page {
   max-width: 920px;
   margin: 0 auto;
@@ -134,9 +131,6 @@ body.theme-night .lumen .glyph-day { display: inline; }
   display: inline-block;
   width: 280px;
   height: auto;
-  filter: sepia(0.35) contrast(0.92) saturate(0.85);
-  mix-blend-mode: multiply;
-  opacity: 0.92;
 }
 .name {
   font-size: clamp(26px, 3.2vw, 38px);
@@ -224,8 +218,8 @@ body.theme-night .lumen .glyph-day { display: inline; }
   opacity: 0.6;
   letter-spacing: 0.01em;
 }
-.marg-inline::before { content: "[ "; }
-.marg-inline::after  { content: " ]"; }
+.marg-inline::before { content: "[\00a0"; }
+.marg-inline::after  { content: "\00a0]"; }
 
 /* list-level gloss (under section tag) */
 .marg-block {
@@ -238,8 +232,8 @@ body.theme-night .lumen .glyph-day { display: inline; }
   opacity: 0.6;
   margin: -4px 0 14px;
 }
-.marg-block::before { content: "[ "; }
-.marg-block::after  { content: " ]"; }
+.marg-block::before { content: "[\00a0"; }
+.marg-block::after  { content: "\00a0]"; }
 
 .chapter-body .section-tag {
   font-size: 10px;
@@ -359,7 +353,9 @@ body.theme-night .lumen .glyph-day { display: inline; }
 
 /* colophon */
 .colophon {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
   margin-top: 44px;
   font-size: 9.5px;
   letter-spacing: 0.45em;
@@ -382,6 +378,7 @@ body.theme-night .lumen .glyph-day { display: inline; }
 }
 .tree.tree-ii { color: var(--moss); opacity: 0.82; }
 .tree.tree-iii { color: var(--ink); opacity: 0.78; }
+.tree.tree-iv { color: var(--moss); opacity: 0.86; transform: scaleY(-1); }
 
 /* selection */
 ::selection { background: #5a6b3a44; color: var(--ink); }
@@ -394,7 +391,23 @@ body.theme-night .lumen .glyph-day { display: inline; }
   .roman { font-size: 40px; }
   .divider::before, .divider::after { flex: 1; }
   .elsewhere { grid-template-columns: 1fr; }
-  .runner { font-size: 9px; letter-spacing: 0.3em; }
+  .runner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    margin-top: 32px;
+  }
+  .colophon {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    font-size: 8.5px;
+    letter-spacing: 0.35em;
+  }
   .writing { grid-template-columns: 24px 1fr; }
   .writing .where { grid-column: 2; opacity: 0.55; }
   .tree { margin-left: 0; width: 72px; }
