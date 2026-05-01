@@ -22,7 +22,13 @@ body {
 }
 
 /* ─────────── foxed texture (day) ─────────── */
-body.tex-foxed {
+body.tex-foxed::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color: var(--bg);
   background-image:
     radial-gradient(circle at 8% 10%,  rgba(140,60,30,0.22) 0, transparent 8px),
     radial-gradient(circle at 92% 14%, rgba(130,55,28,0.20) 0, transparent 10px),
@@ -34,7 +40,6 @@ body.tex-foxed {
     radial-gradient(circle at 50% 70%, rgba(130,55,28,0.16) 0, transparent 7px),
     url("noise.png");
   background-size: auto, auto, auto, auto, auto, auto, auto, auto, 48px 48px;
-  background-attachment: fixed;
 }
 
 /* ─────────── night theme ─────────── */
@@ -48,7 +53,7 @@ body.theme-night {
 }
 body.theme-night .tree,
 body.theme-night .marg-inline { color: var(--ink); }
-body.theme-night.tex-foxed {
+body.theme-night.tex-foxed::before {
   background-image:
     radial-gradient(circle at 8% 10%,  rgba(200,160,100,0.06) 0, transparent 8px),
     radial-gradient(circle at 92% 14%, rgba(200,160,100,0.05) 0, transparent 10px),
@@ -60,7 +65,6 @@ body.theme-night.tex-foxed {
     radial-gradient(circle at 50% 70%, rgba(200,160,100,0.04) 0, transparent 7px),
     url("noise-light.png");
   background-size: auto, auto, auto, auto, auto, auto, auto, auto, 48px 48px;
-  background-attachment: fixed;
 }
 
 /* ─────────── page-level day/night toggle ─────────── */
@@ -131,7 +135,9 @@ body.theme-night .lumen .glyph-day { display: inline; }
   display: inline-block;
   width: 280px;
   height: auto;
+  opacity: 0.92;
 }
+body.theme-night .portrait-clock { opacity: 0.85; }
 .name {
   font-size: clamp(26px, 3.2vw, 38px);
   font-weight: 500;
