@@ -12,7 +12,11 @@
 html, body { margin: 0; padding: 0; }
 
 html {
+  background-color: var(--bg);
   scrollbar-width: none;
+}
+html:has(body.theme-night) {
+  background-color: #1a1611;
 }
 html::-webkit-scrollbar, body::-webkit-scrollbar { width: 0; height: 0; display: none; }
 
