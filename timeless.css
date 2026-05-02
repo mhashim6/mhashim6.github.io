@@ -12,8 +12,8 @@
 html, body { margin: 0; padding: 0; }
 
 html {
-  background-color: var(--bg);
   scrollbar-width: none;
+  background-color: var(--bg);
 }
 html:has(body.theme-night) {
   background-color: #1a1611;
@@ -27,24 +27,9 @@ body {
   line-height: 1.7;
   letter-spacing: 0.005em;
   min-height: 100vh;
-  background: transparent;
-}
-
-/* Parchment textures live on html pseudos, fixed-positioned and overdrawn
-   past every viewport edge so no Safari clipping/rounding leaves a strip.
-   Pseudos on html sit above html's bg color and below body's content (body
-   bg is transparent), with no z-index needed and no Safari stacking quirks. */
-html::before, html::after {
-  content: "";
-  position: fixed;
-  top: -256px;
-  left: -256px;
-  width: calc(100vw + 512px);
-  height: calc(100vh + 512px);
-  pointer-events: none;
-}
-html::before {
+  background-color: transparent;
   background-image:
+    url("noise.png"),
     radial-gradient(circle at 8% 10%,  rgba(140,60,30,0.22) 0, transparent 8px),
     radial-gradient(circle at 92% 14%, rgba(130,55,28,0.20) 0, transparent 10px),
     radial-gradient(circle at 12% 48%, rgba(120,50,22,0.18) 0, transparent 9px),
@@ -53,18 +38,17 @@ html::before {
     radial-gradient(circle at 22% 86%, rgba(135,60,30,0.20) 0, transparent 9px),
     radial-gradient(circle at 78% 90%, rgba(125,55,26,0.18) 0, transparent 8px),
     radial-gradient(circle at 50% 70%, rgba(130,55,28,0.16) 0, transparent 7px);
-}
-html::after {
-  background: url("noise.png") repeat;
-  background-size: 48px 48px;
+  background-repeat: repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background-size: 48px 48px, auto, auto, auto, auto, auto, auto, auto, auto;
   animation: parchment-drift 60s linear infinite;
 }
+
 @keyframes parchment-drift {
-  from { background-position: 0 0; }
-  to   { background-position: 96px 96px; }
+  from { background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0; }
+  to   { background-position: 96px 96px, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0; }
 }
 @media (prefers-reduced-motion: reduce) {
-  html::after { animation: none; }
+  body { animation: none; }
 }
 
 /* ─────────── night theme ─────────── */
@@ -78,8 +62,9 @@ body.theme-night {
 }
 body.theme-night .tree,
 body.theme-night .marg-inline { color: var(--ink); }
-html:has(body.theme-night)::before {
+body.theme-night {
   background-image:
+    url("noise-light.png"),
     radial-gradient(circle at 8% 10%,  rgba(200,160,100,0.06) 0, transparent 8px),
     radial-gradient(circle at 92% 14%, rgba(200,160,100,0.05) 0, transparent 10px),
     radial-gradient(circle at 12% 48%, rgba(200,160,100,0.05) 0, transparent 9px),
@@ -88,9 +73,6 @@ html:has(body.theme-night)::before {
     radial-gradient(circle at 22% 86%, rgba(200,160,100,0.06) 0, transparent 9px),
     radial-gradient(circle at 78% 90%, rgba(200,160,100,0.05) 0, transparent 8px),
     radial-gradient(circle at 50% 70%, rgba(200,160,100,0.04) 0, transparent 7px);
-}
-html:has(body.theme-night)::after {
-  background-image: url("noise-light.png");
 }
 
 /* ─────────── page-level day/night toggle ─────────── */
@@ -137,7 +119,7 @@ body.theme-night .lumen .glyph-day { display: inline; }
 .page {
   max-width: 920px;
   margin: 0 auto;
-  padding: 28px calc(56px + env(safe-area-inset-right)) 28px calc(56px + env(safe-area-inset-left));
+  padding: 28px calc(56px + env(safe-area-inset-right, 0)) 28px calc(56px + env(safe-area-inset-left, 0));
   position: relative;
 }
 
@@ -161,9 +143,7 @@ body.theme-night .lumen .glyph-day { display: inline; }
   display: inline-block;
   width: 280px;
   height: auto;
-  opacity: 0.92;
 }
-body.theme-night .portrait-clock { opacity: 0.85; }
 .name {
   font-size: clamp(26px, 3.2vw, 38px);
   font-weight: 500;
@@ -417,7 +397,7 @@ body.theme-night .portrait-clock { opacity: 0.85; }
 
 /* responsive */
 @media (max-width: 720px) {
-  .page { padding: 18px calc(22px + env(safe-area-inset-right)) 18px calc(22px + env(safe-area-inset-left)); }
+  .page { padding: 18px calc(22px + env(safe-area-inset-right, 0)) 18px calc(22px + env(safe-area-inset-left, 0)); }
   .chapter { grid-template-columns: 1fr; gap: 16px; }
   .chapter-gutter { text-align: left; position: static; }
   .roman { font-size: 40px; }

@@ -12,8 +12,6 @@
       name="description"
       content="Portfolio of Muhammad Hashim (mhashim6) – Software Engineer & Writer."
     />
-    <meta name="theme-color" content="#e8dcc2">
-
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="profile" />
     <meta property="profile:first_name" content="Muhammad" />
@@ -521,24 +519,18 @@
 
 <script>
 (function() {
-  var meta = document.querySelector('meta[name="theme-color"]');
-  function syncThemeColor(night) {
-    if (meta) meta.setAttribute('content', night ? '#1a1611' : '#e8dcc2');
-  }
   var saved = localStorage.getItem('theme');
   if (saved) {
     document.body.classList.remove('theme-day', 'theme-night');
     document.body.classList.add('theme-' + saved);
     document.getElementById('lumen-cap-text').textContent = saved === 'night' ? 'day' : 'night';
   }
-  syncThemeColor(document.body.classList.contains('theme-night'));
   document.getElementById('lumen').addEventListener('click', function() {
     var b = document.body;
     var night = b.classList.toggle('theme-night');
     b.classList.toggle('theme-day', !night);
     document.getElementById('lumen-cap-text').textContent = night ? 'day' : 'night';
     localStorage.setItem('theme', night ? 'night' : 'day');
-    syncThemeColor(night);
   });
 })();
 </script>
