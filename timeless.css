@@ -137,7 +137,7 @@ body.theme-night .lumen .glyph-day { display: inline; }
 .page {
   max-width: 920px;
   margin: 0 auto;
-  padding: 28px 56px 28px;
+  padding: 28px calc(56px + env(safe-area-inset-right)) 28px calc(56px + env(safe-area-inset-left));
   position: relative;
 }
 
@@ -417,7 +417,7 @@ body.theme-night .portrait-clock { opacity: 0.85; }
 
 /* responsive */
 @media (max-width: 720px) {
-  .page { padding: 18px 22px 18px; }
+  .page { padding: 18px calc(22px + env(safe-area-inset-right)) 18px calc(22px + env(safe-area-inset-left)); }
   .chapter { grid-template-columns: 1fr; gap: 16px; }
   .chapter-gutter { text-align: left; position: static; }
   .roman { font-size: 40px; }
