@@ -27,14 +27,14 @@ body {
   line-height: 1.7;
   letter-spacing: 0.005em;
   min-height: 100vh;
-  background-color: var(--bg);
+  background: transparent;
 }
 
-/* Parchment textures live on body pseudos. They are fixed-positioned and
-   overdrawn 256px past every viewport edge — large enough that no Safari
-   clipping or rounding can leave a visible strip. body owns the theme class,
-   so var(--bg) resolves correctly per theme without needing html overrides. */
-body::before, body::after {
+/* Parchment textures live on html pseudos, fixed-positioned and overdrawn
+   past every viewport edge so no Safari clipping/rounding leaves a strip.
+   Pseudos on html sit above html's bg color and below body's content (body
+   bg is transparent), with no z-index needed and no Safari stacking quirks. */
+html::before, html::after {
   content: "";
   position: fixed;
   top: -256px;
@@ -43,9 +43,7 @@ body::before, body::after {
   height: calc(100vh + 512px);
   pointer-events: none;
 }
-body::before {
-  z-index: -2;
-  background-color: var(--bg);
+html::before {
   background-image:
     radial-gradient(circle at 8% 10%,  rgba(140,60,30,0.22) 0, transparent 8px),
     radial-gradient(circle at 92% 14%, rgba(130,55,28,0.20) 0, transparent 10px),
@@ -56,8 +54,7 @@ body::before {
     radial-gradient(circle at 78% 90%, rgba(125,55,26,0.18) 0, transparent 8px),
     radial-gradient(circle at 50% 70%, rgba(130,55,28,0.16) 0, transparent 7px);
 }
-body::after {
-  z-index: -1;
+html::after {
   background: url("noise.png") repeat;
   background-size: 48px 48px;
   animation: parchment-drift 60s linear infinite;
@@ -67,7 +64,7 @@ body::after {
   to   { background-position: 96px 96px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  body::after { animation: none; }
+  html::after { animation: none; }
 }
 
 /* ─────────── night theme ─────────── */
@@ -81,7 +78,7 @@ body.theme-night {
 }
 body.theme-night .tree,
 body.theme-night .marg-inline { color: var(--ink); }
-body.theme-night::before {
+html:has(body.theme-night)::before {
   background-image:
     radial-gradient(circle at 8% 10%,  rgba(200,160,100,0.06) 0, transparent 8px),
     radial-gradient(circle at 92% 14%, rgba(200,160,100,0.05) 0, transparent 10px),
@@ -92,7 +89,7 @@ body.theme-night::before {
     radial-gradient(circle at 78% 90%, rgba(200,160,100,0.05) 0, transparent 8px),
     radial-gradient(circle at 50% 70%, rgba(200,160,100,0.04) 0, transparent 7px);
 }
-body.theme-night::after {
+html:has(body.theme-night)::after {
   background-image: url("noise-light.png");
 }
 
@@ -140,7 +137,7 @@ body.theme-night .lumen .glyph-day { display: inline; }
 .page {
   max-width: 920px;
   margin: 0 auto;
-  padding: 64px 56px 72px;
+  padding: 28px 56px 28px;
   position: relative;
 }
 
@@ -153,7 +150,7 @@ body.theme-night .lumen .glyph-day { display: inline; }
   letter-spacing: 0.42em;
   text-transform: uppercase;
   opacity: 0.55;
-  margin-bottom: 28px;
+  margin-bottom: 72px;
 }
 
 /* frontispiece */
@@ -391,7 +388,7 @@ body.theme-night .portrait-clock { opacity: 0.85; }
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  margin-top: 44px;
+  margin-top: 72px;
   font-size: 9.5px;
   letter-spacing: 0.45em;
   text-transform: uppercase;
@@ -420,7 +417,7 @@ body.theme-night .portrait-clock { opacity: 0.85; }
 
 /* responsive */
 @media (max-width: 720px) {
-  .page { padding: 40px 22px 56px; }
+  .page { padding: 18px 22px 18px; }
   .chapter { grid-template-columns: 1fr; gap: 16px; }
   .chapter-gutter { text-align: left; position: static; }
   .roman { font-size: 40px; }
@@ -433,7 +430,7 @@ body.theme-night .portrait-clock { opacity: 0.85; }
     gap: 4px;
     font-size: 9px;
     letter-spacing: 0.3em;
-    margin-top: 32px;
+    margin-bottom: 56px;
   }
   .colophon {
     flex-direction: column;
