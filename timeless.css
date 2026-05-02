@@ -11,23 +11,36 @@
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 
+html {
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar, body::-webkit-scrollbar { width: 0; height: 0; display: none; }
+
 body {
-  background-color: var(--bg);
   color: var(--ink);
   font-family: var(--mono);
   font-size: 18px;
   line-height: 1.7;
   letter-spacing: 0.005em;
   min-height: 100vh;
+  background-color: var(--bg);
 }
 
-/* ─────────── foxed texture (day) ─────────── */
-body.tex-foxed::before {
+/* Parchment textures live on body pseudos. They are fixed-positioned and
+   overdrawn 256px past every viewport edge — large enough that no Safari
+   clipping or rounding can leave a visible strip. body owns the theme class,
+   so var(--bg) resolves correctly per theme without needing html overrides. */
+body::before, body::after {
   content: "";
   position: fixed;
-  inset: 0;
-  z-index: -1;
+  top: -256px;
+  left: -256px;
+  width: calc(100vw + 512px);
+  height: calc(100vh + 512px);
   pointer-events: none;
+}
+body::before {
+  z-index: -2;
   background-color: var(--bg);
   background-image:
     radial-gradient(circle at 8% 10%,  rgba(140,60,30,0.22) 0, transparent 8px),
@@ -37,9 +50,20 @@ body.tex-foxed::before {
     radial-gradient(circle at 50% 30%, rgba(125,55,26,0.16) 0, transparent 7px),
     radial-gradient(circle at 22% 86%, rgba(135,60,30,0.20) 0, transparent 9px),
     radial-gradient(circle at 78% 90%, rgba(125,55,26,0.18) 0, transparent 8px),
-    radial-gradient(circle at 50% 70%, rgba(130,55,28,0.16) 0, transparent 7px),
-    url("noise.png");
-  background-size: auto, auto, auto, auto, auto, auto, auto, auto, 48px 48px;
+    radial-gradient(circle at 50% 70%, rgba(130,55,28,0.16) 0, transparent 7px);
+}
+body::after {
+  z-index: -1;
+  background: url("noise.png") repeat;
+  background-size: 48px 48px;
+  animation: parchment-drift 60s linear infinite;
+}
+@keyframes parchment-drift {
+  from { background-position: 0 0; }
+  to   { background-position: 96px 96px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body::after { animation: none; }
 }
 
 /* ─────────── night theme ─────────── */
@@ -53,7 +77,7 @@ body.theme-night {
 }
 body.theme-night .tree,
 body.theme-night .marg-inline { color: var(--ink); }
-body.theme-night.tex-foxed::before {
+body.theme-night::before {
   background-image:
     radial-gradient(circle at 8% 10%,  rgba(200,160,100,0.06) 0, transparent 8px),
     radial-gradient(circle at 92% 14%, rgba(200,160,100,0.05) 0, transparent 10px),
@@ -62,9 +86,10 @@ body.theme-night.tex-foxed::before {
     radial-gradient(circle at 50% 30%, rgba(200,160,100,0.04) 0, transparent 7px),
     radial-gradient(circle at 22% 86%, rgba(200,160,100,0.06) 0, transparent 9px),
     radial-gradient(circle at 78% 90%, rgba(200,160,100,0.05) 0, transparent 8px),
-    radial-gradient(circle at 50% 70%, rgba(200,160,100,0.04) 0, transparent 7px),
-    url("noise-light.png");
-  background-size: auto, auto, auto, auto, auto, auto, auto, auto, 48px 48px;
+    radial-gradient(circle at 50% 70%, rgba(200,160,100,0.04) 0, transparent 7px);
+}
+body.theme-night::after {
+  background-image: url("noise-light.png");
 }
 
 /* ─────────── page-level day/night toggle ─────────── */
