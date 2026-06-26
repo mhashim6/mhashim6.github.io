@@ -1,0 +1,135 @@
+{
+  "$schema": "./resume.schema.json",
+  "name": "Muhammad Hashim Abdul—Azîm",
+  "tagline": "Engineering leader, architect, principal — many hats, literally and metaphorically.",
+  "identity": ["Riyadh, KSA"],
+  "contact": [
+    { "label": "mhashim6.me", "href": "https://mhashim6.me" },
+    { "label": "github/mhashim6", "href": "https://github.com/mhashim6" },
+    { "label": "in/mhashim6", "href": "https://linkedin.com/in/mhashim6" },
+    { "label": "blog.mhashim6.me", "href": "https://blog.mhashim6.me" },
+    { "label": "msg@mhashim6.me", "href": "mailto:msg@mhashim6.me" },
+    { "label": "+966 50 346 9921", "href": "tel:+966503469921" }
+  ],
+  "experience": [
+    {
+      "org": "Celfocus",
+      "location": "Cairo · Riyadh",
+      "roles": [
+        {
+          "title": "GenAI Architect / Principal Engineer",
+          "location": "Riyadh, KSA",
+          "start": "2026-06",
+          "end": null,
+          "scope": "Own GenAI architecture and engineering practice across Celfocus AI Programs.",
+          "outcomes": [
+            "Defining reference architectures and adoption patterns for GenAI across teams."
+          ],
+          "tags": ["GenAI", "LLMs", "Architecture", "SDLC", "Agentic Engineering"]
+        },
+        {
+          "title": "Engineering Manager",
+          "note": "E2E Technical Governance PMO",
+          "client": "stc",
+          "location": "Riyadh, KSA",
+          "start": "2025-05",
+          "end": null,
+          "scope": "Governed solution architecture, QA, delivery, and tech-debt across the PMO's programs.",
+          "outcomes": [
+            "Shipped a career-levelling model, a {{hiring playground}}, and GenAI engineering practices; drove mentorship."
+          ],
+          "link": { "label": "hiring playground", "url": "https://github.com/Celfocus-SWE/hiring-playground" },
+          "tags": ["Architecture", "Governance", "QA", "Java", "Spring", "React"]
+        },
+        {
+          "title": "Principal Engineer",
+          "location": "Cairo, Egypt",
+          "start": "2024-04",
+          "end": "2025-05",
+          "scope": "Architecture and software leadership across product teams.",
+          "outcomes": [
+            "Set engineering standards and mentored engineers across the practice."
+          ],
+          "tags": ["Java", "Spring", "React", "React Native"]
+        }
+      ]
+    },
+    {
+      "title": "Software Engineering Lead",
+      "org": "Stella Stays",
+      "location": "Dubai, UAE",
+      "start": "2023-05",
+      "end": "2024-04",
+      "scope": "Owned the SDLC and architecture for a hospitality-tech platform.",
+      "outcomes": [
+        "Introduced a career-levelling model, TDD/BDD, and a microservice architecture."
+      ],
+      "tags": ["NodeJS", "PostgreSQL", "React", "GraphQL", "Microservices"]
+    },
+    {
+      "title": "Software Engineer II",
+      "org": "Instabug",
+      "location": "Cairo, Egypt",
+      "start": "2022-03",
+      "end": "2023-03",
+      "scope": "R&D and platform work on the mobile SDK and CI.",
+      "outcomes": [
+        "Cut yearly CI/CD tooling costs; authored internal JSON-API & DB-layer specs; planned the Android Studio plugin."
+      ],
+      "tags": ["Android", "CI/CD", "Kotlin", "R&D"]
+    },
+    {
+      "title": "Digitalisation Technology Consultant",
+      "org": "Egyptian Armed Forces",
+      "location": "Egypt",
+      "start": "2022-05",
+      "end": "2023-05",
+      "scope": "Advised on data-center architecture, automation, and talent acquisition.",
+      "outcomes": ["Delivered a national travel-permits system."],
+      "tags": ["Architecture", "Automation", "Data Center"]
+    },
+    {
+      "title": "Corporal · Senior Full-Stack Engineer",
+      "org": "Egyptian Armed Forces",
+      "location": "Egypt",
+      "start": "2021-03",
+      "end": "2022-03",
+      "scope": "Led 6 engineers building internal telecom & comms systems.",
+      "outcomes": [
+        "Shipped an SMS gateway, e-fax, and VoIP IVR on a Proxmox / pfSense stack."
+      ],
+      "tags": ["Kotlin", "Ktor", "Oracle", "VoIP", "Proxmox"]
+    }
+  ],
+  "earlier": [
+    {
+      "name": "ElCoach",
+      "roleLabel": "Software Engineer",
+      "period": "2020 — 2022",
+      "summary": "Unified React-Native API for Apple Health & Google Fit; Huawei ecosystem integration."
+    },
+    {
+      "name": "Medicibe",
+      "roleLabel": "Co-Founder",
+      "period": "2018 — 2020",
+      "summary": "Co-founded a health-tech startup; built its Android and React apps."
+    },
+    {
+      "name": "Canesee",
+      "roleLabel": "Lead Engineer",
+      "period": "2019 — 2020",
+      "summary": "Led 10 engineers building AI smart-glasses; ran multiple CV models concurrently on a Raspberry Pi."
+    },
+    {
+      "name": "OSS & Freelance",
+      "period": "since 2016",
+      "summary": "Brought Kotlin to the Raspberry Pi (Pi4J); Simple-ADB, Rafeeq Al-Hajj, Al-Sahihan, Put-Back."
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc, Computer & Systems Engineering — Zagazig University",
+      "period": "2015 — 2020"
+    }
+  ]
+}

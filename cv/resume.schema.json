@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "mhashim6 résumé",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "tagline", "contact", "experience", "education"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "name": { "type": "string", "minLength": 1 },
+    "tagline": { "type": "string", "minLength": 1 },
+    "identity": {
+      "type": "array",
+      "items": { "type": "string" },
+      "maxItems": 4
+    },
+    "contact": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/contact" }
+    },
+    "experience": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [{ "$ref": "#/$defs/group" }, { "$ref": "#/$defs/flatRole" }]
+      }
+    },
+    "earlier": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/earlier" }
+    },
+    "education": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/education" }
+    }
+  },
+  "$defs": {
+    "date": {
+      "description": "ISO year-month, e.g. 2024-04. null on an end means Present.",
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}$"
+    },
+    "link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "url"],
+      "properties": {
+        "label": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "contact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label", "href"],
+      "properties": {
+        "label": { "type": "string" },
+        "href": { "type": "string" }
+      }
+    },
+    "role": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "location", "start", "scope", "tags"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "note": { "type": "string", "description": "Secondary title, e.g. an initiative name." },
+        "client": { "type": "string", "description": "Engagement client, shown on this role only." },
+        "location": { "type": "string" },
+        "start": { "$ref": "#/$defs/date" },
+        "end": { "oneOf": [{ "$ref": "#/$defs/date" }, { "type": "null" }] },
+        "scope": { "type": "string", "minLength": 1 },
+        "outcomes": { "type": "array", "items": { "type": "string" } },
+        "tags": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "link": { "$ref": "#/$defs/link" }
+      }
+    },
+    "group": {
+      "description": "One employer with a ladder of roles over time.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["org", "roles"],
+      "properties": {
+        "org": { "type": "string", "minLength": 1 },
+        "location": { "type": "string" },
+        "roles": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/role" }
+        }
+      }
+    },
+    "flatRole": {
+      "description": "A standalone role at a single employer.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "org", "location", "start", "scope", "tags"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "note": { "type": "string" },
+        "org": { "type": "string", "minLength": 1 },
+        "client": { "type": "string" },
+        "location": { "type": "string" },
+        "start": { "$ref": "#/$defs/date" },
+        "end": { "oneOf": [{ "$ref": "#/$defs/date" }, { "type": "null" }] },
+        "scope": { "type": "string", "minLength": 1 },
+        "outcomes": { "type": "array", "items": { "type": "string" } },
+        "tags": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "link": { "$ref": "#/$defs/link" }
+      }
+    },
+    "earlier": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "period", "summary"],
+      "properties": {
+        "name": { "type": "string" },
+        "roleLabel": { "type": "string" },
+        "period": { "type": "string" },
+        "summary": { "type": "string" }
+      }
+    },
+    "education": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["degree", "period"],
+      "properties": {
+        "degree": { "type": "string" },
+        "period": { "type": "string" }
+      }
+    }
+  }
+}

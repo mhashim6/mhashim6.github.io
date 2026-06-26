@@ -1,0 +1,39 @@
+<svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+  <path stroke="currentColor" stroke-width="0.6" opacity="0.35" d="M4 100H156"/>
+  <path fill="currentColor" d="M72 60C70 72 70 86 72 100H88C90 86 90 72 88 60C84 56 76 56 72 60ZM72 100C70 114 70 124 72 132H88C90 124 90 114 88 100Z"/>
+  <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M76 60C68 50 56 42 40 34M80 58C74 46 66 32 58 18M80 58C80 44 80 28 80 12M80 58C86 46 94 32 102 18M84 60C92 50 104 42 120 34M74 62C62 58 48 54 32 50M86 62C98 58 112 54 128 50"/>
+  <path fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" d="M40 34C34 30 28 30 22 28M40 34C36 26 30 22 24 20M58 18C52 12 46 8 42 4M58 18C56 10 52 4 50 0M80 12C76 8 72 4 70 0M80 12C84 8 88 4 90 0M102 18C108 12 114 8 118 4M102 18C104 10 108 4 110 0M120 34C126 30 132 30 138 28M120 34C124 26 130 22 136 20M32 50C24 48 16 48 8 46M128 50C136 48 144 48 152 46"/>
+  <path fill="none" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" opacity="0.9" d="M22 28L16 26M138 28L144 26M24 20L18 18M136 20L142 18M42 4L40 0M118 4L120 0M70 0L68-4M90 0L92-4M8 46L2 44M152 46L158 44M50 0L48-4M110 0L112-4"/>
+  <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M76 132C68 142 56 150 40 158M80 134C74 146 66 160 58 174M80 134C80 148 80 164 80 180M80 134C86 146 94 160 102 174M84 132C92 142 104 150 120 158M74 134C62 138 48 142 32 146M86 134C98 138 112 142 128 146"/>
+  <path fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" d="M40 158C34 162 28 162 22 164M58 174C52 180 46 184 42 188M80 180C76 184 72 188 70 192M80 180C84 184 88 188 90 192M102 174C108 180 114 184 118 188M120 158C126 162 132 162 138 164M32 146C24 148 16 148 8 150M128 146C136 148 144 148 152 150"/>
+  <defs>
+    <symbol id="mapleLeaf" viewBox="-10 -10 20 20">
+      <path fill="currentColor" d="M0-8L2-4 6-6 4-2 8 0 5 2 7 6 2 4 1 8 0 6-1 8-2 4-7 6-5 2-8 0-4-2-6-6-2-4 0-8Z"/>
+      <path stroke="currentColor" stroke-width="0.5" d="M0 8V-6" fill="none" opacity="0.5"/>
+    </symbol>
+  </defs>
+  <g opacity="0.92">
+    <use href="#mapleLeaf" x="12" y="156" width="10" height="10"/>
+    <use href="#mapleLeaf" x="20" y="164" width="10" height="10" transform="rotate(20 25 169)"/>
+    <use href="#mapleLeaf" x="30" y="150" width="10" height="10" transform="rotate(-15 35 155)"/>
+    <use href="#mapleLeaf" x="34" y="160" width="10" height="10" transform="rotate(30 39 165)"/>
+    <use href="#mapleLeaf" x="44" y="168" width="10" height="10" transform="rotate(-20 49 173)"/>
+    <use href="#mapleLeaf" x="52" y="174" width="10" height="10" transform="rotate(40 57 179)"/>
+    <use href="#mapleLeaf" x="38" y="186" width="10" height="10" transform="rotate(10 43 191)"/>
+    <use href="#mapleLeaf" x="62" y="180" width="10" height="10" transform="rotate(-30 67 185)"/>
+    <use href="#mapleLeaf" x="60" y="190" width="10" height="10" transform="rotate(20 65 195)"/>
+    <use href="#mapleLeaf" x="74" y="188" width="10" height="10" transform="rotate(0 79 193)"/>
+    <use href="#mapleLeaf" x="86" y="188" width="10" height="10" transform="rotate(15 91 193)"/>
+    <use href="#mapleLeaf" x="90" y="180" width="10" height="10" transform="rotate(-20 95 185)"/>
+    <use href="#mapleLeaf" x="80" y="196" width="10" height="10" transform="rotate(-10 85 201)"/>
+    <use href="#mapleLeaf" x="98" y="174" width="10" height="10" transform="rotate(30 103 179)"/>
+    <use href="#mapleLeaf" x="110" y="168" width="10" height="10" transform="rotate(-40 115 173)"/>
+    <use href="#mapleLeaf" x="118" y="160" width="10" height="10" transform="rotate(20 123 165)"/>
+    <use href="#mapleLeaf" x="108" y="186" width="10" height="10" transform="rotate(-15 113 191)"/>
+    <use href="#mapleLeaf" x="126" y="150" width="10" height="10" transform="rotate(10 131 155)"/>
+    <use href="#mapleLeaf" x="134" y="160" width="10" height="10" transform="rotate(-20 139 165)"/>
+    <use href="#mapleLeaf" x="140" y="156" width="10" height="10" transform="rotate(30 145 161)"/>
+    <use href="#mapleLeaf" x="4" y="144" width="10" height="10" transform="rotate(-30 9 149)"/>
+    <use href="#mapleLeaf" x="148" y="144" width="10" height="10" transform="rotate(25 153 149)"/>
+  </g>
+</svg>

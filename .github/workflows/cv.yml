@@ -1,0 +1,51 @@
+name: Build résumé
+
+# Regenerates resume.pdf + resume.json from cv/ whenever the source changes,
+# and commits the refreshed artifacts back. Replaces the manual VSCode extension.
+on:
+  push:
+    branches: [master]
+    paths:
+      - "cv/**"
+      - ".github/workflows/cv.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # Installs deps; Puppeteer's postinstall fetches its pinned Chrome build.
+      - run: npm ci
+
+      # Chrome's shared-library deps (fonts are committed in cv/fonts, so no network needed there).
+      - run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 libatk-bridge2.0-0 libatk1.0-0 libcups2 libdrm2 \
+            libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 \
+            libgbm1 libpango-1.0-0 libcairo2 libasound2t64 || \
+          sudo apt-get install -y libasound2
+
+      - run: npm run build:cv
+
+      - name: Commit regenerated résumé
+        run: |
+          if [ -n "$(git status --porcelain resume.pdf)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add resume.pdf
+            git commit -m "build: regenerate résumé from cv/ [skip ci]"
+            git push
+          else
+            echo "Résumé unchanged — nothing to commit."
+          fi

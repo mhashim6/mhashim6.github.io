@@ -1,0 +1,39 @@
+<svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Variant 1: Pine with needle-cluster roots -->
+  <!-- Ground line -->
+  <path stroke="currentColor" stroke-width="0.6" opacity="0.35" d="M4 100H156"/>
+
+  <!-- Trunk above and below ground -->
+  <path fill="currentColor" d="M78 48L78 100H82L82 48C82 44 78 44 78 48Z"/>
+  <path fill="currentColor" d="M78 100L78 152H82L82 100Z"/>
+
+  <!-- Bare branches above ground — tiered pine silhouette -->
+  <path fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" d="M80 94L46 78M80 94L114 78M80 88L40 72M80 88L120 72M80 80L50 66M80 80L110 66M80 74L44 58M80 74L116 58M80 66L54 52M80 66L106 52M80 60L58 48M80 60L102 48M80 54L66 44M80 54L94 44M80 48L72 38M80 48L88 38M80 42L80 30"/>
+
+  <!-- Twig ends on branches -->
+  <path fill="none" stroke="currentColor" stroke-width="0.7" stroke-linecap="round" opacity="0.85" d="M46 78L40 76M46 78L44 82M114 78L120 76M114 78L116 82M40 72L34 70M120 72L126 70M50 66L44 64M110 66L116 64M44 58L38 56M116 58L122 56M54 52L50 50M106 52L110 50M66 44L62 40M94 44L98 40M80 30L76 28M80 30L84 28"/>
+
+  <!-- Roots below ground — mirrored pine tiers, spreading -->
+  <path fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" d="M80 106L46 122M80 106L114 122M80 112L40 128M80 112L120 128M80 120L50 134M80 120L110 134M80 126L44 142M80 126L116 142M80 134L54 148M80 134L106 148M80 140L58 152M80 140L102 152M80 146L66 156M80 146L94 156M80 152L72 162M80 152L88 162M80 158L80 170"/>
+
+  <!-- Needle clusters on roots -->
+  <g fill="currentColor" opacity="0.85">
+    <ellipse cx="44" cy="122" rx="2.5" ry="1.2" transform="rotate(25 44 122)"/>
+    <ellipse cx="116" cy="122" rx="2.5" ry="1.2" transform="rotate(-25 116 122)"/>
+    <ellipse cx="38" cy="128" rx="2.5" ry="1.2" transform="rotate(30 38 128)"/>
+    <ellipse cx="122" cy="128" rx="2.5" ry="1.2" transform="rotate(-30 122 128)"/>
+    <ellipse cx="48" cy="134" rx="2.2" ry="1.1" transform="rotate(-15 48 134)"/>
+    <ellipse cx="112" cy="134" rx="2.2" ry="1.1" transform="rotate(15 112 134)"/>
+    <ellipse cx="42" cy="142" rx="2.2" ry="1.1" transform="rotate(35 42 142)"/>
+    <ellipse cx="118" cy="142" rx="2.2" ry="1.1" transform="rotate(-35 118 142)"/>
+    <ellipse cx="52" cy="148" rx="2" ry="1" transform="rotate(-20 52 148)"/>
+    <ellipse cx="108" cy="148" rx="2" ry="1" transform="rotate(20 108 148)"/>
+    <ellipse cx="56" cy="152" rx="2" ry="1" transform="rotate(40 56 152)"/>
+    <ellipse cx="104" cy="152" rx="2" ry="1" transform="rotate(-40 104 152)"/>
+    <ellipse cx="64" cy="156" rx="1.8" ry="0.9" transform="rotate(-30 64 156)"/>
+    <ellipse cx="96" cy="156" rx="1.8" ry="0.9" transform="rotate(30 96 156)"/>
+    <ellipse cx="70" cy="162" rx="1.8" ry="0.9" transform="rotate(45 70 162)"/>
+    <ellipse cx="90" cy="162" rx="1.8" ry="0.9" transform="rotate(-45 90 162)"/>
+    <ellipse cx="80" cy="170" rx="1.5" ry="0.8"/>
+  </g>
+</svg>

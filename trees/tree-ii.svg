@@ -1,0 +1,44 @@
+<svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+  <path stroke="currentColor" stroke-width="0.6" opacity="0.35" d="M4 100H156"/>
+  <path fill="currentColor" d="M66 54L68 100H92L94 54C92 50 90 48 88 50C82 46 78 46 72 50C70 48 68 50 66 54ZM66 100L68 140H92L94 100Z"/>
+  <g fill="#e8dcc2" opacity="0.5">
+    <ellipse cx="74" cy="64" rx="1.8" ry="3"/><ellipse cx="84" cy="70" rx="1.8" ry="3"/>
+    <ellipse cx="76" cy="78" rx="1.6" ry="2.5"/><ellipse cx="86" cy="84" rx="1.6" ry="2.5"/>
+    <ellipse cx="72" cy="92" rx="1.8" ry="3"/><ellipse cx="82" cy="96" rx="1.4" ry="2"/>
+    <ellipse cx="74" cy="110" rx="1.6" ry="2.5"/><ellipse cx="86" cy="116" rx="1.6" ry="2.5"/>
+    <ellipse cx="76" cy="126" rx="1.4" ry="2"/><ellipse cx="84" cy="134" rx="1.4" ry="2"/>
+  </g>
+  <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M80 52C60 42 40 30 20 22M80 52C100 42 120 30 140 22M80 52C70 38 60 24 52 10M80 52C90 38 100 24 108 10M80 52C80 36 80 20 80 4M80 52C66 42 50 34 32 30M80 52C94 42 110 34 128 30"/>
+  <path fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" d="M20 22L12 18M20 22L14 14M140 22L148 18M140 22L146 14M52 10L48 4M52 10L50 4M108 10L112 4M108 10L110 4M80 4L78 0M80 4L82 0M32 30L26 28M32 30L24 32M128 30L134 28M128 30L136 32M40 32L36 26M120 32L124 26M70 28L66 22M90 28L94 22"/>
+  <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M80 140C60 150 40 162 20 172M80 140C100 150 120 162 140 172M80 140C70 156 60 170 52 184M80 140C90 156 100 170 108 184M80 140C80 158 80 176 80 194M80 140C66 150 50 160 32 164M80 140C94 150 110 160 128 164"/>
+  <path fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" d="M20 172L12 176M20 172L14 180M140 172L148 176M140 172L146 180M52 184L48 192M108 184L112 192M80 194L80 200M32 164L24 162M128 164L136 162"/>
+  <g fill="currentColor" opacity="0.88">
+    <ellipse cx="18" cy="170" rx="2" ry="1.1" transform="rotate(30 18 170)"/>
+    <ellipse cx="14" cy="178" rx="2" ry="1.1" transform="rotate(20 14 178)"/>
+    <ellipse cx="28" cy="164" rx="2" ry="1.1" transform="rotate(-20 28 164)"/>
+    <ellipse cx="40" cy="160" rx="2" ry="1.1" transform="rotate(30 40 160)"/>
+    <ellipse cx="48" cy="168" rx="2" ry="1.1" transform="rotate(-10 48 168)"/>
+    <ellipse cx="54" cy="174" rx="2" ry="1.1" transform="rotate(40 54 174)"/>
+    <ellipse cx="50" cy="186" rx="2" ry="1.1" transform="rotate(-20 50 186)"/>
+    <ellipse cx="62" cy="180" rx="2" ry="1.1" transform="rotate(30 62 180)"/>
+    <ellipse cx="68" cy="188" rx="2" ry="1.1" transform="rotate(-40 68 188)"/>
+    <ellipse cx="74" cy="192" rx="2" ry="1.1" transform="rotate(10 74 192)"/>
+    <ellipse cx="80" cy="198" rx="2" ry="1.1" transform="rotate(0 80 198)"/>
+    <ellipse cx="86" cy="192" rx="2" ry="1.1" transform="rotate(-10 86 192)"/>
+    <ellipse cx="92" cy="188" rx="2" ry="1.1" transform="rotate(40 92 188)"/>
+    <ellipse cx="98" cy="180" rx="2" ry="1.1" transform="rotate(-30 98 180)"/>
+    <ellipse cx="110" cy="186" rx="2" ry="1.1" transform="rotate(20 110 186)"/>
+    <ellipse cx="106" cy="174" rx="2" ry="1.1" transform="rotate(-40 106 174)"/>
+    <ellipse cx="112" cy="168" rx="2" ry="1.1" transform="rotate(10 112 168)"/>
+    <ellipse cx="120" cy="160" rx="2" ry="1.1" transform="rotate(-30 120 160)"/>
+    <ellipse cx="128" cy="170" rx="2" ry="1.1" transform="rotate(20 128 170)"/>
+    <ellipse cx="136" cy="178" rx="2" ry="1.1" transform="rotate(-20 136 178)"/>
+    <ellipse cx="142" cy="170" rx="2" ry="1.1" transform="rotate(40 142 170)"/>
+    <ellipse cx="66" cy="156" rx="2" ry="1.1" transform="rotate(-30 66 156)"/>
+    <ellipse cx="94" cy="156" rx="2" ry="1.1" transform="rotate(30 94 156)"/>
+    <ellipse cx="78" cy="166" rx="2" ry="1.1" transform="rotate(60 78 166)"/>
+    <ellipse cx="82" cy="166" rx="2" ry="1.1" transform="rotate(-60 82 166)"/>
+    <ellipse cx="72" cy="176" rx="2" ry="1.1" transform="rotate(45 72 176)"/>
+    <ellipse cx="88" cy="176" rx="2" ry="1.1" transform="rotate(-45 88 176)"/>
+  </g>
+</svg>

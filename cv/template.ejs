@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title><%= name %> — Résumé</title>
+<style><%- css %></style>
+</head>
+<body>
+<div class="page">
+
+  <div class="mast">
+    <div>
+      <h1 class="name"><%- nameHtml %></h1>
+      <p class="tag"><%= tagline %></p>
+    </div>
+    <% if (identity && identity.length) { %>
+    <div class="idblock"><%- identity.map((l, i) => i === 1 ? `<b>${esc(l)}</b>` : esc(l)).join("<br>") %></div>
+    <% } %>
+  </div>
+
+  <div class="contact">
+    <% contact.forEach((c, i) => { %><%- i ? '<span class="sep">✦</span>' : '' %><a href="<%= c.href %>"><%= c.label %></a><% }) %>
+  </div>
+
+  <div class="sec"><span class="orn">✢</span><h2>Experience</h2><div class="line"></div></div>
+
+  <% experience.forEach((x) => { %>
+    <% if (x.roles) { /* grouped employer with role ladder */ %>
+      <div class="group">
+        <div class="ghead">
+          <p class="gname"><%= x.org %></p>
+          <div class="gmeta"><%= groupMeta(x) %></div>
+        </div>
+        <div class="ladder">
+          <% x.roles.forEach((r) => { %>
+            <div class="rung">
+              <div class="rhead">
+                <p class="rl"><%= r.title %><% if (r.note) { %> <span class="at">· <%= r.note %></span><% } %></p>
+                <div class="meta">
+                  <span class="yr"><%= fmtRange(r.start, r.end) %></span>
+                  <span class="loc"><%= r.location %></span>
+                  <% if (r.client) { %><span class="loc cl">Client: <%= r.client %></span><% } %>
+                </div>
+              </div>
+              <div class="field"><div class="k">Scope</div><div class="v"><%= r.scope %></div></div>
+              <% if (r.outcomes && r.outcomes.length) { %>
+              <div class="field"><div class="k imp">Impact</div><div class="v"><%- impact(r) %></div></div>
+              <% } %>
+              <p class="tags"><%- tagRow(r.tags) %></p>
+            </div>
+          <% }) %>
+        </div>
+      </div>
+    <% } else { /* standalone role */ %>
+      <div class="role">
+        <div class="rhead">
+          <p class="rl"><%= x.title %> <span class="at">· <%= x.org %></span></p>
+          <div class="meta">
+            <span class="yr"><%= fmtRange(x.start, x.end) %></span>
+            <span class="loc"><%= x.location %></span>
+            <% if (x.client) { %><span class="loc cl">Client: <%= x.client %></span><% } %>
+          </div>
+        </div>
+        <div class="field"><div class="k">Scope</div><div class="v"><%= x.scope %></div></div>
+        <% if (x.outcomes && x.outcomes.length) { %>
+        <div class="field"><div class="k imp">Impact</div><div class="v"><%- impact(x) %></div></div>
+        <% } %>
+        <p class="tags"><%- tagRow(x.tags) %></p>
+      </div>
+    <% } %>
+  <% }) %>
+
+  <% if (earlier && earlier.length) { %>
+  <div class="sec"><span class="orn">✢</span><h2>Earlier &amp; Founding</h2><div class="line"></div></div>
+  <div class="twocol">
+    <% earlier.forEach((e) => { %>
+      <div class="mini">
+        <p class="rl"><%= e.name %></p>
+        <span class="yr"><%= e.period %><% if (e.roleLabel) { %> · <%= e.roleLabel %><% } %></span>
+        <div class="v"><%= e.summary %></div>
+      </div>
+    <% }) %>
+  </div>
+  <% } %>
+
+  <div class="sec"><span class="orn">✢</span><h2>Education</h2><div class="line"></div></div>
+  <% education.forEach((ed) => { %>
+  <div class="edu"><b><%= ed.degree %></b><span class="yr"><%= ed.period %></span></div>
+  <% }) %>
+
+</div>
+</body>
+</html>

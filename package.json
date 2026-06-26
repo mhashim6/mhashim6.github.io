@@ -1,0 +1,17 @@
+{
+  "name": "mhashim6-cv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Schema-driven résumé: resume.json → HTML template → PDF (headless Chrome).",
+  "scripts": {
+    "build:cv": "node cv/render.mjs",
+    "fonts": "node cv/fonts.mjs"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "ejs": "^3.1.10",
+    "puppeteer": "^23.0.0"
+  }
+}
