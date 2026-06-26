@@ -46,7 +46,7 @@
               <% if (r.outcomes && r.outcomes.length) { %>
               <div class="field"><div class="k imp">Impact</div><div class="v"><%- impact(r) %></div></div>
               <% } %>
-              <p class="tags"><%- tagRow(r.tags) %></p>
+              <% if (r.tags && r.tags.length) { %><p class="tags"><%- tagRow(r.tags) %></p><% } %>
             </div>
           <% }) %>
         </div>
@@ -65,7 +65,7 @@
         <% if (x.outcomes && x.outcomes.length) { %>
         <div class="field"><div class="k imp">Impact</div><div class="v"><%- impact(x) %></div></div>
         <% } %>
-        <p class="tags"><%- tagRow(x.tags) %></p>
+        <% if (x.tags && x.tags.length) { %><p class="tags"><%- tagRow(x.tags) %></p><% } %>
       </div>
     <% } %>
   <% }) %>

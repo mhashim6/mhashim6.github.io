@@ -10,7 +10,7 @@
 *{ box-sizing:border-box; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
 html,body{
   margin:0; background:var(--paper); color:var(--ink);
-  font-family:"JetBrains Mono",monospace; font-size:11px; line-height:1.4;
+  font-family:"JetBrains Mono",monospace; font-size:11px; line-height:1.36;
   -webkit-font-smoothing:antialiased;
 }
 .page{ padding:8mm 15mm 6mm; }
@@ -31,14 +31,14 @@ a{ color:inherit; }
 .contact .sep{ color:var(--accent); opacity:.55; margin:0 6px; }
 
 /* section header */
-.sec{ display:flex; align-items:center; gap:11px; margin:11px 0 6px; }
+.sec{ display:flex; align-items:center; gap:11px; margin:9px 0 5px; }
 .sec .orn{ color:var(--accent); font-size:12px; opacity:.8; }
 .sec h2{ font-weight:600; font-size:10.5px; letter-spacing:.22em; text-transform:uppercase;
   color:var(--ink); margin:0; white-space:nowrap; }
 .sec .line{ flex:1; height:1px; background:var(--rule); }
 
 /* role record */
-.role{ margin-bottom:6px; break-inside:avoid; }
+.role{ margin-bottom:5px; break-inside:avoid; }
 .rhead{ display:flex; justify-content:space-between; align-items:flex-start; gap:16px; }
 .rl{ font-family:"Cormorant Garamond",serif; font-weight:600; font-size:17px; line-height:1.15;
   margin:0; letter-spacing:.2px; }
@@ -51,26 +51,26 @@ a{ color:inherit; }
 .field{ display:grid; grid-template-columns:54px 1fr; gap:10px; margin-top:2px; }
 .field .k{ font-size:8.5px; color:var(--muted); text-transform:uppercase; letter-spacing:.08em; padding-top:3px; }
 .field .k.imp{ color:var(--accent); }
-.field .v{ font-size:10.5px; line-height:1.38; }
+.field .v{ font-size:10.5px; line-height:1.35; }
 .tags{ font-size:9px; color:var(--faint); margin-top:3px; padding-left:64px; }
 .tags .d{ color:var(--rule); margin:0 5px; }
 .lnk{ color:var(--accent); text-decoration:none; border-bottom:.5px solid var(--accent); }
 
 /* grouped employer with role ladder */
-.group{ margin-bottom:8px; break-inside:avoid; }
+.group{ margin-bottom:6px; break-inside:avoid; }
 .ghead{ display:flex; justify-content:space-between; align-items:baseline; gap:16px;
   border-bottom:1px solid var(--hair); padding-bottom:5px; }
 .gname{ font-family:"Cormorant Garamond",serif; font-weight:700; font-size:22px; margin:0; letter-spacing:.3px; }
 .gmeta{ font-size:9.5px; color:var(--muted); text-align:right; white-space:nowrap; letter-spacing:-.2px; }
 .ladder{ border-left:1.5px solid var(--accent); margin-left:3px; padding-left:17px; margin-top:9px; }
-.rung{ position:relative; margin-bottom:6px; break-inside:avoid; }
+.rung{ position:relative; margin-bottom:5px; break-inside:avoid; }
 .rung:last-child{ margin-bottom:2px; }
 .rung::before{ content:""; position:absolute; left:-21.5px; top:7px; width:7px; height:7px;
   border-radius:50%; background:var(--paper); border:1.5px solid var(--accent); }
 .rung .rl{ font-size:16.5px; }
 
 /* earlier & founding — two columns (grid paginates predictably; multicol does not) */
-.twocol{ display:grid; grid-template-columns:1fr 1fr; gap:7px 36px; align-items:start; }
+.twocol{ display:grid; grid-template-columns:1fr 1fr; gap:5px 36px; align-items:start; }
 .mini{ break-inside:avoid; }
 .mini .rl{ font-size:15px; }
 .mini .v{ font-size:11px; color:#3a352f; line-height:1.45; margin-top:2px; }

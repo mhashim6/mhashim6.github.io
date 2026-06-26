@@ -62,7 +62,7 @@
     "role": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["title", "location", "start", "scope", "tags"],
+      "required": ["title", "location", "start", "scope"],
       "properties": {
         "title": { "type": "string", "minLength": 1 },
         "note": { "type": "string", "description": "Secondary title, e.g. an initiative name." },
@@ -95,7 +95,7 @@
       "description": "A standalone role at a single employer.",
       "type": "object",
       "additionalProperties": false,
-      "required": ["title", "org", "location", "start", "scope", "tags"],
+      "required": ["title", "org", "location", "start", "scope"],
       "properties": {
         "title": { "type": "string", "minLength": 1 },
         "note": { "type": "string" },

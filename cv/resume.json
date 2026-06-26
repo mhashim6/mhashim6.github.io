@@ -1,6 +1,6 @@
 {
   "$schema": "./resume.schema.json",
-  "name": "Muhammad Hashim Abdul—Azîm",
+  "name": "Muhammad Hashim",
   "tagline": "Engineering leader, architect, principal — many hats, literally and metaphorically.",
   "identity": ["Riyadh, KSA"],
   "contact": [
@@ -23,34 +23,32 @@
           "end": null,
           "scope": "Own GenAI architecture and engineering practice across Celfocus AI Programs.",
           "outcomes": [
-            "Defining reference architectures and adoption patterns for GenAI across teams."
+            "Defining reference architectures and adoption frameworks for GenAI across teams."
           ],
           "tags": ["GenAI", "LLMs", "Architecture", "SDLC", "Agentic Engineering"]
         },
         {
           "title": "Engineering Manager",
-          "note": "E2E Technical Governance PMO",
+          "note": "BE DT PMO",
           "client": "stc",
           "location": "Riyadh, KSA",
           "start": "2025-05",
           "end": null,
-          "scope": "Governed solution architecture, QA, delivery, and tech-debt across the PMO's programs.",
-          "outcomes": [
-            "Shipped a career-levelling model, a {{hiring playground}}, and GenAI engineering practices; drove mentorship."
-          ],
-          "link": { "label": "hiring playground", "url": "https://github.com/Celfocus-SWE/hiring-playground" },
-          "tags": ["Architecture", "Governance", "QA", "Java", "Spring", "React"]
+          "scope": "E2E Technical Governance",
+          "outcomes": ["Halved the DT Stream's Technical Debt and Architectural Backlog", "New Processes for Architectural Governance and Practices"],
+          "tags": ["Architecture & Technical Governance", "QA Governance"]
         },
         {
           "title": "Principal Engineer",
           "location": "Cairo, Egypt",
           "start": "2024-04",
           "end": "2025-05",
-          "scope": "Architecture and software leadership across product teams.",
+          "scope": "Software Engineering Leadership team, Egypt Delivery Center SWE Site Lead",
           "outcomes": [
-            "Set engineering standards and mentored engineers across the practice."
+            "Shipped a career-levelling model, a {{hiring playground}}, drove mentorship.", "Set engineering standards and mentored engineers across the practice."
           ],
-          "tags": ["Java", "Spring", "React", "React Native"]
+          "link": { "label": "hiring playground", "url": "https://github.com/Celfocus-SWE/hiring-playground" },
+          "tags": ["Architecture", "Mentorship", "Spring Boot", "NodeJS", "React", "Microservices"]
         }
       ]
     },
@@ -60,11 +58,11 @@
       "location": "Dubai, UAE",
       "start": "2023-05",
       "end": "2024-04",
-      "scope": "Owned the SDLC and architecture for a hospitality-tech platform.",
+      "scope": "Managed an international team of 10 engineers and QA building a hospitality-tech platform.",
       "outcomes": [
-        "Introduced a career-levelling model, TDD/BDD, and a microservice architecture."
+        "Created Delivery process, a career-levelling model, TDD/BDD."
       ],
-      "tags": ["NodeJS", "PostgreSQL", "React", "GraphQL", "Microservices"]
+      "tags": ["SDLC", "Mob Programming", "NodeJS", "PostgreSQL", "React", "GraphQL", "Microservices"]
     },
     {
       "title": "Software Engineer II",
@@ -72,33 +70,36 @@
       "location": "Cairo, Egypt",
       "start": "2022-03",
       "end": "2023-03",
-      "scope": "R&D and platform work on the mobile SDK and CI.",
+      "scope": "R&D and platform work on the mobile SDK and CI. Worked directly with the CTO and CFO",
       "outcomes": [
-        "Cut yearly CI/CD tooling costs; authored internal JSON-API & DB-layer specs; planned the Android Studio plugin."
+        "Cut yearly CI/CD tooling costs; authored internal JSON-API & DB-layer specs; lead the Android Studio plugin."
       ],
-      "tags": ["Android", "CI/CD", "Kotlin", "R&D"]
+      "tags": ["Reverse Engineering", "Android", "CI/CD", "Kotlin", "R&D"]
     },
     {
-      "title": "Digitalisation Technology Consultant",
       "org": "Egyptian Armed Forces",
       "location": "Egypt",
-      "start": "2022-05",
-      "end": "2023-05",
-      "scope": "Advised on data-center architecture, automation, and talent acquisition.",
-      "outcomes": ["Delivered a national travel-permits system."],
-      "tags": ["Architecture", "Automation", "Data Center"]
-    },
-    {
-      "title": "Corporal · Senior Full-Stack Engineer",
-      "org": "Egyptian Armed Forces",
-      "location": "Egypt",
-      "start": "2021-03",
-      "end": "2022-03",
-      "scope": "Led 6 engineers building internal telecom & comms systems.",
-      "outcomes": [
-        "Shipped an SMS gateway, e-fax, and VoIP IVR on a Proxmox / pfSense stack."
-      ],
-      "tags": ["Kotlin", "Ktor", "Oracle", "VoIP", "Proxmox"]
+      "roles": [
+        {
+          "title": "Digitalisation Technology Consultant",
+          "location": "Egypt",
+          "start": "2022-05",
+          "end": "2023-05",
+          "scope": "Architecture and Development",
+          "outcomes": ["Delivered a national travel-permits system."]
+        },
+        {
+          "title": "Corporal · Senior Full-Stack Engineer",
+          "location": "Egypt",
+          "start": "2021-03",
+          "end": "2022-03",
+          "scope": "Led 6 engineers building internal telecom & comms systems.",
+          "outcomes": [
+            "Shipped an SMS gateway, e-fax, and VoIP IVR on a Proxmox / pfSense stack."
+          ],
+          "tags": ["Kotlin", "Ktor", "Oracle", "VoIP", "Proxmox"]
+        }
+      ]
     }
   ],
   "earlier": [
