@@ -1,7 +1,7 @@
 {
   "$schema": "./resume.schema.json",
   "name": "Muhammad Hashim",
-  "tagline": "Engineering leader, architect, principal — many hats, literally and metaphorically.",
+  "tagline": "Engineering leader, architect, principal, many hats, literally and metaphorically.",
   "identity": ["Riyadh, KSA"],
   "contact": [
     { "label": "mhashim6.me", "href": "https://mhashim6.me" },
@@ -14,7 +14,7 @@
   "experience": [
     {
       "org": "Celfocus",
-      "location": "Cairo · Riyadh",
+      "location": "Riyadh",
       "roles": [
         {
           "title": "GenAI Architect / Principal Engineer",
@@ -23,7 +23,7 @@
           "end": null,
           "scope": "Own GenAI architecture and engineering practice across Celfocus AI Programs.",
           "outcomes": [
-            "Defining reference architectures and adoption frameworks for GenAI across teams."
+            "Defining reference architectures and adoption frameworks/devtools for GenAI across teams."
           ],
           "tags": ["GenAI", "LLMs", "Architecture", "SDLC", "Agentic Engineering"]
         },
@@ -33,7 +33,7 @@
           "client": "stc",
           "location": "Riyadh, KSA",
           "start": "2025-05",
-          "end": null,
+          "end": "2026-09",
           "scope": "E2E Technical Governance",
           "outcomes": ["Halved the DT Stream's Technical Debt and Architectural Backlog", "New Processes for Architectural Governance and Practices"],
           "tags": ["Architecture & Technical Governance", "QA Governance"]
